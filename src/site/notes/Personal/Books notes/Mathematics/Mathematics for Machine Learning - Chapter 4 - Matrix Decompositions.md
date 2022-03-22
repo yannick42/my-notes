@@ -182,7 +182,7 @@ Only non-defective matrices (which have $n$ linearly independent eigenvectors)
 ---
 ### 4.5 - Singular Value Decomposition (p. 119)
 
-> See also [[___INBOX___/__à trier/MIT 18.06 - Linear Algebra|MIT 18.06 - Linear Algebra]] - **Lecture 29**
+> See also [[Topics/Mathematics/MIT 18.06 - Linear Algebra|MIT 18.06 - Linear Algebra]] - **Lecture 29**
 
 - **central matrix decomposition method** : it has been referred to as the "Fundamental theorem of linear algebra" (Strang, 1993)
 - can be applied to all matrices (even not square), it always exists
