@@ -3,7 +3,7 @@
 ---
 
 
-<-- [[___INBOX___/__à trier/Mathematics for Machine Learning - Chapter 3 - Analytic geometry|Chapter 3 - Analytic geometry]] - [[___INBOX___/__à trier/Mathematics for Machine Learning - Chapter 5 - Vector Calculus|Chapter 5 - Vector Calculus]] -->
+<-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Analytic geometry|Chapter 3 - Analytic geometry]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 5 - Vector Calculus|Chapter 5 - Vector Calculus]] -->
 
 ---
 ### 4.1 - Determinant & Trace (p. 99)
@@ -245,4 +245,4 @@ Only non-defective matrices (which have $n$ linearly independent eigenvectors)
 ---
 
 ### Exercices
--> [[___INBOX___/__à trier/Mathematics for Machine Learning - Chapter 4 - Exercices|Mathematics for Machine Learning - Chapter 4 - Exercices]]
+-> [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Exercices|Mathematics for Machine Learning - Chapter 4 - Exercices]]
