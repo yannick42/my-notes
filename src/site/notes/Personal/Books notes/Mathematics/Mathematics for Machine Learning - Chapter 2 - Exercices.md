@@ -90,63 +90,63 @@
 > Compute the following matrix products, if possible :
 > **a)** $\begin{bmatrix}1&2 \newline 4&5 \newline 7&8\end{bmatrix} \begin{bmatrix}1&1&0 \newline 0&1&1 \newline 1&0&1\end{bmatrix}$
 > **b)** $\begin{bmatrix}1&2&3 \newline 4&5&6 \newline 7&8&9\end{bmatrix} \begin{bmatrix}1&1&0 \newline 0&1&1 \newline 1&0&1\end{bmatrix}$
-> **c)** $\begin{bmatrix}1&1&0\\0&1&1\\1&0&1\end{bmatrix} \begin{bmatrix}1&2&3\\4&5&6\\7&8&9\end{bmatrix}$
-> **d)** $\begin{bmatrix}1&2&1&2\\4&1&-1&-4\end{bmatrix} \begin{bmatrix}0&3\\1&-1\\2&1\\5&2\end{bmatrix}$
-> **e)** $\begin{bmatrix}0&3\\1&-1\\2&1\\5&2\end{bmatrix} \begin{bmatrix}1&2&1&2\\4&1&-1&-4\end{bmatrix}$
+> **c)** $\begin{bmatrix}1&1&0 \newline 0&1&1 \newline 1&0&1\end{bmatrix} \begin{bmatrix}1&2&3 \newline 4&5&6 \newline 7&8&9\end{bmatrix}$
+> **d)** $\begin{bmatrix}1&2&1&2 \newline 4&1&-1&-4\end{bmatrix} \begin{bmatrix}0&3 \newline 1&-1 \newline 2&1 \newline 5&2\end{bmatrix}$
+> **e)** $\begin{bmatrix}0&3 \newline 1&-1 \newline 2&1 \newline 5&2\end{bmatrix} \begin{bmatrix}1&2&1&2 \newline 4&1&-1&-4\end{bmatrix}$
 
 **a)** impossible
-**b)** $\begin{bmatrix}4&3&5\\10&9&11\\16&15&17\end{bmatrix}$
-**c)** $\begin{bmatrix}5&7&9\\11&13&15\\8&10&12\end{bmatrix}$
-**d)** $\begin{bmatrix}14&6\\-21&2\end{bmatrix}$
-**e)** $\begin{bmatrix}12&3&-3&-12\\-3&1&2&6\\6&5&1&0\\13&12&3&2\end{bmatrix}$
+**b)** $\begin{bmatrix}4&3&5 \newline 10&9&11 \newline 16&15&17\end{bmatrix}$
+**c)** $\begin{bmatrix}5&7&9 \newline 11&13&15 \newline 8&10&12\end{bmatrix}$
+**d)** $\begin{bmatrix}14&6 \newline -21&2\end{bmatrix}$
+**e)** $\begin{bmatrix}12&3&-3&-12 \newline -3&1&2&6 \newline 6&5&1&0 \newline 13&12&3&2\end{bmatrix}$
 
 ---
 #### Exercice 2.5
 > Find the set $\mathcal{S}$ of all solutions in $x$ of the following inhomogeneous linear systems $Ax=b$, where $A$ and $b$ are defined as follows:
 > **a)** 
-> $$A=\begin{bmatrix}1&1&-1&-1\\2&5&-7&-5\\2&-1&1&3\\5&2&-4&2\end{bmatrix}, b=\begin{bmatrix}1\\-2\\4\\6\end{bmatrix}$$
+> $$A=\begin{bmatrix}1&1&-1&-1 \newline 2&5&-7&-5\newline 2&-1&1&3\newline 5&2&-4&2\end{bmatrix}, b=\begin{bmatrix}1\newline -2\newline 4\newline 6\end{bmatrix}$$
 > **b)** 
-> $$A=\begin{bmatrix}1&-1&0&0&1\\1&1&0&-3&0\\2&-1&0&1&-1\\-1&2&0&-2&-1\end{bmatrix}, b=\begin{bmatrix}3\\6\\5\\-1\end{bmatrix}$$
+> $$A=\begin{bmatrix}1&-1&0&0&1 \newline 1&1&0&-3&0 \newline 2&-1&0&1&-1 \newline -1&2&0&-2&-1\end{bmatrix}, b=\begin{bmatrix}3\newline 6\newline 5\newline -1\end{bmatrix}$$
 
 **a)** ==TODO== (recopy)
 
-**b)** $X=X_p+X_N=\begin{bmatrix}3\\0\\0\\-1\\0\end{bmatrix}+\begin{bmatrix}\beta\\2\beta\\\alpha\\\beta\\\beta\end{bmatrix}$
+**b)** $X=X_p+X_N=\begin{bmatrix}3\newline 0\newline 0\newline -1\newline 0\end{bmatrix}+\begin{bmatrix}\beta\newline 2\beta\newline \alpha\newline \beta\newline \beta\end{bmatrix}$
 
 ---
 #### 2.6
 > Using Gaussian elimination, find all solutions of the inhomogeneous equation system $Ax=b$ with
-> $$A=\begin{bmatrix}0&1&0&0&1&0\\0&0&0&1&1&0\\0&1&0&0&0&1\end{bmatrix}, b=\begin{bmatrix}2\\-1\\1\end{bmatrix}$$
+> $$A=\begin{bmatrix}0&1&0&0&1&0\newline 0&0&0&1&1&0\newline 0&1&0&0&0&1\end{bmatrix}, b=\begin{bmatrix}2\newline -1\newline 1\end{bmatrix}$$
 
-$X=\begin{bmatrix}0\\1\\0\\-2\\1\\0\end{bmatrix}+\begin{bmatrix} \alpha \\ -\beta \\ \gamma \\ -\beta \\ \beta \\ \beta \end{bmatrix}$
+$X=\begin{bmatrix}0 \newline 1 \newline 0 \newline -2\newline 1\newline 0\end{bmatrix}+\begin{bmatrix} \alpha \newline -\beta \newline \gamma \newline -\beta \newline \beta \newline \beta \end{bmatrix}$
 
 ---
 #### Exercice 2.7
-> Find all solutions in $x=\begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix} \in \mathbb{R}^3$ of the equation system $Ax=12x$,
+> Find all solutions in $x=\begin{bmatrix}x_1 \newline x_2 \newline x_3\end{bmatrix} \in \mathbb{R}^3$ of the equation system $Ax=12x$,
 > where
-> $$A=\begin{bmatrix}6&4&3\\6&0&9\\0&8&0\end{bmatrix}$$
+> $$A=\begin{bmatrix}6&4&3 \newline 6&0&9 \newline 0&8&0\end{bmatrix}$$
 > and $\sum_{i=1}^3x_i=1$
 
 We can rewrite it as an homogeneous system :
 $(A-12I)x = 0$
 
 Then put it in augmented form (with last line corresponding to the constraint on $x_i$ :
-=> $\begin{bmatrix}-6&4&3&0\\6&-12&9&0\\0&8&-12&0\\1&1&1&1\end{bmatrix}$
+=> $\begin{bmatrix}-6&4&3&0 \newline 6&-12&9&0 \newline 0&8&-12&0 \newline 1&1&1&1\end{bmatrix}$
 We can put it in reduced row-echelon form, to obtain the identity matrix on the left, then :
-we get $x=\begin{bmatrix}\frac{3}{8}\\\frac{3}{8}\\\frac{1}{4}\end{bmatrix}$
+we get $x=\begin{bmatrix}\frac{3}{8} \newline \frac{3}{8} \newline \frac{1}{4}\end{bmatrix}$
 
 ---
 #### Exercice 2.8
 > Determine the **inverses** of the following matrices if possible:
 > **a)**
-> $$A=\begin{bmatrix}2&3&4\\3&4&5\\4&5&6\end{bmatrix}$$
+> $$A=\begin{bmatrix}2&3&4 \newline 3&4&5 \newline 4&5&6\end{bmatrix}$$
 > **b)**
-> $$A=\begin{bmatrix}1&0&1&0\\0&1&1&0\\1&1&0&1\\1&1&1&0\end{bmatrix}$$
+> $$A=\begin{bmatrix}1&0&1&0 \newline 0&1&1&0 \newline 1&1&0&1 \newline 1&1&1&0\end{bmatrix}$$
 
 **a)** impossible : no inverse (=singular matrix), because of linear dependence (see Chapter 2.5) it can be reduced and have some free variables : **invertible square matrix has no free variables**
 
 **b)** Done by Gaussian elimination on an augmented matrix (with identity matrix on the right) until we get the identity matrix on the left. Solution :
 
-$\begin{bmatrix} 1&0&0&0&0&-1&0&-1 \\ 0&1&0&0&-1&0&0&1 \\ 0&0&1&0&1&1&0&-1 \\ 0&0&0&1&1&1&1&-2 \end{bmatrix}$
+$\begin{bmatrix} 1&0&0&0&0&-1&0&-1 \newline 0&1&0&0&-1&0&0&1 \newline 0&0&1&0&1&1&0&-1 \newline 0&0&0&1&1&1&1&-2 \end{bmatrix}$
 
 ---
 > **Subspaces** -> https://www.quora.com/W-x_1-x_2-x_3-T-3x_1+-frac-1-4-x_2-0-Is-W-a-subspace-of-mathbb-R-3
@@ -167,9 +167,9 @@ $\begin{bmatrix} 1&0&0&0&0&-1&0&-1 \\ 0&1&0&0&-1&0&0&1 \\ 0&0&1&0&1&1&0&-1 \\ 0&
 #### 2.10
 > Are the following sets of vectors **linearly independent** ?
 > **a)**
-> $$x_1=\begin{bmatrix}2\\-1\\3\end{bmatrix}, x_2=\begin{bmatrix}1\\1\\-2\end{bmatrix}, x_3=\begin{bmatrix}3\\-3\\8\end{bmatrix}$$
+> $$x_1=\begin{bmatrix}2 \newline -1 \newline 3\end{bmatrix}, x_2=\begin{bmatrix}1 \newline 1 \newline -2\end{bmatrix}, x_3=\begin{bmatrix}3 \newline -3 \newline 8\end{bmatrix}$$
 > **b)**
-> $$x_1=\begin{bmatrix}1\\2\\1\\0\\0\end{bmatrix}, x_2=\begin{bmatrix}1\\1\\0\\1\\1\end{bmatrix}, x_3=\begin{bmatrix}1\\0\\0\\1\\1\end{bmatrix}$$
+> $$x_1=\begin{bmatrix}1 \newline 2 \newline 1 \newline 0 \newline 0\end{bmatrix}, x_2=\begin{bmatrix}1 \newline 1 \newline 0 \newline 1 \newline 1\end{bmatrix}, x_3=\begin{bmatrix}1 \newline 0 \newline 0 \newline 1 \newline 1\end{bmatrix}$$
 
 -> find if all pivot colums => independent
 
@@ -179,9 +179,9 @@ $\begin{bmatrix} 1&0&0&0&0&-1&0&-1 \\ 0&1&0&0&-1&0&0&1 \\ 0&0&1&0&1&1&0&-1 \\ 0&
 ---
 #### 2.11
 > Write
-> $$y=\begin{bmatrix}-1\\-2\\5\end{bmatrix}$$
+> $$y=\begin{bmatrix}-1 \newline -2 \newline 5\end{bmatrix}$$
 > as linear combinaison of
-> $$x_1=\begin{bmatrix}1\\1\\1\end{bmatrix}, x_2=\begin{bmatrix}1\\2\\3\end{bmatrix}, x_3=\begin{bmatrix}2\\-1\\1\end{bmatrix}$$
+> $$x_1=\begin{bmatrix}1 \newline 1 \newline 1\end{bmatrix}, x_2=\begin{bmatrix}1 \newline 2 \newline 3\end{bmatrix}, x_3=\begin{bmatrix}2 \newline -1 \newline 1\end{bmatrix}$$
 
 Put in augmented form : $[x_1 x_2 x_3|y]$, do Gaussian elimination until I get identity matrix...
 => $y=-6x_1+3x_2+2x_3$
@@ -189,7 +189,7 @@ Put in augmented form : $[x_1 x_2 x_3|y]$, do Gaussian elimination until I get i
 ---
 #### Exercice 2.12
 > Consider two subspaces of $\mathbb{R}^4$:
-> $$U_1=span[\begin{bmatrix}1\\1\\-3\\1\end{bmatrix}, \begin{bmatrix}2\\-1\\0\\-1\end{bmatrix}, \begin{bmatrix}-1\\1\\-1\\1\end{bmatrix}], U_2=span[\begin{bmatrix}-1\\-2\\2\\1\end{bmatrix}, \begin{bmatrix}2\\-2\\0\\0\end{bmatrix}, \begin{bmatrix}-3\\6\\-2\\-1\end{bmatrix}]$$
+> $$U_1=span[\begin{bmatrix}1 \newline 1 \newline -3 \newline 1\end{bmatrix}, \begin{bmatrix}2 \newline -1 \newline 0 \newline -1\end{bmatrix}, \begin{bmatrix}-1 \newline 1 \newline -1 \newline 1\end{bmatrix}], U_2=span[\begin{bmatrix}-1 \newline -2 \newline 2 \newline 1\end{bmatrix}, \begin{bmatrix}2 \newline -2 \newline 0 \newline 0\end{bmatrix}, \begin{bmatrix}-3 \newline 6 \newline -2 \newline -1\end{bmatrix}]$$
 > Determine the **basis** of $U_1\cap U_2$.
 
 => ==DONE==
@@ -204,7 +204,7 @@ Put in augmented form : $[x_1 x_2 x_3|y]$, do Gaussian elimination until I get i
 ---
 #### Exercice 2.14
 > Consider two subspaces $U_1$ and $U_2$, where $U_1$ is spanned by the columns of $A_1$ and $U_2$ is spanned by the columns of $A_2$ with
-> $$A_1=\begin{bmatrix}1&0&1\\1&-2&-1\\2&1&3\\1&0&1\end{bmatrix}, A_2=\begin{bmatrix}3&-3&0\\1&2&3\\7&-5&2\\3&-1&2\end{bmatrix}$$
+> $$A_1=\begin{bmatrix}1&0&1 \newline 1&-2&-1 \newline 2&1&3 \newline 1&0&1\end{bmatrix}, A_2=\begin{bmatrix}3&-3&0 \newline 1&2&3 \newline 7&-5&2 \newline 3&-1&2\end{bmatrix}$$
 > **a)** Determine the dimension of $U_1, U_2$
 > **b)** Determine bases of $U_1$ and $U_2$
 > **c)** Determine a basis of $U_1\cap U_2$
@@ -216,10 +216,10 @@ Put in augmented form : $[x_1 x_2 x_3|y]$, do Gaussian elimination until I get i
 - Determine the row-echelon form of $A$
 - The spanning vectors associated with the pivot columns are a basis of $U$
 
-$A_1=\begin{bmatrix}\cellcolor{lightgray} 1 & 0 & 1\\0 & \cellcolor{lightgray} 1 & 0\\ 0 & 0 & \cellcolor{lightgray} 1\\ 0 & 0 & 0 \end{bmatrix}$ => dimension : 3
-$A_2=\begin{bmatrix}\cellcolor{lightgray} 1 & 2 & 3\\0 & \cellcolor{lightgray} 1 & 1\\0&0&0\\0&0&0\end{bmatrix}$ => dimension : 2
+$A_1=\begin{bmatrix}\cellcolor{lightgray} 1 & 0 & 1 \newline 0 & \cellcolor{lightgray} 1 & 0 \newline  0 & 0 & \cellcolor{lightgray} 1 \newline  0 & 0 & 0 \end{bmatrix}$ => dimension : 3
+$A_2=\begin{bmatrix}\cellcolor{lightgray} 1 & 2 & 3 \newline 0 & \cellcolor{lightgray} 1 & 1 \newline 0&0&0 \newline 0&0&0\end{bmatrix}$ => dimension : 2
 
-**c)** a basis of $U_1\cap U_2$ : $\begin{bmatrix}1&0\\0&1\\0&0\\0&0\end{bmatrix}$
+**c)** a basis of $U_1\cap U_2$ : $\begin{bmatrix}1&0 \newline 0&1 \newline 0&0 \newline 0&0\end{bmatrix}$
 
 ---
 #### Exercice 2.15
@@ -257,16 +257,16 @@ If we add $(x_1+x_2)+(y_1+y_2)-(z_1+z_2)=0$, we see that each 3 sums (in parenth
 > **c)**
 > $$\Phi:\mathbb{R}\rightarrow\mathbb{R}, \quad x\rightarrow\Phi(x)=cos(x)$$
 > **d)**
-> $$\Phi:\mathbb{R}^3\rightarrow\mathbb{R}^2, \quad x\rightarrow\begin{bmatrix}1&2&3\\1&4&3\end{bmatrix}x$$
+> $$\Phi:\mathbb{R}^3\rightarrow\mathbb{R}^2, \quad x\rightarrow\begin{bmatrix}1&2&3 \newline 1&4&3\end{bmatrix}x$$
 > **e)** Let $\theta$ be in $[0,2\pi]$ and
-> $$\Phi:\mathbb{R}^2\rightarrow\mathbb{R}^2, \quad x\rightarrow\begin{bmatrix}\cos(\theta)&\sin(\theta)\\-\sin(\theta)&\cos(\theta)\end{bmatrix}x$$
+> $$\Phi:\mathbb{R}^2\rightarrow\mathbb{R}^2, \quad x\rightarrow\begin{bmatrix}\cos(\theta)&\sin(\theta) \newline -\sin(\theta)&\cos(\theta)\end{bmatrix}x$$
 
 ==TODO==
 
 ---
 #### Exercice 2.17
 > Consider the linear mapping
-> $$\Phi:\mathbb{R}^3\rightarrow\mathbb{R}^4, \Phi(\begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix})=\begin{bmatrix}3x_1+2x_2+x_3\\x_1+x_2+x_3\\x_1-3x_2\\2x_1+3x_2+x_3\end{bmatrix}$$
+> $$\Phi:\mathbb{R}^3\rightarrow\mathbb{R}^4, \Phi(\begin{bmatrix}x_1 \newline x_2 \newline x_3\end{bmatrix})=\begin{bmatrix}3x_1+2x_2+x_3 \newline x_1+x_2+x_3 \newline x_1-3x_2 \newline 2x_1+3x_2+x_3\end{bmatrix}$$
 **a)** Find the transformation matrix $A_\Phi$
 **b)** Determine $rk(A_\phi)$
 **c)** Compute the kernel and image of $\Phi$. What are $dim(ker(\Phi))$ and $dim(Im(\Phi))$ ?
@@ -274,7 +274,7 @@ If we add $(x_1+x_2)+(y_1+y_2)-(z_1+z_2)=0$, we see that each 3 sums (in parenth
 ==TODO==
 
 **a)** -> see ***definition 2.19 (Transformation matrix)***
-$A_\Phi=\begin{bmatrix}3&1&1&2\\2&1&-3&3\\1&1&0&1\end{bmatrix}$
+$A_\Phi=\begin{bmatrix}3&1&1&2 \newline 2&1&-3&3 \newline 1&1&0&1\end{bmatrix}$
 
 **b)** -> row reduced form -> count number of pivot columns
 $rk(A_\Phi)=3$
@@ -295,7 +295,7 @@ $=dim(Im(A))$ ?
 ---
 #### Exercice 2.19
 > Consider an endomorphism $\Phi : \mathbb{R}^3 \rightarrow \mathbb{R}^3$ whose transformation matrix (with respect to the standard basis in $\mathbb{R}^3$) is
-> $$A_\Phi=\begin{bmatrix}1&1&0\\1&-1&0\\1&1&1\end{bmatrix}$$
+> $$A_\Phi=\begin{bmatrix}1&1&0 \newline 1&-1&0 \newline 1&1&1\end{bmatrix}$$
 > **a)** Determine $ker(\Phi)$ and $Im(\Phi)$
 > **b)** Determine the transformation matrix $A_\Phi$ with respect to the basis
 > $$B=$$
