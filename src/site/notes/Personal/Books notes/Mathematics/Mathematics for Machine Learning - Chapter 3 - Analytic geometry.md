@@ -26,7 +26,7 @@
 > - to find if two vectors are **orthogonal**
 
 ##### 3.2.1 - Dot product
-- a particular **type of** inner product : $x^\intercal y=\sum_{i=1}^{n}x_i y_i$
+- a particular(ly simple) **type of** inner product : $x^\intercal y=\sum_{i=1}^{n}x_i y_i$
 
 ##### 3.2.2 - General inner products
 - **bilinear** : linear in each arguments
