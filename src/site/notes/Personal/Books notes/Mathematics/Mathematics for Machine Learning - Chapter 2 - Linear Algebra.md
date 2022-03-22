@@ -108,10 +108,10 @@ https://adamdhalla.medium.com/linear-algebra-4-reduced-row-echelon-form-for-solv
 - calculating the inverse $A^{-1}$ -> **Example 2.9**
 	- by **Gaussian Elimination**
 - **Moore-Penrose pseudo-inverse** $(A^TA^{-1})^{-1}A^{T}$
-	- -> see [[___INBOX___/__à trier/Moore-Penrose inverse|Moore-Penrose inverse]]
+	- -> see [[Topics/Mathematics/Moore-Penrose inverse|Moore-Penrose inverse]]
 	- also correspond to ==the minimal norm least-square solution== => ?
 - **==Gaussian Elimination==** -> algorithm which performs a finite sequence of `elementary transformations` to bring a SLE into `(reduced) row-echelon form` then by back substitution => solve the SLE
-	- useful when computing [[___INBOX___/__à trier/Determinant (Matrix)|Determinant (Matrix)]] -> ***section 4.1***
+	- useful when computing [[Topics/Mathematics/Determinant (Matrix)|Determinant (Matrix)]] -> ***section 4.1***
 	- to check if a set of vectors is **linearly independent** -> **section 2.5**
 	- computing the inverse of matrix -> **section 2.2.2**
 	- computing the rank of matrix -> **section 2.6.2**
