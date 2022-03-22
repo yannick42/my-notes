@@ -36,3 +36,4 @@
 
 ### See also
 - [[___INBOX___/__à trier/Forme bilinéaire|Forme bilinéaire]] : = bilinear mapping(?)
+- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions#4 5 - Singular Value Decomposition p 119]]
