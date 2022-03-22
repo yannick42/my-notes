@@ -37,7 +37,7 @@
 #### Exercice 2.2
 > Let $n$ be in $\mathbb{N}\setminus\{0\}$. Let $k, x$ be in $\mathbb{Z}$. We define the congruence class $\overline{k}$ of the integer $k$ as the set
 > $$\overline{k}=\{x \in \mathbb{Z}|x-k=0(\mod n)=\{x\in\mathbb{Z}|\exists a\in \mathbb{Z}: (x-k=n\cdot a)\}$$
-> We now define $\mathbb{Z}/n\mathbb{Z}$ (sometimes written $\mathbb{Z}_n$) as the set of all congruence classes modulo $n$. Euclidean division implies that this set is a finite set containing $n$ elements:
+> We now define $\mathbb{Z} / n\mathbb{Z}$ (sometimes written $\mathbb{Z}_n$) as the set of all congruence classes modulo $n$. Euclidean division implies that this set is a finite set containing $n$ elements:
 > $$\mathbb{Z}_n=\{\overline{0},\overline{1},...,\overline{n-1}\}$$
 > For all $\overline{a}, \overline{b} \in \mathbb{Z}_n$, we define
 > $$\overline{a} \oplus \overline{b} := \overline{a+b}$$
@@ -76,7 +76,7 @@
 ---
 #### Exercice 2.3
 > Consider the set $\mathcal{G}$ of 3x3 matrices defined as follows:
-> $\mathcal{G}=\{\begin{bmatrix}1&x&2\\0&1&y\\0&0&1\end{bmatrix} \in \mathbb{R}^{3\times 3} | x,y,z \in \mathbb{R}\}$
+> $\mathcal{G}=\{\begin{bmatrix} 1 & x & 2 \\\\ 0 & 1 & y \\\\ 0 & 0 & 1 \end{bmatrix} \in \mathbb{R}^{3\times 3} | x,y,z \in \mathbb{R}\}$
 > We define $\cdot$ as the standard matrix multiplication.
 > Is ($\mathcal{G},\cdot$) a group ? If yes, is it Abelian ? Justify your answer.
 
