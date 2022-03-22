@@ -14,4 +14,4 @@
 
 #### Other related notes
 - [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
-- [[___INBOX___/__à trier/Ridge regression|Ridge regression]]
+- [[Topics/Machine Learning/Techniques/Ridge regression|Ridge regression]]
