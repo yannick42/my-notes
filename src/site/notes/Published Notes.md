@@ -26,6 +26,10 @@
 
 ---
 #### Other related notes
+- **Topics**
+	- **[[Topics/Mathematics/Linear Algebra|Linear Algebra]]** : [[Topics/Mathematics/Determinant (Matrix)|determinant]], [[Topics/Mathematics/Moore-Penrose inverse|Pseudoinverse]], [[Topics/Mathematics/Matrix similarity|Matrix similarity]]
+	- **Vector calculus** : 
+	- **Probability** : [[Topics/Mathematics/Statistics and probabilities/Exponential family|Exponential family]], ...
 - **Methods** : [[Topics/Mathematics/Statistics and probabilities/PCA (1901)|PCA (1901)]], [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]], [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]], [[Topics/Mathematics/QR decomposition|QR decomposition]], [[Topics/Mathematics/Singular Value Decomposition|SVD]]
 - **==TODO==** : Linear models, Ridge regression, GMM, EM Algorithm, SVM, ...
 - **Courses**
@@ -33,13 +37,6 @@
 	- [[Topics/Machine Learning/MOOCS, Courses, Teachings/CS229 - Machine Learning|CS229 - Machine Learning]]
 - **Books**
 	- ...
-
-#### TOPICS
-| CHAPTER             | Topics                                                                     |
-|:------------------- |:-------------------------------------------------------------------------- |
-| [[Topics/Mathematics/Linear Algebra|Linear Algebra]]  | [[Topics/Mathematics/Determinant (Matrix)|Determinant (Matrix)]], [[Topics/Mathematics/Moore-Penrose inverse|Moore-Penrose inverse]], [[Topics/Mathematics/Matrix similarity|matrix similarity]] |
-| **Vector calculus** |                                                                            |
-| **Probability**     | [[Topics/Mathematics/Statistics and probabilities/Exponential family|Exponential family]], ...                                                |
 
 ---
 ### Current progress (March 2022)
