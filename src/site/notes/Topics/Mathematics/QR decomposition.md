@@ -19,7 +19,7 @@ $A=QR$
 ---
 ### Applications
 - calcul de solutions de systèmes linéaires **non carrés**
-	- determiner la **pseudo-inverse** d'une matrice -> [[___INBOX___/__à trier/Moore-Penrose inverse|Pseudoinverse]] (?)
+	- determiner la **pseudo-inverse** d'une matrice -> [[Topics/Mathematics/Moore-Penrose inverse|Pseudoinverse]] (?)
 
 ### See also
 - [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
