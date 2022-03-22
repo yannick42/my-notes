@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/personal/books-notes/mathematics/mathematics-for-machine-learning-chapter-3-analytic-geometry/"}
+{"dg-publish":true,"dg-permalink":"Chapter 3 - Analytic geometry","permalink":"/Chapter 3 - Analytic geometry/"}
 ---
 
 <-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Linear Algebra|Chapter 2 - Linear Algebra]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Chapter 4 - Matrix Decompositions]] -->
