@@ -116,7 +116,7 @@
 > Using Gaussian elimination, find all solutions of the inhomogeneous equation system $Ax=b$ with
 > $$A=\begin{bmatrix}0&1&0&0&1&0\\0&0&0&1&1&0\\0&1&0&0&0&1\end{bmatrix}, b=\begin{bmatrix}2\\-1\\1\end{bmatrix}$$
 
-$X=\begin{bmatrix}0\\1\\0\\-2\\1\\0\end{bmatrix}+\begin{bmatrix}\alpha\\-\beta\\\gamma\\-\beta\\\beta\\\beta\end{bmatrix}$
+$X=\begin{bmatrix}0\\1\\0\\-2\\1\\0\end{bmatrix}+\begin{bmatrix} \alpha \\ -\beta \\ \gamma \\ -\beta \\ \beta \\ \beta \end{bmatrix}$
 
 ---
 #### Exercice 2.7
