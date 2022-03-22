@@ -16,6 +16,7 @@
 	- [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]]
 	- [[Topics/Mathematics/QR decomposition|QR decomposition]]
 	- [[___INBOX___/__à trier/Determinant (Matrix)|determinant]]
+	- [[___INBOX___/__à trier/Moore-Penrose inverse|Pseudoinverse]]
 - TODO
 	- Ridge regression
 
