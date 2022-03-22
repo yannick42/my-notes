@@ -11,8 +11,8 @@
 
 #### Other related notes
 - **Topics**
-	- [[___INBOX___/__à trier/Determinant (Matrix)|determinant]]
-	- [[___INBOX___/__à trier/Moore-Penrose inverse|Pseudoinverse]]
+	- [[Topics/Mathematics/Determinant (Matrix)|determinant]]
+	- [[Topics/Mathematics/Moore-Penrose inverse|Pseudoinverse]]
 - **Methods**
 	- [[Topics/Mathematics/Statistics and probabilities/PCA (1901)|PCA (1901)]]
 	- [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
