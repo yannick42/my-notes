@@ -10,14 +10,16 @@
 - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions]] ([[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Exercices|Exercices]])
 
 #### Other related notes
-- Methods
+- **Topics**
+	- [[___INBOX___/__à trier/Determinant (Matrix)|determinant]]
+	- [[___INBOX___/__à trier/Moore-Penrose inverse|Pseudoinverse]]
+- **Methods**
 	- [[Topics/Mathematics/Statistics and probabilities/PCA (1901)|PCA (1901)]]
 	- [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
 	- [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]]
 	- [[Topics/Mathematics/QR decomposition|QR decomposition]]
-	- [[___INBOX___/__à trier/Determinant (Matrix)|determinant]]
-	- [[___INBOX___/__à trier/Moore-Penrose inverse|Pseudoinverse]]
 - TODO
+	- Linear models
 	- Ridge regression
 
 ---
