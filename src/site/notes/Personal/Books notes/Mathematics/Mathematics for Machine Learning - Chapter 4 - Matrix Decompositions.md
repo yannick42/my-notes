@@ -131,7 +131,7 @@ It's the set of its eigenvalues $\lambda$
 	- on the covariance matrix of a multivariate Gaussian variable
 	- to generate samples from a Gaussian distribution
 	- when computing gradients in deep stochastic models (eg. [[Topics/Machine Learning/Models/VAE (2013)|VAE (2013)]])
-	- (in `from sklearn.linear_model import Ridge` ([[___INBOX___/__à trier/Ridge regression|Ridge regression]]) -> solver="Cholesky")
+	- (in `from sklearn.linear_model import Ridge` ([[Topics/Machine Learning/Techniques/Ridge regression|Ridge regression]]) -> solver="Cholesky")
 - to compute **determinants** very quickly : $det(A)=det(L)det(L^T)=det(L)^2=\prod_i l_{ii}^2$
 
 -> https://math.stackexchange.com/questions/2508589/why-cholesky-decomposition-is-only-applicable-to-positive-definite-matirx ($L$ may not always be unique ?)
