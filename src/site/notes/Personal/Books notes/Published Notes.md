@@ -17,5 +17,5 @@
 - Ridge regression
 
 ---
-- [ ] TODO : Change style https://github.com/yannick42/my-notes/blob/main/src/site/styles/custom-style.scss
-- [ ] Publish more (quality) related notes
+- [ ] **TODO** : Change style in "src/site/styles/custom-style.scss"
+- [ ] **TODO** : Publish more (quality) related notes
