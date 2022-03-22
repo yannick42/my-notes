@@ -79,7 +79,7 @@
 ---
 #### Exercice 2.3
 > Consider the set $\mathcal{G}$ of 3x3 matrices defined as follows:
-> $\mathcal{G}=\{\begin{bmatrix} 1 & x & 2 \\ 0 & 1 & y \\ 0 & 0 & 1 \end{bmatrix} \in \mathbb{R}^{3\times 3} | x,y,z \in \mathbb{R}\}$
+> $\mathcal{G}=\{\begin{bmatrix} 1 & x & 2 \newline 0 & 1 & y \newline 0 & 0 & 1 \end{bmatrix} \in \mathbb{R}^{3\times 3} | x,y,z \in \mathbb{R}\}$
 > We define $\cdot$ as the standard matrix multiplication.
 > Is ($\mathcal{G},\cdot$) a group ? If yes, is it Abelian ? Justify your answer.
 
@@ -88,8 +88,8 @@
 ---
 #### 2.4
 > Compute the following matrix products, if possible :
-> **a)** $\begin{bmatrix}1&2\\4&5\\7&8\end{bmatrix} \begin{bmatrix}1&1&0\\0&1&1\\1&0&1\end{bmatrix}$
-> **b)** $\begin{bmatrix}1&2&3\\4&5&6\\7&8&9\end{bmatrix} \begin{bmatrix}1&1&0\\0&1&1\\1&0&1\end{bmatrix}$
+> **a)** $\begin{bmatrix}1&2 \newline 4&5 \newline 7&8\end{bmatrix} \begin{bmatrix}1&1&0 \newline 0&1&1 \newline 1&0&1\end{bmatrix}$
+> **b)** $\begin{bmatrix}1&2&3 \newline 4&5&6 \newline 7&8&9\end{bmatrix} \begin{bmatrix}1&1&0 \newline 0&1&1 \newline 1&0&1\end{bmatrix}$
 > **c)** $\begin{bmatrix}1&1&0\\0&1&1\\1&0&1\end{bmatrix} \begin{bmatrix}1&2&3\\4&5&6\\7&8&9\end{bmatrix}$
 > **d)** $\begin{bmatrix}1&2&1&2\\4&1&-1&-4\end{bmatrix} \begin{bmatrix}0&3\\1&-1\\2&1\\5&2\end{bmatrix}$
 > **e)** $\begin{bmatrix}0&3\\1&-1\\2&1\\5&2\end{bmatrix} \begin{bmatrix}1&2&1&2\\4&1&-1&-4\end{bmatrix}$
