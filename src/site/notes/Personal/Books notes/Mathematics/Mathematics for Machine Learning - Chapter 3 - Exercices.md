@@ -20,7 +20,7 @@
 
 ---
 #### Exercice 3.2
-> Consider $\mathbb{R}^2$ with $\langle .,. \rangle$ defined for all $x$ and $y$ in $\mathbb{R}^2$ as $\langle x,y \rangle := x^\intercal \begin{bmatrix} 2 & 0 \\ 1 & 2 \end{bmatrix}y$. Is $\langle .,. \rangle$ an **inner product** ?
+> Consider $\mathbb{R}^2$ with $\langle .,. \rangle$ defined for all $x$ and $y$ in $\mathbb{R}^2$ as $\langle x,y \rangle := x^\intercal \begin{bmatrix} 2 & 0 \\\ 1 & 2 \end{bmatrix}y$. Is $\langle .,. \rangle$ an **inner product** ?
 
 We see that the matrix is **==not symmetric==** (...positive definite), and if we continue and try to calculate $\langle x,y \rangle$ and $\langle y,x \rangle$ then we get : $2x_1y_1 + \textcolor{red}{x_2y_1} + x_2y_2 \neq 2x_1y_1 + \textcolor{red}{x_1y_2} + x_2y_2$
 
