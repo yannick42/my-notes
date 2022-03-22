@@ -12,7 +12,7 @@
 #### Other related notes
 - **Topics**
 	- [[Topics/Mathematics/Linear Algebra|Linear Algebra]]
-		- [[Topics/Mathematics/Determinant (Matrix)|determinant]], [[Topics/Mathematics/Moore-Penrose inverse|Pseudoinverse]]
+		- [[Topics/Mathematics/Determinant (Matrix)|determinant]], [[Topics/Mathematics/Moore-Penrose inverse|Pseudoinverse]], [[___INBOX___/__à trier/Matrix similarity|Matrix similarity]]
 - **Methods** : [[Topics/Mathematics/Statistics and probabilities/PCA (1901)|PCA (1901)]], [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]], [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]], [[Topics/Mathematics/QR decomposition|QR decomposition]], [[Topics/Mathematics/Singular Value Decomposition|SVD]]
 - **TODO** : Linear models, Ridge regression
 - **Courses**
