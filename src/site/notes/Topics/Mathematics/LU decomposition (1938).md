@@ -11,7 +11,7 @@ U : upper triangular matrix
 - Applications
 	- solving linear equations
 	- inverting a matrix
-	- computing the [[___INBOX___/__à trier/Determinant (Matrix)|determinant]]
+	- computing the [[Topics/Mathematics/Determinant (Matrix)|determinant]]
 
 ### See also
 - [[Topics/Mathematics/QR decomposition|QR decomposition]]
