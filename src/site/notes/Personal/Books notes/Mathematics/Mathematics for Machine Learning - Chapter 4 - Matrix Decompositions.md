@@ -24,7 +24,7 @@
 	- $det(AB)=det(A)det(B)$
 	- invariant to transposition $det(A)=det(A^\intercal)$
 	- if $A$ is regular (invertible) => $det(A^\intercal)=\frac{1}{det(A)}$
-	- **Similar matrices** (-> *definition 2.2*) possess the **same determinant**
+	- **[[___INBOX___/__à trier/Matrix similarity|Similar matrices]]** (-> *definition 2.2*) possess the **same determinant**
 	- multiplication of a row/column by $\lambda$ scales $det(A)$ by $\lambda$, and also : $det(\lambda A)=\lambda^n det(A)$
 	- swapping 2 rows -> invert sign of $det(A)$
 - Gaussian elimination, then multiply the diagonal elements to have the determinant
