@@ -14,6 +14,8 @@
 	- [[Topics/Mathematics/Statistics and probabilities/PCA (1901)|PCA (1901)]]
 	- [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
 	- [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]]
+	- [[Topics/Mathematics/QR decomposition|QR decomposition]]
+	- [[___INBOX___/__à trier/Determinant (Matrix)|determinant]]
 - TODO
 	- Ridge regression
 
