@@ -27,7 +27,7 @@
 	- **[[Topics/Mathematics/Matrix similarity|Similar matrices]]** (-> *definition 2.2*) possess the **same determinant**
 	- multiplication of a row/column by $\lambda$ scales $det(A)$ by $\lambda$, and also : $det(\lambda A)=\lambda^n det(A)$
 	- swapping 2 rows -> invert sign of $det(A)$
-- Gaussian elimination, then multiply the diagonal elements to have the determinant
+- [[___INBOX___/__à trier/Gaussian elimination|Gaussian elimination]], then multiply the diagonal elements to have the determinant
 
 ```ad-info
 title:
@@ -44,7 +44,8 @@ it is called : *minor*
 ```
 
 #### ==Trace==
-- sum of the diagonal elements -> see [[___INBOX___/__à trier/Trace (matrix)|Trace (matrix)]] : $tr(A)=\sum\limits_{i=1}^{n}a_{ii}$ (Definition 4.4)
+> -> see [[___INBOX___/__à trier/Trace (matrix)|Trace (matrix)]]
+- sum of the diagonal elements  : $tr(A)=\sum\limits_{i=1}^{n}a_{ii}$ (*Definition 4.4*)
 - invariant under cyclic permutation : $tr(AKL)=tr(KLA)$
 - the trace of a linear mapping is independent of the basis
 
