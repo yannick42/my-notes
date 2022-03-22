@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/personal/books-notes/mathematics/mathematics-for-machine-learning-chapter-4-matrix-decompositions/"}
+{"dg-publish":true,"dg-permalink":"Chapter 4 - Matrix Decompositions","permalink":"/Chapter 4 - Matrix Decompositions/"}
 ---
 
 
