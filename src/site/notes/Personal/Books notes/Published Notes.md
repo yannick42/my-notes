@@ -23,7 +23,7 @@
 	- Linear models
 	- Ridge regression
 - Courses
-	- [[___INBOX___/__à trier/MIT 18.06 - Linear Algebra|MIT 18.06 - Linear Algebra]]
+	- [[Topics/Mathematics/MIT 18.06 - Linear Algebra|MIT 18.06 - Linear Algebra]]
 
 ---
 - [ ] **TODO** : Change style in "src/site/styles/custom-style.scss"
