@@ -142,7 +142,7 @@ It's the set of its eigenvalues $\lambda$
 > if $L$ is square and triangular with positive real diagonal entries then $L$ is invertible, so $Lx=0 \iff x=0$ 
 
 ```ad-info
-title:exported to Mochi cards
+title:
 #### On which matrices can we apply Cholesky decomposition ? #card
 
 On symmetric positive definite matrices (*Section 3.2.3*), it's somehow equivalent to a square root of $A=LL^\intercal$
