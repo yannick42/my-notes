@@ -2,9 +2,9 @@
 {"dg-publish":true,"permalink":"/personal/books-notes/published-notes/","tags":"gardenEntry"}
 ---
 
-*Welcome on the published part of my note-taking system, based on [Obsidian](https://obsidian.md/), and published with the [Digital Garden](https://github.com/oleeskild/Obsidian-Digital-Garden) community plugin. I will try to update this site regularly on the themes of **mathematics** (undergraduate), **computing** and **machine learning**.*
+***Welcome** on the published part of my note-taking system, based on [Obsidian](https://obsidian.md/), and published with the [Digital Garden](https://github.com/oleeskild/Obsidian-Digital-Garden) community plugin. I will try to update this site regularly on themes like **mathematics** (at an undergraduate level), **computer science & engineering** and **machine learning**, mostly.*
 
-> Page still **==UNDER CONSTRUCTION==** (Last edited : **March 2022**)
+> Pages are still 🚧 **==UNDER CONSTRUCTION==** 🚧 - Last edited ✏️ in **March 2022**
 
 ---
 ### Mathematics for Machine Learning book
@@ -17,8 +17,12 @@
 	- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 5 - Vector Calculus|Mathematics for Machine Learning - Chapter 5 - Vector Calculus]] ==NOT READ YET==
 	- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 6 - Probability and Distributions|Mathematics for Machine Learning - Chapter 6 - Probability and Distributions]] ==NOT READ YET==
 	- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 7 - Continuous Optimization|Mathematics for Machine Learning - Chapter 7 - Continuous Optimization]] ==NOT READ YET==
-- **Part II - Central Machine Learning Problems**
-	- ==NOT READ YET==
+- **Part II - Central Machine Learning Problems** ==NOT READ YET==
+	- When Models Meet Data
+	- Linear Regression
+	- Dimensionality Reduction with Principal Component Analysis
+	- Density Estimation with Gaussian Mixture Models
+	- Classification with Support Vector Machines
 
 ---
 #### Other related notes
