@@ -12,7 +12,7 @@
 	- $det(AB)=det(A)det(B)$
 	- determinants are invariable to transposition
 	- if A is regular (=invertible) => $det(A^{-1})=\frac{1}{det(A)}$
-	- **similar matrices?** possess the same determinant
+	- **similar matrices** possess the same determinant
 	- the determinant is **invariant** to the choice of basis of a linear mapping
 	- swapping 2 rows/columns change the sign of $det(A)$
 - -> the determinant can be calculated with Gaussian elimination by put A in row-echelon form -> then multiply the elements on the diagonal to get $det(A)$
