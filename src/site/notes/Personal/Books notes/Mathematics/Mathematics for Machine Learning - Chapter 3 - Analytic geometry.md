@@ -107,7 +107,7 @@ False, it's the opposite
 - It perform a basis change ...
 - automorphism
 - **3.9.1** - Rotations in R^2
-	- $R(\theta)=\begin{bmatrix}\cos\theta&-\sin\theta \\ \sin\theta&\cos\theta\end{bmatrix}$
+	- $R(\theta)=\begin{bmatrix}\cos\theta&-\sin\theta \newline \sin\theta&\cos\theta\end{bmatrix}$
 - **3.9.2** - in R^3
 - **3.9.3** - in n dimensions
 	- `Givens rotation` -> $R_{ij}(\theta)$ : each time the identity matrix, except on 4 entries
