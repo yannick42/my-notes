@@ -5,7 +5,6 @@
 <-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Linear Algebra|Mathematics for Machine Learning - Chapter 2 - Linear Algebra]]
 
 #### Exercice 2.1
-
 > We consider $(\mathbb{R} \setminus \{-1\},\star)$, where
 > $$a\star b:=ab+a+b, \quad\quad a, b \in \mathbb{R}\setminus\{-1\} \quad (2.134)$$
 > **a)** Show that $(\mathbb{R} \setminus \{-1\},\star)$ is an Abelian group
@@ -20,17 +19,17 @@
 	- $(a*b)*c=(ab+a+b)*c=(ab+a+b)c+(ab+a+b)+c=abc+ac+bc+ab+a+b+c$
 	- $a*(b*c)=a*(bc+b+c)=a(bc+b+c)+a+(bc+b+c)=abc+ab+ac+a+bc+b+c$
 	- => both are equals -> ==$*$ operation is associative==
-- **Neutral element** : $\exists e \in \mathcal{G}, \forall x \in \mathcal{G} : x*e=x$ and $e*x=x$
-	- -> ==e = 0== => $a*0=0+a+0=a$ and $0*b=0+0+b=b$
-- **Inverse element** : $\forall x \in \mathcal{G}, \exists y \in \mathcal{G}:x*y=e$ and $y*x=e$ where $e$ is the neutral element
+- **Neutral element** : $\exists e \in \mathcal{G}, \forall x \in \mathcal{G} : x\star e=x$ and $e\star x=x$
+	- -> ==e = 0== => $a\star 0=0+a+0=a$ and $0\star b=0+0+b=b$
+- **Inverse element** : $\forall x \in \mathcal{G}, \exists y \in \mathcal{G}:x\star y=e$ and $y\star x=e$ where $e$ is the neutral element
 	- we have inverses of $a=-\frac{b}{b+1}$ and of $b=-\frac{a}{a+1}$ which belongs to $\mathcal{G}$
-- **closure property** (-> $\forall a,b \in \mathcal{G} : a * b \in \mathcal{G}$)
+- **closure property** (-> $\forall a,b \in \mathcal{G} : a \star b \in \mathcal{G}$)
 	-  $a*b$ must not equals to -1 => because the 
 - **Abelian** :
-	- we have $b*a=ba+b+a$ which is the same as $ab+a+b=a*b$
+	- we have $b\star a=ba+b+a$ which is the same as $ab+a+b=a\star b$
 		- because multiplication is commutative, and addition associative
 
-**b)** $3*x*x=...=(x+1)(x-3)$ ?
+**b)** $3\star x\star x=...=(x+1)(x-3)$ ?
 
 ==TODO==
 
