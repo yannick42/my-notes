@@ -15,9 +15,9 @@
 -> [[Topics/Mathematics/Group theory|Group theory]], [[___INBOX___/__à trier/Vector spaces|Vector spaces]], ...
 
 **a)** We must show it is a group (closure, associativity, null element, inverse element) and commutative ?
-- **Associativity** : $\forall a,b,c \in \mathcal{G}: (a*b)*c = a*(b*c)$
-	- $(a*b)*c=(ab+a+b)*c=(ab+a+b)c+(ab+a+b)+c=abc+ac+bc+ab+a+b+c$
-	- $a*(b*c)=a*(bc+b+c)=a(bc+b+c)+a+(bc+b+c)=abc+ab+ac+a+bc+b+c$
+- **Associativity** : $\forall a,b,c \in \mathcal{G}: (a\star b)\star c = a\star (b\star c)$
+	- $(a\star b)\star c=(ab+a+b)\star c=(ab+a+b)c+(ab+a+b)+c=abc+ac+bc+ab+a+b+c$
+	- $a\star (b\star c)=a\star (bc+b+c)=a(bc+b+c)+a+(bc+b+c)=abc+ab+ac+a+bc+b+c$
 	- => both are equals -> ==$*$ operation is associative==
 - **Neutral element** : $\exists e \in \mathcal{G}, \forall x \in \mathcal{G} : x\star e=x$ and $e\star x=x$
 	- -> ==e = 0== => $a\star 0=0+a+0=a$ and $0\star b=0+0+b=b$
@@ -36,7 +36,7 @@
 ---
 #### Exercice 2.2
 > Let $n$ be in $\mathbb{N}\setminus\{0\}$. Let $k, x$ be in $\mathbb{Z}$. We define the congruence class $\overline{k}$ of the integer $k$ as the set
-> $$\overline{k} = \{x\in\mathbb{Z} | x-k=0 (\mod n) = \{x\in\mathbb{Z}|\exists a\in \mathbb{Z}: (x-k=n\cdot a)\}.$$
+> $$\overline{k}=\{x \in \mathbb{Z}|x-k=0(\mod n)=\{x\in\mathbb{Z}|\exists a\in \mathbb{Z}: (x-k=n\cdot a)\}$$
 > We now define $\mathbb{Z}/n\mathbb{Z}$ (sometimes written $\mathbb{Z}_n$) as the set of all congruence classes modulo $n$. Euclidean division implies that this set is a finite set containing $n$ elements:
 > $$\mathbb{Z}_n=\{\overline{0},\overline{1},...,\overline{n-1}\}$$
 > For all $\overline{a}, \overline{b} \in \mathbb{Z}_n$, we define
