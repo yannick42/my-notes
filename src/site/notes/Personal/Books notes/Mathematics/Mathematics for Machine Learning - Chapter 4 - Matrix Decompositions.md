@@ -8,7 +8,7 @@
 ---
 ### 4.1 - Determinant & Trace (p. 99)
 
-#### **[[___INBOX___/__à trier/Determinant (Matrix)|Determinant (Matrix)]]**
+#### **[[Topics/Mathematics/Determinant (Matrix)|Determinant (Matrix)]]**
 - important concept in [[Topics/Mathematics/Linear Algebra|Linear Algebra]], used in analysis & solution of [[___INBOX___/__à trier/Systems of Linear Equations|Systems of Linear Equations]]
 - ==only defined for square [[___INBOX___/__à trier/Matrices|matrices]]==, it maps $A$ to a real number
 - example of **application** : `to test for invertibility of a matrix`
