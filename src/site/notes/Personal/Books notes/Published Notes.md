@@ -12,24 +12,20 @@
 #### Other related notes
 - **Topics**
 	- [[Topics/Mathematics/Linear Algebra|Linear Algebra]]
-	- [[Topics/Mathematics/Determinant (Matrix)|determinant]]
-	- [[Topics/Mathematics/Moore-Penrose inverse|Pseudoinverse]]
-- **Methods**
-	- [[Topics/Mathematics/Statistics and probabilities/PCA (1901)|PCA (1901)]]
-	- [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
-	- [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]]
-	- [[Topics/Mathematics/QR decomposition|QR decomposition]]
-- TODO
-	- Linear models
-	- Ridge regression
-- Courses
+		- [[Topics/Mathematics/Determinant (Matrix)|determinant]], [[Topics/Mathematics/Moore-Penrose inverse|Pseudoinverse]]
+- **Methods** : [[Topics/Mathematics/Statistics and probabilities/PCA (1901)|PCA (1901)]], [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]], [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]], [[Topics/Mathematics/QR decomposition|QR decomposition]], [[Topics/Mathematics/Singular Value Decomposition|SVD]]
+- **TODO** : Linear models, Ridge regression
+- **Courses**
 	- [[Topics/Mathematics/MIT 18.06 - Linear Algebra|MIT 18.06 - Linear Algebra]]
+- **Books**
+	- ...
 
----
+<!--
 - [ ] **TODO** : Change style in "src/site/styles/custom-style.scss"
-- [ ] **TODO** : Publish more (quality) related notes
+- [ ] **TODO** : Publish more *quality* related-notes
 - Report bugs to "digitalgarden" plugin
 	- render checkboxes as html, with saved state
 	- `->` doesn't render nicely
 	- why do we must make explicit url links (-> autodetect?)
 	- https://github.com/oleeskild/obsidian-digital-garden & https://github.com/oleeskild/digitalgarden
+-->
