@@ -48,18 +48,18 @@ we have $x - y = \begin{bmatrix}2\\3\\3\end{bmatrix}$ => $d(x,y) = \sqrt{2^2+3^2
 
 $\cos \omega=\frac{\langle x,y \rangle}{\sqrt{\langle x,x \rangle \langle y,y \rangle}}=\frac{x^\intercal y}{\sqrt{x^\intercal x y^\intercal y}}$
 - **a)** we get
-$\cos \omega=-\frac{3}{\sqrt{5\times 2}}$ -> $\omega=\arccos(\cos\omega)\approx \colorbox{green}{161.56°}$
+$\cos \omega=-\frac{3}{\sqrt{5\times 2}}$ -> $\omega=\arccos(\cos\omega)\approx \colorbox{orange}{161.56°}$
 - **b)** we get these products (with matrix $B$)
 $\langle x,y \rangle=-11$
 $\langle x,x \rangle=18$
 $\langle y,y \rangle=7$
-=> $\cos\omega=-\frac{11}{\sqrt{18\times 7}}\rightarrow \omega\approx \colorbox{green}{168.5°}$
+=> $\cos\omega=-\frac{11}{\sqrt{18\times 7}}\rightarrow \omega\approx \colorbox{orange}{168.5°}$
 
 
 ---
 #### Exercice 3.5
 > Consider the Euclidean vector space $\mathbb{R}^5$ with the dot product. A subspace $U \subseteq \mathbb{R}^5$ and $x \in \mathbb{R}^5$ are given by
-> $U = span[\begin{bmatrix}0\\-1\\2\\0\\2\end{bmatrix}, \begin{bmatrix}1\\-3\\1\\-1\\2\end{bmatrix}, \begin{bmatrix}-3\\4\\1\\2\\1\end{bmatrix}, \begin{bmatrix}-1\\-3\\5\\0\\7\end{bmatrix}],  x=\begin{bmatrix}-1\\-9\\-1\\4\\1\end{bmatrix}$
+> $U = span[\begin{bmatrix}0 \newline -1 \newline 2 \newline 0 \newline 2\end{bmatrix}, \begin{bmatrix}1 \newline -3 \newline 1 \newline -1 \newline 2\end{bmatrix}, \begin{bmatrix}-3 \newline 4 \newline 1 \newline 2 \newline 1\end{bmatrix}, \begin{bmatrix}-1 \newline -3 \newline 5 \newline 0 \newline 7\end{bmatrix}],  x=\begin{bmatrix}-1 \newline -9 \newline -1 \newline 4 \newline 1\end{bmatrix}$
 > **a)** Determine the orthogonal projection $\pi_U(x)$ of $x$ onto $U$
 > **b)** Determine the distance $d(x, U)$
 
@@ -68,9 +68,9 @@ As in the 1D-case (-> see *chap. 3.8.1*), we must follow the 3 step procedure to
 
 $\pi_U(x)=\sum\limits_{i=1}^{m}\lambda_i b_i = B\lambda$ *(3.57)* with $B=[b_1,...,b_m] \in \mathbb{R}^{n\times m}$ (n=5, m=4)
 - **Step 1**, with the formula : $\lambda=(B^\intercal B)^{-1}B^\intercal x$ after computation we get
-$$\lambda=\begin{bmatrix}-4\\2\\0\\1\end{bmatrix}$$
+$$\lambda=\begin{bmatrix}-4 \newline 2 \newline 0 \newline 1\end{bmatrix}$$
 - **Step 2**, $\pi_U(x)=B\lambda$
-$$\pi_U(x)=\begin{bmatrix}1\\-5\\-1\\-2\\3\end{bmatrix}$$
+$$\pi_U(x)=\begin{bmatrix}1 \newline -5 \newline -1 \newline -2 \newline 3\end{bmatrix}$$
 
 - **Step 3** ==optional==, $P_\pi x=B(B^\intercal B)^{-1}B^\intercal x$, with the shape of $P_\pi$ equals (5x4) ((4x5)(5x4)) (4x5) => **(5x5)**
 $P_\pi=$ (with Python/numpy)
@@ -83,7 +83,7 @@ $\lVert x - \pi_U(x)\rVert$ = $\lVert \begin{bmatrix}-2&-4&0&6&-2\end{bmatrix}^\
 ---
 #### Exercice 3.6
 > Consider $\mathbb{R}^3$ with the inner product
-> $\langle x,y \rangle :=x^\intercal A:=\begin{bmatrix}2&1&0\\1&2&-1\\0&-1&2\end{bmatrix} y$
+> $\langle x,y \rangle :=x^\intercal A:=\begin{bmatrix}2&1&0 \newline 1&2&-1 \newline 0&-1&2\end{bmatrix} y$
 > Furthermore, we define $e_1,e_2,e_3$ as the standard/canonical basis in $\mathbb{R}^3$
 > **a)** Determine the orthogonal projection $\pi_U(x)$ of $e_2$ onto
 > $$U = span[e_1,e_3]$$
@@ -95,19 +95,19 @@ $\lVert x - \pi_U(x)\rVert$ = $\lVert \begin{bmatrix}-2&-4&0&6&-2\end{bmatrix}^\
 
 (*remark* : $A$ is positive definite if $x^\intercal Ax > 0$)
 
-If it was the simple dot product, $e_2$ would just project onto point $(0,0)$ in $U = span[\begin{bmatrix}1\\0\\0\end{bmatrix},\begin{bmatrix}0\\0\\1\end{bmatrix}]$, but the orthogonality is defined through (/depends on) the inner product (which use the $A$ symmetric positive definite matrix, above). So to determine the orthogonal projection $\pi_U(x)$ of $e_2$, it must be orthogonal to all basis vectors of $U$.
+If it was the simple dot product, $e_2$ would just project onto point $(0,0)$ in $U = span[\begin{bmatrix}1 \newline 0 \newline 0\end{bmatrix},\begin{bmatrix}0 \newline 0 \newline 1\end{bmatrix}]$, but the orthogonality is defined through (/depends on) the inner product (which use the $A$ symmetric positive definite matrix, above). So to determine the orthogonal projection $\pi_U(x)$ of $e_2$, it must be orthogonal to all basis vectors of $U$.
 
 => Can we use $\pi_U(x) = B\lambda =B(B^\intercal B)^{−1}B^\intercal x$ ?
-where $\lambda$ is the (only 2) coordinates in the basis of $U$ and $x=e_2=\begin{bmatrix}0\\1\\0\end{bmatrix}$, $B=\begin{bmatrix}1&0\\0&0\\0&1\end{bmatrix}$
+where $\lambda$ is the (only 2) coordinates in the basis of $U$ and $x=e_2=\begin{bmatrix}0 \newline 1 \newline 0\end{bmatrix}$, $B=\begin{bmatrix}1&0 \newline 0&0 \newline 0&1\end{bmatrix}$
 ==No...==
 
 $\langle e_2, e_1 \rangle = \langle e_2, e_3 \rangle = 0$ if all are orthonormal ... ?! ==no ...==
-Example : $\langle e_2, e1 \rangle = \begin{bmatrix}0&1&0\end{bmatrix} \begin{bmatrix}2&1&0\\1&2&-1\\0&-1&2\end{bmatrix} \begin{bmatrix}1\\0\\0\end{bmatrix} = 1$
+Example : $\langle e_2, e1 \rangle = \begin{bmatrix}0&1&0\end{bmatrix} \begin{bmatrix}2&1&0 \newline 1&2&-1 \newline 0&-1&2\end{bmatrix} \begin{bmatrix}1 \newline 0 \newline 0\end{bmatrix} = 1$
 
 ...
 
 We get :
-$$\pi_U(x)=\begin{bmatrix}?\\?\\?\end{bmatrix}$$
+$$\pi_U(x)=\begin{bmatrix}? \newline ? \newline ?\end{bmatrix}$$
 
 **b)** Compute the distance :
 > *"In vector spaces with general inner products, we have to pay attention when computing angles and distances, which are defined by means of the inner product."* **(p. 88)**
@@ -129,7 +129,7 @@ An endormorphism $\Phi:V\rightarrow V$ linear
 ---
 #### Exercice 3.8
 > Using the **Gram-Schmidt method**, turn the basis $B=(b_1,b_2)$ of a two dimensional subspace $U \subseteq\mathbb{R}^3$ into an **ONB** $C=(c_1,c_2)$ of $U$, where
-> $b_1:=\begin{bmatrix}1\\1\\1\end{bmatrix}$, $b_2:=\begin{bmatrix}-1\\2\\0\end{bmatrix}$
+> $b_1:=\begin{bmatrix}1 \newline 1 \newline 1\end{bmatrix}$, $b_2:=\begin{bmatrix}-1 \newline 2 \newline 0\end{bmatrix}$
 
 ==TODO==
 
@@ -145,11 +145,11 @@ An endormorphism $\Phi:V\rightarrow V$ linear
 ---
 #### Exercice 3.10
 > Rotate the vectors
-> $x_1:=\begin{bmatrix}2\\3\end{bmatrix},x_2:=\begin{bmatrix}0\\-1\end{bmatrix}$
+> $x_1:=\begin{bmatrix}2 \newline 3\end{bmatrix},x_2:=\begin{bmatrix}0 \newline -1\end{bmatrix}$
 > by **30°**
 
-to rotate by $\theta$ = 30° (->$\frac{\pi}{6}$ radians) ==counterclockwise== (by convention as the angle is positive), (in 2D?) we can multiply $X$ containing the column vectors $[x_1,x_2]$ by the rotation matrix $R(\theta)=\begin{bmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{bmatrix}$
+to rotate by $\theta$ = 30° (->$\frac{\pi}{6}$ radians) ==counterclockwise== (by convention as the angle is positive), (in 2D?) we can multiply $X$ containing the column vectors $[x_1,x_2]$ by the rotation matrix $R(\theta)=\begin{bmatrix}\cos\theta&-\sin\theta \newline \sin\theta&\cos\theta\end{bmatrix}$
 -> $R(\theta)X = XR(\theta) = \begin{bmatrix}2\cos\theta-3\sin\theta&\sin\theta\\2\sin\theta+3\cos\theta&-\cos\theta\end{bmatrix} = \begin{bmatrix}\frac{2\sqrt{3}-3}{2}&\frac{1}{2}\\\frac{2+3\sqrt{3}}{2}&-\frac{\sqrt{3}}{2}\end{bmatrix}$
-We get in each columns the rotated vectors $x_1^\prime = \frac{1}{2}\begin{bmatrix}2\sqrt{3}-3\\2+3\sqrt{3}\end{bmatrix}$ and $x_2^\prime = \frac{1}{2} \begin{bmatrix}1\\-\sqrt{3}\end{bmatrix}$
+We get in each columns the rotated vectors $x_1^\prime = \frac{1}{2}\begin{bmatrix}2\sqrt{3}-3 \newline 2+3\sqrt{3}\end{bmatrix}$ and $x_2^\prime = \frac{1}{2} \begin{bmatrix}1 \newline -\sqrt{3}\end{bmatrix}$
 - [ ] Make a grid with colored vector + angle, ...etc in Python -> put code in here + image of the result #todo 
 - [ ] XR = RX in 2-d only
