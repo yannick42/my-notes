@@ -13,9 +13,12 @@
 	- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Exercices|Mathematics for Machine Learning - Chapter 4 - Exercices]]
 
 #### Other related notes
-- [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
-- [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]]
-- Ridge regression
+- Methods
+	- [[Topics/Mathematics/Statistics and probabilities/PCA (1901)|PCA (1901)]]
+	- [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
+	- [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]]
+- TODO
+	- Ridge regression
 
 ---
 - [ ] **TODO** : Change style in "src/site/styles/custom-style.scss"
