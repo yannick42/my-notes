@@ -6,6 +6,9 @@ body {
     background-color: white;
     color: black;
     .content {
+        a {
+            padding-bottom: 0;
+        }
         font-size: 13px;
         color: black;
         line-height: 1.8;
