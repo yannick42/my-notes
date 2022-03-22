@@ -11,6 +11,7 @@
 
 #### Other related notes
 - **Topics**
+	- [[Topics/Mathematics/Linear Algebra|Linear Algebra]]
 	- [[Topics/Mathematics/Determinant (Matrix)|determinant]]
 	- [[Topics/Mathematics/Moore-Penrose inverse|Pseudoinverse]]
 - **Methods**
@@ -21,6 +22,8 @@
 - TODO
 	- Linear models
 	- Ridge regression
+- Courses
+	- [[___INBOX___/__à trier/MIT 18.06 - Linear Algebra|MIT 18.06 - Linear Algebra]]
 
 ---
 - [ ] **TODO** : Change style in "src/site/styles/custom-style.scss"
