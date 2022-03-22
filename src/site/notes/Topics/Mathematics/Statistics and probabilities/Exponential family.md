@@ -65,7 +65,7 @@ https://en.wikipedia.org/wiki/Sufficient_statistic
 		- 6.6.2 - Sufficient statstics (page **210**)
 		- 6.6.3 - Exponential Family (page **211**)
 - https://jwmi.github.io/BMS/chapter3-expfams-and-conjugacy.pdf (2015, Duke University)
-- [[___INBOX___/__à trier/CS229 - Machine Learning|CS229 - Machine Learning]] - Lecture 6 - Exponential Family & GLM
+- [[Topics/Machine Learning/MOOCS, Courses, Teachings/CS229 - Machine Learning|CS229 - Machine Learning]] - Lecture 6 - Exponential Family & GLM
 
 ---
 https://fr.wikipedia.org/wiki/Famille_exponentielle
