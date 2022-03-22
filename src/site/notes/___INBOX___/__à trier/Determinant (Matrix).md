@@ -2,16 +2,15 @@
 {"dg-publish":true,"dg-permalink":"determinant","permalink":"/determinant/"}
 ---
 
-- if 0 the matrix is not invertible
+- if the determinant is 0 => the matrix is not invertible
 - Sarrus' rule : mnemotechnic for 3 by 3 matrices
 - for lower or upper triangular matrices : $det(A)=\prod\limits_{i=1}^{n}T_{ii}$
 - determinant is **the signed volume of a n-dimensional parrellelepiped formed by columns** of the matrix A
-- for n > 3 => use ==Laplace extension== #todo 
-	- minor : 
-	- cofactor : 
-- properties
+- for n > 3 => use ==Laplace extension==
+	- minor / cofactor -> ?
+- **properties**
 	- $det(AB)=det(A)det(B)$
-	- determinants are invarible to transposition
+	- determinants are invariable to transposition
 	- if A is regular (=invertible) => $det(A^{-1})=\frac{1}{det(A)}$
 	- **similar matrices?** possess the same determinant
 	- the determinant is **invariant** to the choice of basis of a linear mapping
