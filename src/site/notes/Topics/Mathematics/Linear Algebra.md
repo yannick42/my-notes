@@ -22,6 +22,17 @@
 	- ==can be represented as matrices==
 
 ---
+#### [[Matrix decompositions]]
+- [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]], [[Topics/Mathematics/QR decomposition|QR decomposition]], [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]], [[Topics/Mathematics/Singular Value Decomposition|Singular Value Decomposition]]
+
+#### Column / Row space
+- the space spanned by $X$'s columns
+	- https://fr.wikipedia.org/wiki/Espace_colonne_et_espace_des_rang%C3%A9es
+
+### Theorems
+- Rouché-Capelli theorem : https://en.wikipedia.org/wiki/Rouch%C3%A9%E2%80%93Capelli_theorem
+
+---
 #### Systems of linear equations
 > 
 > Iterative methods
@@ -32,25 +43,9 @@
 - [[___INBOX___/__à trier/Successive over-relaxation (1950)|Successive over-relaxation (1950)]]
 
 ---
-#### [[Matrix decompositions]]
-- [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]]
-- [[Topics/Mathematics/QR decomposition|QR decomposition]]
-- [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
-- [[Topics/Mathematics/Singular Value Decomposition|Singular Value Decomposition]]
-
-
-#### Column / Row space
-- the space spanned by $X$'s columns
-	- https://fr.wikipedia.org/wiki/Espace_colonne_et_espace_des_rang%C3%A9es
-
-### Theorems
-- Rouché-Capelli theorem : https://en.wikipedia.org/wiki/Rouch%C3%A9%E2%80%93Capelli_theorem
-
-
----
 ### Books
 
-**Linear Algebra Problem Book**, **==1996==**, Paul Halmos
+- **Linear Algebra Problem Book**, **==1996==**, Paul Halmos
 	- http://xn--webducation-dbb.com/wp-content/uploads/2018/12/Linear-Algebra-Problem-Book.pdf
 	- Chapter 1 - Scalars
 	- Chapter 2
