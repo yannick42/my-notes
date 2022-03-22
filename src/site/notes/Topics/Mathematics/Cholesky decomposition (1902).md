@@ -21,7 +21,7 @@ $A=LL^T$
 	- roughly twice as efficient as [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]] (when applicable)
 	- arise quite often in applications (positive, from physical considerations), numerical solution of [[Topics/Mathematics/PDE|PDE]]
 - **Example** : the covariance matrix of a variable multivariate-Gaussian (is symmetric and positive definite)
-- used in [[___INBOX___/__à trier/Ridge regression|Ridge regression]] (sklearn : solver="cholesky")
+- used in [[Topics/Machine Learning/Techniques/Ridge regression|Ridge regression]] (sklearn : solver="cholesky")
 - Linear regression ?
 - Monte-Carlo simulation ?
 - Utilisé en chimie quantique pour accélérer les calculs ?
