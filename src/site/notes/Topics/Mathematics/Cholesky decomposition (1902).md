@@ -43,7 +43,7 @@ $A=LL^T$
 
 ### Coding
 - in [[___INBOX___/__à trier/Numpy|Numpy]] -> routine `numpy.linalg.cholesky`
-	- https://numpy.org/doc/stable/reference/generated/numpy.linalg.cholesky.html
+	- [https://numpy.org/doc/stable/reference/generated/numpy.linalg.cholesky.html](https://numpy.org/doc/stable/reference/generated/numpy.linalg.cholesky.html)
 
 ### See also
 - [[Topics/Mathematics/QR decomposition|QR decomposition]]
@@ -51,8 +51,6 @@ $A=LL^T$
 - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions#4 3 - Cholesky Decomposition p 114]]
 
 ### References
-- [Why is computing ridge regression with a Cholesky decomposition much quicker than using SVD?](https://stats.stackexchange.com/questions/396914/why-is-computing-ridge-regression-with-a-cholesky-decomposition-much-quicker-tha)
-- https://towardsdatascience.com/behind-the-models-cholesky-decomposition-b61ef17a65fb
-
----
-https://en.wikipedia.org/wiki/Cholesky_decomposition
+- [Why is computing ridge regression with a Cholesky decomposition much quicker than using SVD? (Stats SE)](https://stats.stackexchange.com/questions/396914/why-is-computing-ridge-regression-with-a-cholesky-decomposition-much-quicker-tha)
+- [Behind the models: Cholesky Decomposition](https://towardsdatascience.com/behind-the-models-cholesky-decomposition-b61ef17a65fb)
+- [Cholesky decomposition (wikipedia)](https://en.wikipedia.org/wiki/Cholesky_decomposition)
