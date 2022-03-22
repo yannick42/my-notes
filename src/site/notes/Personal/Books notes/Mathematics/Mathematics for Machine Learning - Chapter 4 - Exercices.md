@@ -12,7 +12,7 @@
 - with ==**Laplace expansion**== for a n by n matrix (along rows $j$, first 1 only...) :
 -> see *Example 4.3*
 apply the formula : $det(A)=\sum\limits_{k=1}^{n}(-1)^{k+j} a_{jk} det(A_{j,k})$
-$det(A)=(-1)^{1+1}.1.\begin{vmatrix}4&6\\2&4\end{vmatrix} + (-1)^{1+2}.3.\begin{vmatrix}2&6\\0&4\end{vmatrix} + (-1)^{1+3}.5.\begin{vmatrix}2&4\\0&2\end{vmatrix}$
+$det(A)=(-1)^{1+1}\cdot 1\cdot\begin{vmatrix} 4 & 6 \\ 2 & 4 \end{vmatrix} + (-1)^{1+2}\cdot 3\cdot\begin{vmatrix}2&6\\0&4\end{vmatrix} + (-1)^{1+3}\cdot 5\cdot\begin{vmatrix}2&4\\0&2\end{vmatrix}$
 $det(A) = 4-24+20 = \colorbox{orange}{0}$
 - with ==**Sarrus' rule**== (only for a matrix 3 by 3)
 $det(A)=a_{11}a_{22}a_{33}+a_{21}a_{32}a_{13}+a_{31}a_{12}a_{23}-a_{31}a_{22}a_{13}-a_{11}a_{32}a_{23}-a_{21}a_{12}a_{33}$
