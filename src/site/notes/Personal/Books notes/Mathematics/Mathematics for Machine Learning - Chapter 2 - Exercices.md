@@ -35,7 +35,7 @@
 
 ---
 #### Exercice 2.2
-> Let $n$ be in $\mathbb{N}\setminus \{0\}$. Let $k, x$ be in $\mathbb{Z}$. We define the congruence class $\overline{k}$ of the integer $k$ as the set
+> Let $n$ be in $\mathbb{N} \setminus \{0\}$. Let $k,x$ be in $\mathbb{Z}$. We define the congruence class $\overline{k}$ of the integer $k$ as the set
 > 
 > $$\overline{k}=\{x \in \mathbb{Z}|x-k=0\pmod n=\{x\in\mathbb{Z}|\exists a\in \mathbb{Z}: (x-k=n\cdot a)\}$$
 > 
