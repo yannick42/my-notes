@@ -35,11 +35,11 @@
 	- ...
 
 #### TOPICS
-| CHAPTER                | Topics                                                                                                 |
-|:---------------------- |:------------------------------------------------------------------------------------------------------ |
-| **[[Topics/Mathematics/Linear Algebra|Linear Algebra]]** | [[Determinant (Matrix)\|determinant]], [[Moore-Penrose inverse\|pseudoinverse]], [[Topics/Mathematics/Matrix similarity|matrix similarity]] |
-| **Vector calculus**    |                                                                                                        |
-| **Probability**        | [[Topics/Mathematics/Statistics and probabilities/Exponential family|Exponential family]], ...                                                                            |
+| CHAPTER             | Topics                                                                     |
+|:------------------- |:-------------------------------------------------------------------------- |
+| [[Topics/Mathematics/Linear Algebra|Linear Algebra]]  | [[Topics/Mathematics/Determinant (Matrix)|Determinant (Matrix)]], [[Topics/Mathematics/Moore-Penrose inverse|Moore-Penrose inverse]], [[Topics/Mathematics/Matrix similarity|matrix similarity]] |
+| **Vector calculus** |                                                                            |
+| **Probability**     | [[Topics/Mathematics/Statistics and probabilities/Exponential family|Exponential family]], ...                                                |
 
 ---
 ### Current progress (March 2022)
