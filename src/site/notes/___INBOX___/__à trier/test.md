@@ -1,5 +1,5 @@
 ---
 {"dg-publish":true,"permalink":"/inbox/a-trier/test/"}
 ---
-$\Phi_1$
+We consider $\Phi_1$, where
 $$\Phi_1$$
