@@ -2,13 +2,15 @@
 {"dg-publish":true,"permalink":"/personal/books-notes/published-notes/","tags":"gardenEntry"}
 ---
 
-### Published notes
- - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Linear Algebra|Mathematics for Machine Learning - Chapter 2 - Linear Algebra]]
+### Mathematics for Machine Learning book
+
+- [[Topics/Machine Learning/Books/Mathematics for Machine Learning (2020)|Mathematics for Machine Learning (2020)]]
+- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Linear Algebra|Mathematics for Machine Learning - Chapter 2 - Linear Algebra]]
 	 - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Exercices|Mathematics for Machine Learning - Chapter 2 - Exercices]]
 - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Analytic geometry|Mathematics for Machine Learning - Chapter 3 - Analytic geometry]]
 	- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Exercices|Mathematics for Machine Learning - Chapter 3 - Exercices]]
 - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions]]
 	- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Exercices|Mathematics for Machine Learning - Chapter 4 - Exercices]]
 
----
+#### Other related notes
 - [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
