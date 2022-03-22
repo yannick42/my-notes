@@ -165,11 +165,11 @@ https://adamdhalla.medium.com/linear-algebra-4-reduced-row-echelon-form-for-solv
 ###### Row echelon form
 - https://en.wikipedia.org/wiki/Row_echelon_form
 
-example : $\begin{bmatrix}1 & a_0 & a_1 & a_2 & a_3 \\ 0 & 0 & 2 & a_4 & a_5 \\ 0 & 0 & 0 & 1 & a_6 \end{bmatrix}$
+example : $\begin{bmatrix}1 & a_0 & a_1 & a_2 & a_3  \newline  0 & 0 & 2 & a_4 & a_5  \newline  0 & 0 & 0 & 1 & a_6 \end{bmatrix}$
 
 ###### Reduced row echelon form
 
-example : $\begin{bmatrix}1 & 0 & a_1 & 0 & b_1 \\ 0 & 1 & a_2 & 0 & b_2 \\ 0 & 0 & 0 & 1 & b_3 \end{bmatrix}$
+example : $\begin{bmatrix}1 & 0 & a_1 & 0 & b_1  \newline  0 & 1 & a_2 & 0 & b_2  \newline  0 & 0 & 0 & 1 & b_3 \end{bmatrix}$
 
 - If **matrix is invertible** (& square ?) -> we can get to identity matrix & the solution X at the right hand side => ==nice but only if 1 solution==
 - if many solutions => still more straightforward than REF even if there is free variable ... ?
