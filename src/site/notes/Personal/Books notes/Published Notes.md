@@ -23,4 +23,5 @@
 - Report bugs to "digitalgarden" plugin
 	- render checkboxes as html, with saved state
 	- `->` doesn't render nicely
+	- why do we must make explicit url links (-> autodetect?)
 	- https://github.com/oleeskild/obsidian-digital-garden & https://github.com/oleeskild/digitalgarden
