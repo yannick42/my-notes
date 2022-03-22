@@ -10,16 +10,16 @@ $A=QR$
 ---
 - a method in [[Topics/Mathematics/Linear Algebra|Linear Algebra]]
 - Résultat pas unique => plusieurs méthodes produiront des résultats différents
-- **Méthodes**
-	- ==Gram-Schmidt== (**1907**? but already known before!)
-		- History & applications -> https://www.researchgate.net/publication/264259023_Gram-Schmidt_orthogonalization_100_years_and_more
+- **Methods**
+	- ==Gram-Schmidt== (**1907**? but already known before...!)
+		- see History & applications -> https://www.researchgate.net/publication/264259023_Gram-Schmidt_orthogonalization_100_years_and_more
 	- Householder method
 	- Givens method
 
 ---
 ### Applications
 - calcul de solutions de systèmes linéaires **non carrés**
-	- determiner la **pseudo-inverse** d'une matrice -> [[___INBOX___/__à trier/Moore-Penrose inverse|Pseudoinverse]] ?
+	- determiner la **pseudo-inverse** d'une matrice -> [[___INBOX___/__à trier/Moore-Penrose inverse|Pseudoinverse]] (?)
 
 ### See also
 - [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
