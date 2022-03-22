@@ -101,7 +101,7 @@ It's a way to express a matrix $A$ in terms of polynomial. And to find eigenvalu
 - ***Definition 4.13*** : A square matrix is **defective** if it has fewer than n linearly independent eigenvectors
 - ***Spectral theorem*** (4.15) : ...
 	- implication : the **eigendecomposition** (-> Chap 4.4) of a symmetric matrix exists (with real eigenvalues), and we can find an ONB of eigenvectors so that $A=PDP^\intercal$ ($D$ is diagonal & $P$ contains the eigenvectors)
-- Example : [[___INBOX___/__à trier/PageRank|PageRank]]
+- Example : [[Topics/IT-Computing/Computer Science/Algorithms/PageRank|PageRank]]
 
 ```ad-info
 title:
