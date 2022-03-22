@@ -39,7 +39,7 @@ Taught at [[Topics/Machine Learning/Academia, universities/MIT|MIT]]
 - **Lecture 25** : Symmetric matrices & positive definiteness
 - **Lecture 26** : Complex matrices, Fast fourier transform
 - **Lecture 27** : Positive definite matrices & minima
-- **Lecture 28** : [[___INBOX___/__à trier/Matrix similarity|Similar matrices]] & Jordan form
+- **Lecture 28** : [[Topics/Mathematics/Matrix similarity|Similar matrices]] & Jordan form
 - **Lecture 29** : [[Topics/Mathematics/Singular Value Decomposition|Singular value decomposition]]
 	- several calculations with 2 by 2 matrices (regular and singular)
 - **Lecture 30** : Linear transform & their matrices
