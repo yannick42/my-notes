@@ -5,12 +5,13 @@
 <-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Linear Algebra|Mathematics for Machine Learning - Chapter 2 - Linear Algebra]]
 
 #### Exercice 2.1
-> We consider $(\mathbb{R}\setminus\{-1\}, *)$, where
-> $$a*b:=ab+a+b, \quad\quad a, b \in \mathbb{R}\setminus\{-1\} \quad (2.134)$$
-> **a)** Show that $(\mathbb{R}\setminus\{-1\}, *)$ is an Abelian group
+
+> We consider $(\mathbb{R} \setminus \{-1\},\star)$, where
+> $$a\star b:=ab+a+b, \quad\quad a, b \in \mathbb{R}\setminus\{-1\} \quad (2.134)$$
+> **a)** Show that $(\mathbb{R} \setminus \{-1\},\star)$ is an Abelian group
 > **b)** Solve
-> $$3*x*x=15$$
-> in the Abelian group $(\mathbb{R}\setminus\{-1\}, *)$, where $*$ is defined in (2.134)
+> $$3\star x\star x=15$$
+> in the Abelian group $(\mathbb{R}\setminus\{-1\},\star)$, where $\star$ is defined in (2.134)
 
 -> [[Topics/Mathematics/Group theory|Group theory]], [[___INBOX___/__à trier/Vector spaces|Vector spaces]], ...
 
