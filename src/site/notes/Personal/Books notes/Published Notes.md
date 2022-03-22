@@ -2,11 +2,9 @@
 {"dg-publish":true,"permalink":"/personal/books-notes/published-notes/","tags":"gardenEntry"}
 ---
 
-*Welcome on the published part of my note-taking system, based on [Obsidian](https://obsidian.md/). I will try to update this site regularly on the themes of elementary **mathematics**, computing and **machine learning**.*
+*Welcome on the published part of my note-taking system, based on [Obsidian](https://obsidian.md/), and published with the [Digital Garden](https://github.com/oleeskild/Obsidian-Digital-Garden) community plugin. I will try to update this site regularly on the themes of **mathematics** (undergraduate), **computing** and **machine learning**.*
 
->
-> Page still **==UNDER CONSTRUCTION==**
-> 
+> Page still **==UNDER CONSTRUCTION==** (Last edited : **March 2022**)
 
 ---
 ### Mathematics for Machine Learning book
@@ -29,9 +27,10 @@
 - **Books**
 	- ...
 
----
-> Last edited : **March 2022**
----
+
+
+
+
 <!--
 - [ ] **TODO** : Change style in "src/site/styles/custom-style.scss"
 - [ ] **TODO** : Publish more *quality* related-notes
