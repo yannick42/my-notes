@@ -80,7 +80,7 @@
 ### Courses/Resources
 - https://textbooks.math.gatech.edu/ila/index.html -> **Interactive Linear Algebra** by Georgia Institute of Technology
 - https://math.stackexchange.com/questions/1472978/is-linear-algebra-done-right-3rd-edition-good-for-a-beginner/1472982#1472982
-- [[___INBOX___/__à trier/MIT 18.06 - Linear Algebra|MIT 18.06 - Linear Algebra]]
+- [[Topics/Mathematics/MIT 18.06 - Linear Algebra|MIT 18.06 - Linear Algebra]]
 - https://www.cliffsnotes.com/study-guides/algebra/linear-algebra
 - http://linearalgebra.math.umanitoba.ca/math1220/section-12.html
 	- University of Manitoba
