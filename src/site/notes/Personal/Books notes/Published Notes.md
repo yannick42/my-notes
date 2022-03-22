@@ -14,4 +14,8 @@
 
 #### Other related notes
 - [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
-- [[Topics/Machine Learning/Techniques/Ridge regression|Ridge regression]]
+- Ridge regression
+
+---
+- [ ] TODO : Change style https://github.com/yannick42/my-notes/blob/main/src/site/styles/custom-style.scss
+- [ ] Publish more (quality) related notes
