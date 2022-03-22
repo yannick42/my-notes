@@ -97,7 +97,7 @@ It's a way to express a matrix $A$ in terms of polynomial. And to find eigenvalu
 	- as determinant and trace, eigenvalues are invariant under basis change => ?
 - *Geometric multiplicity* : the number of linearly independent eigenvector(s) associated with a $\lambda_i$ (or also the dimension of the eigenspace spaned by those eigenvector(s))
 	- at least 1 but lower than the algebraic multiplicity
-	- eg. $\begin{bmatrix}2&1\\0&2\end{bmatrix}$ -> algebraic multiplicity : 2, and geometric multiplicity : 1
+	- eg. $\begin{bmatrix}2&1 \newline 0&2\end{bmatrix}$ -> algebraic multiplicity : 2, and geometric multiplicity : 1
 - ***Definition 4.13*** : A square matrix is **defective** if it has fewer than n linearly independent eigenvectors
 - ***Spectral theorem*** (4.15) : ...
 	- implication : the **eigendecomposition** (-> Chap 4.4) of a symmetric matrix exists (with real eigenvalues), and we can find an ONB of eigenvectors so that $A=PDP^\intercal$ ($D$ is diagonal & $P$ contains the eigenvectors)
