@@ -3,8 +3,7 @@ body {
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    background-color: white;
-    color: black;
+    background-color: ##e8eef5;
     .content {
         a {
             padding-bottom: 0;
@@ -12,6 +11,8 @@ body {
         font-size: 13px;
         color: black;
         line-height: 1.8;
+        background-color: white;
+        padding: 20px;
     }
     h3 {
         color: #71a959;
