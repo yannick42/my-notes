@@ -9,3 +9,6 @@
 	- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Exercices|Mathematics for Machine Learning - Chapter 3 - Exercices]]
 - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions]]
 	- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Exercices|Mathematics for Machine Learning - Chapter 4 - Exercices]]
+
+---
+- [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
