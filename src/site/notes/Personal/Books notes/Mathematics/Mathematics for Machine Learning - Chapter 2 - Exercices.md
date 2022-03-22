@@ -35,8 +35,8 @@
 
 ---
 #### Exercice 2.2
-> Let $n$ be in $\mathbb{N} \setminus \{0\}$. Let $k,x$ be in $\mathbb{Z}$. We define the congruence class $\overline{k}$ of the integer $k$ as the set
-> $$\overline{k}=\{x \in \mathbb{Z} | x-k = 0 \pmod n=\{x\in\mathbb{Z}|\exists a\in \mathbb{Z}: (x-k=n\cdot a)\}$$
+> Let $n$ be in $\mathbb{N} \setminus \{0\}$. Let $k,x$ be in $\mathbb{Z}$. We define the congruence class $\overline{k}$ of the integer $k$ as the set :
+> $$\overline{k}=\{x \in \mathbb{Z} | x-k = 0 \pmod n=\{x\in\mathbb{Z}|\exists a\in \mathbb{Z}: x-k=n\cdot a\}$$
 > We now define $\mathbb{Z} / n\mathbb{Z}$ (sometimes written $\mathbb{Z}_n$) as the set of all congruence classes modulo $n$. Euclidean division implies that this set is a finite set containing $n$ elements:
 > > $$\mathbb{Z}_n=\{\overline{0},\overline{1},...,\overline{n-1}\}$$
 > For all $\overline{a}, \overline{b} \in \mathbb{Z}_n$, we define
