@@ -11,17 +11,18 @@ $A=LL^T$
 - Il faut que la matrice A soit **==symétrique== définie positive**
 
 ### Application/Examples
-- https://math.stackexchange.com/questions/1944373/what-is-the-cholesky-decomposition-used-for
+- [What is the Cholesky decomposition used for ? (Math SE)](https://math.stackexchange.com/questions/1944373/what-is-the-cholesky-decomposition-used-for)
 - permet de ==calculer la matrice inverse $A^{-1}$==
 	- $A^{-1}=(LL^\intercal)^{-1}=L^{-\intercal}L^{-1}$
-	- => https://scicomp.stackexchange.com/questions/30885/computing-the-inverse-of-a-matrix-using-the-cholesky-decomposition
+	- => [Computing the Inverse of a matrix, using the Cholesky decomposition (SciComp SE)](https://scicomp.stackexchange.com/questions/30885/computing-the-inverse-of-a-matrix-using-the-cholesky-decomposition)
 - permet de ==calculer le determinant de A== very efficiently
-	- $det(A)=det(L)det(L^T)=det(L)^2$
-- to solve a [[___INBOX___/__à trier/Systems of Linear Equations|Systems of Linear Equations]] $Ax=b$ (in a faster way?), with $A=LL^*$ then solve for y in $Ly=b$ by ==forward substitution==, then solve for x in $L^*x=y$ by ==back substitution==
-	- roughly twice as efficient as [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]] (when applicable)
+	- $det(A)=det(L)det(L^T)=det(L)^2=\prod_i l_{ii}^2$
+- to solve a [[___INBOX___/__à trier/Systems of Linear Equations|systems of linear equations]] $Ax=b$ (in a faster way?), with $A=LL^*$ then solve for y in $Ly=b$ by ==forward substitution==, then solve for x in $L^*x=y$ by ==back substitution==
+	- *roughly twice as efficient as* [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]] (when applicable)
 	- arise quite often in applications (positive, from physical considerations), numerical solution of [[Topics/Mathematics/PDE|PDE]]
 - **Example** : the covariance matrix of a variable multivariate-Gaussian (is symmetric and positive definite)
-- used in [[Topics/Machine Learning/Techniques/Ridge regression|Ridge regression]] (sklearn : solver="cholesky")
+- used in [[Topics/Machine Learning/Techniques/Ridge regression|Ridge regression]]
+	- [[Topics/Machine Learning/Tools, Software/sklearn|sklearn]] -> solver="cholesky"
 - Linear regression ?
 - Monte-Carlo simulation ?
 - Utilisé en chimie quantique pour accélérer les calculs ?
@@ -35,8 +36,8 @@ $A=LL^T$
 > - Systems of equations arising from the ==primal-dual barrier method== for **linear programming**.
 
 ### History
-- méthode probablement découverte en **1902**
-- **André-Louis Cholesky** : officier et ingénieur français
+- Method probably(?) discovered in **1902**
+- **André-Louis Cholesky** : officer & French engineer
 - posthumously published in **1924**, after he died in WW1
 	- found as he was a map maker in late 19th century
 
