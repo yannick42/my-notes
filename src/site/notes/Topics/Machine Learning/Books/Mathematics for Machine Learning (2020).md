@@ -92,9 +92,9 @@ Marc Deisenroth
 
 
 ---
-##### [[___INBOX___/__à trier/Vector calculus|Vector calculus]]
+##### [[Topics/Mathematics/Calculus/Vector calculus|Vector calculus]]
 -> [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 5 - Vector Calculus|Mathematics for Machine Learning - Chapter 5 - Vector Calculus]]
-> ?
+
 - **5.1.1** - Taylor series
 	- Taylor polynomials
 		- approximation of a function (which do not need to be polynomial)
