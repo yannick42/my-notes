@@ -5,7 +5,7 @@
 <-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Linear Algebra|Chapter 2 - Linear Algebra]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Chapter 4 - Matrix Decompositions]] -->
 
 
-**Goals**
+**==Goals==**
 - to have a geometric intuition/interpretation of [[Topics/Mathematics/Linear Algebra|Linear algebra]]
 - equip [[___INBOX___/__à trier/Vector spaces|Vector spaces]] with an inner product which induce a geometry
 - notions of : similarity / distances / angles ...
