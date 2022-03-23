@@ -38,8 +38,8 @@
 - defined by inner product
 - if must satisfy : $\forall x \in V\setminus\{0\}: x^\intercal Ax\gt 0$
 
-```ad-info
-title:
+```ad-question
+title:Mochi cards
 #### What's the formula for the `dot product` ? #card
 
 $x^\intercal y=\sum_{i=1}^{n}x_i y_i$
