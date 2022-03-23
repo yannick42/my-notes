@@ -2,7 +2,6 @@
 {"dg-publish":true,"dg-permalink":"Chapter 4 - Matrix Decompositions","permalink":"/Chapter 4 - Matrix Decompositions/"}
 ---
 
-
 <-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Analytic geometry|Chapter 3 - Analytic geometry]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 5 - Vector Calculus|Chapter 5 - Vector Calculus]] -->
 
 ---
