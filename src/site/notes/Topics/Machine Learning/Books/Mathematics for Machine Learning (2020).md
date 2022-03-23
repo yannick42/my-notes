@@ -134,8 +134,8 @@ Marc Deisenroth
 
 ---
 ##### Continuous Optimization
-- Optimization using [[___INBOX___/__à trier/Gradient descent|Gradient descent]]
-	- with momentum -> [[___INBOX___/__à trier/Momentum method (1964)|Momentum method (1964)]]
+- Optimization using [[Topics/Machine Learning/Optimization methods/Gradient descent|Gradient descent]]
+	- with momentum -> [[Topics/Machine Learning/Optimization methods/Extensions of SGD/Momentum method (1964)|Momentum method (1964)]]
 	- [[Topics/Machine Learning/Optimization methods/Stochastic Gradient Descent|SGD]]
 - **7.2** - Constrained optimization & **[[Topics/Mathematics/Lagrange multipliers (1788)|Lagrange multipliers (1788)]]**
 - **7.3** - [[Topics/Mathematics/Convex optimization|Convex optimization]]
