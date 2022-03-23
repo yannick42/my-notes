@@ -134,9 +134,9 @@ It's the set of its eigenvalues $\lambda$
 	- (in `from sklearn.linear_model import Ridge` ([[Topics/Machine Learning/Techniques/Ridge regression|Ridge regression]]) -> solver="Cholesky")
 - to compute **determinants** very quickly : $det(A)=det(L)det(L^T)=det(L)^2=\prod_i l_{ii}^2$
 
--> https://math.stackexchange.com/questions/2508589/why-cholesky-decomposition-is-only-applicable-to-positive-definite-matirx ($L$ may not always be unique ?)
+-> [$L$ may not always be unique ? (Math SE)](https://math.stackexchange.com/questions/2508589/why-cholesky-decomposition-is-only-applicable-to-positive-definite-matirx)
 
--> https://math.stackexchange.com/questions/462682/why-does-the-cholesky-decomposition-requires-a-positive-definite-matrix (**why positive definite ?**)
+> -> [Why positive definite ? (Math SE)](https://math.stackexchange.com/questions/462682/why-does-the-cholesky-decomposition-requires-a-positive-definite-matrix)
 > if $A$ factors to $LL^\intercal$ -> then : $x^\intercal Ax=x^\intercal LL^\intercal x=(L^\intercal x)^\intercal L^\intercal x \geq 0$ (Euclidean scalar product) => positive semidefinite
 > if $L$ is square and triangular with positive real diagonal entries then $L$ is invertible, so $Lx=0 \iff x=0$ 
 
@@ -153,7 +153,6 @@ the *Cholesky factor*, and it is unique
 
 ---
 ```
-
 ---
 ### 4.4 - Eigendecomposition and Diagonalization (p. 115)
 - ==Diagonal matrices== allow faster computation of : **determinants**, **powers** and **inverses**
@@ -182,7 +181,7 @@ Only non-defective matrices (which have $n$ linearly independent eigenvectors)
 ---
 ### 4.5 - Singular Value Decomposition (p. 119)
 
-> See also [[Topics/Mathematics/MIT 18.06 - Linear Algebra|MIT 18.06 - Linear Algebra]] - **Lecture 29**
+> See also [[Topics/Mathematics/MIT 18.06 - Linear Algebra|MIT 18.06 - Linear Algebra]] - **Lecture 29**, with examples on 2x2 matrices (regular & singular)
 
 - **central matrix decomposition method** : it has been referred to as the "Fundamental theorem of linear algebra" (Strang, 1993)
 - can be applied to all matrices (even not square), it always exists
