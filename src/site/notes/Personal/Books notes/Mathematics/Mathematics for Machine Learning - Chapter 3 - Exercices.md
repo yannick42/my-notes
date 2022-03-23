@@ -2,7 +2,8 @@
 {"dg-publish":true,"dg-permalink":"Chapter 3 - Analytic Geometry - Exercices","permalink":"/Chapter 3 - Analytic Geometry - Exercices/"}
 ---
 
-<-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Analytic geometry|Mathematics for Machine Learning - Chapter 3 - Analytic geometry]]
+↑ [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Analytic geometry|Chapter 3 - Analytic geometry]]
+<-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Exercices|Chapter 2 - Exercices]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Exercices|Chapter 4 - Exercices]] -->
 
 ---
 #### Exercice 3.1
