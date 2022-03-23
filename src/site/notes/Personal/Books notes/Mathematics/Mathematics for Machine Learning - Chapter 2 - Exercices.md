@@ -15,7 +15,7 @@
 > $$3\star x\star x=15$$
 > in the Abelian group $(\mathbb{R}\setminus\{-1\},\star)$, where $\star$ is defined in (2.134)
 
--> [[Topics/Mathematics/Group theory|Group theory]], [[___INBOX___/__à trier/Vector spaces|Vector spaces]], ...
+-> see : [[Topics/Mathematics/Group theory|Group theory]], [[___INBOX___/__à trier/Vector spaces|Vector spaces]], ...
 
 **a)** We must show it is a group (closure, associativity, null element, inverse element) and commutative ?
 - **Associativity** : $\forall a,b,c \in \mathcal{G}: (a\star b)\star c = a\star (b\star c)$
