@@ -14,12 +14,11 @@
 	- Math 51
 	- Math 103
 	- Math 113 or CS 205 (would be much more than necessary)
-		- 
 
 --> [Youtube Playlist (20 videos)](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
 
 ### Content/Lectures
-> 2 or 3 lectures per week
+> 2 or 3 lectures per week => `September 21th to December 3nd` (2 months & 10 days)
 - **Lecture 2**
 	- [[Topics/Machine Learning/Concepts/Supervised learning|Supervised learning]]
 - **Lecture 3**
