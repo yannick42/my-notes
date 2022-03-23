@@ -10,14 +10,14 @@
 	- Unconstrained / Constrained optimization
 - we assume our objective function is differentiable (-> so we have access to its derivative)
 - The goal is to move "downhill" (the opposite of the gradient direction)
-- **Convex optimization** problems : special class of problems
+- **Convex optimization** problems : special class of problems where global optimum can be reached (?)
 
 ---
 ### 7.1 - Optimization using Gradient Descent
 -> [[Topics/Machine Learning/Optimization methods/Gradient descent|Gradient descent]]
 
 *Remark :*
-- ***condition number*** : $\kappa$  is the ratio of the maximum over the minimum ==singular value== : $\frac{\sigma(A)_{max}}{\sigma(A)_{min}}$
+- ***condition number*** : $\kappa$  is the ratio of the maximum over the minimum ==singular value== : $\frac{\sigma_{max}(A)}{\sigma_{min}(A)}$
 - ***preconditioner*** : instead of directly solving $Ax=b$, one could solve $P^{-1}(Ax-b)=0$,  where $P$  is designed so that $P^{-1}A$ have a better *condition number*
 
 #### 7.1.2 - GD with Momentum
@@ -28,8 +28,32 @@
 
 ---
 ### 7.2 - Constrained Optimization & Lagrange Multipliers
--> [[Topics/Mathematics/Lagrange multipliers (1788)|Lagrange multipliers (1788)]]
+- [[Topics/Mathematics/Lagrange multipliers (1788)|Lagrange multipliers (1788)]]
+	- $\lambda_i\geq 0$
+- duality -> ?
 
-### See Also
-- [[Topics/Mathematics/Convex optimization|Convex optimization]]
-- 
+---
+### 7.3 - Convex Optimization
+-> see [[Topics/Mathematics/Convex optimization|Convex optimization]]
+- Jensen's inequality -> ?
+
+
+#### 7.3.1 - Linear Programming
+- *by convention* : minimize the primal & maximize the dual
+
+
+#### 7.3.2 - Quadratic Programming
+- We'll see an application in Chapter 12 : for the squared norm in [[Topics/Machine Learning/Models/Support Vector Machine (1992)|SVM]]
+
+
+#### 7.3.3 - Legendre-Fenchel Transform & Convex Conjugate
+> **Physics students** are often introduced to the **Legendre transform** as relating the **Lagrangian** and the **Hamiltonian** in **classical mechanics**
+
+---
+### 7.4 - Further Readings
+- Continuous optimization is an active area of research
+- Other methods
+	- Quasi-Newton methods:  L-BFGS (cheaper approximation to estimate the [[___INBOX___/__à trier/Hessian|Hessian]])
+	- Mirror descent (2003?)
+	- Natural gradient (2012?)
+	- subgradient methods (see Bertsekas, 1999)
