@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-permalink":"Chapter 5 - Vector Calculus","permalink":"/Chapter 5 - Vector Calculus/"}
 ---
 
-<-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Chapter 4 - Matrix Decompositions]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 6 - Probability and Distributions|Mathematics for Machine Learning - Chapter 6 - Probability and Distributions]] -->
+<-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Chapter 4 - Matrix Decompositions]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 6 - Probability and Distributions|Chapter 6 - Probability and Distributions]] -->
 
 ---
 
