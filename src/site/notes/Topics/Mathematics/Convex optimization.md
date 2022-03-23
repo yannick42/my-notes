@@ -14,7 +14,7 @@
 - ...
 
 ### Book
-- [[Personal/Books notes/Mathematics/Convex optimization (2004)|Convex optimization (2004)]] by **Boyd** & **Vandenberghe**, 2004, 2009 (730 pages)
+- [[Personal/Books notes/Mathematics/Convex optimization (book, 2004)|Convex optimization (book, 2004)]] by **Boyd** & **Vandenberghe**, 2004, 2009 (730 pages)
 	- At [[Topics/Machine Learning/Academia, universities/Stanford University|Stanford University]] : [Course EE364a - Convex Optimization I](http://www.stanford.edu/class/ee364a)
 - [[Introductory lectures on convex optimization - Yurii Nesterov - 2004.pdf]]
 	- "a Basic Course" ??
