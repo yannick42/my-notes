@@ -5,7 +5,7 @@
 <-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Linear Algebra|Chapter 2 - Linear Algebra]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Chapter 4 - Matrix Decompositions]] -->
 
 
-**==Goals==**
+**Goals**
 - to have a geometric intuition/interpretation of [[Topics/Mathematics/Linear Algebra|Linear algebra]]
 - equip [[___INBOX___/__à trier/Vector spaces|Vector spaces]] with an inner product which induce a geometry
 - notions of : similarity / distances / angles ...
@@ -38,8 +38,8 @@
 - defined by inner product
 - if must satisfy : $\forall x \in V\setminus\{0\}: x^\intercal Ax\gt 0$
 
-```ad-question
-title:Mochi cards
+```ad-info
+title:
 #### What's the formula for the `dot product` ? #card
 
 $x^\intercal y=\sum_{i=1}^{n}x_i y_i$
