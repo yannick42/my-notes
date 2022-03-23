@@ -33,7 +33,7 @@ $A=LL^T$
 > - **Normal equations** for least squares problems.
 > - Discretizations of self adjoint partial differential equation **boundary value problems**.
 > - **Hessians of convex functions** (in many cases the Hessian is made to be convex) in optimization.
-> - Systems of equations arising from the ==primal-dual barrier method== for **linear programming**.
+> - Systems of equations arising from the ==primal-dual barrier method== for **[[Topics/Mathematics/Linear programming|linear programming]]**.
 
 ### History
 - Method probably(?) discovered in **1902**
@@ -46,9 +46,8 @@ $A=LL^T$
 	- [https://numpy.org/doc/stable/reference/generated/numpy.linalg.cholesky.html](https://numpy.org/doc/stable/reference/generated/numpy.linalg.cholesky.html)
 
 ### See also
-- [[Topics/Mathematics/QR decomposition|QR decomposition]]
-- [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]]
-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions#4 3 - Cholesky Decomposition p 114]]
+- Other types of decompositions : [[Topics/Mathematics/QR decomposition|QR decomposition]], [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]]
+- Explained in book : [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions#4 3 - Cholesky Decomposition p 114]]
 
 ### References
 - [Why is computing ridge regression with a Cholesky decomposition much quicker than using SVD? (Stats SE)](https://stats.stackexchange.com/questions/396914/why-is-computing-ridge-regression-with-a-cholesky-decomposition-much-quicker-tha)
