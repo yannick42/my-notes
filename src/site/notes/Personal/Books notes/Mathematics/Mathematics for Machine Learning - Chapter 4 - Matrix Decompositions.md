@@ -29,8 +29,8 @@
 	- swapping 2 rows -> invert sign of $det(A)$
 - [[___INBOX___/__à trier/Gaussian elimination|Gaussian elimination]], then multiply the diagonal elements to have the determinant
 
-```ad-info
-title:
+```ad-question
+title:Mochi cards
 #### Which part of Laplace expansion is called cofactor ? #card
 
 it is each $(-1)^{k+j}det(A_{jk})$ of the sum
@@ -55,8 +55,8 @@ it is called : *minor*
 - avec $c_0=det(A), c_{n-1}=(-1)^{n-1}tr(A)$
 - allow to compute eigenvalues & eigenvectors
 
-```ad-info
-title:
+```ad-question
+title:Mochi cards
 #### For which matrices can a determinant be defined ? #card
 
 Only on square matrices, it maps $A$ to a real number which equals 0 if $A$ is not invertible
@@ -103,8 +103,8 @@ It's a way to express a matrix $A$ in terms of polynomial. And to find eigenvalu
 	- implication : the **eigendecomposition** (-> Chap 4.4) of a symmetric matrix exists (with real eigenvalues), and we can find an ONB of eigenvectors so that $A=PDP^\intercal$ ($D$ is diagonal & $P$ contains the eigenvectors)
 - Example : [[Topics/IT-Computing/Computer Science/Algorithms/PageRank|PageRank]]
 
-```ad-info
-title:
+```ad-question
+title:Mochi cards
 #### What's the difference between algebraic and geometric multiplicity ? #card
 
 The number of times a root appears is the algebraic multiplicity, and the number of linearly independent eigenvector(s) associated with $\lambda_i$ is the geometric multiplicity.
@@ -141,8 +141,8 @@ It's the set of its eigenvalues $\lambda$
 > if $A$ factors to $LL^\intercal$ -> then : $x^\intercal Ax=x^\intercal LL^\intercal x=(L^\intercal x)^\intercal L^\intercal x \geq 0$ (Euclidean scalar product) => positive semidefinite
 > if $L$ is square and triangular with positive real diagonal entries then $L$ is invertible, so $Lx=0 \iff x=0$ 
 
-```ad-info
-title:
+```ad-question
+title:Mochi cards
 #### On which matrices can we apply Cholesky decomposition ? #card
 
 On symmetric positive definite matrices (*Section 3.2.3*), it's somehow equivalent to a square root of $A=LL^\intercal$
@@ -171,8 +171,8 @@ the *Cholesky factor*, and it is unique
 - we can find a matrix power via eigendecomposition (if it exists) :
 	- $A^k=(PDP^{-1})^k=PD^kP^{-1}$
 
-```ad-info
-title:
+```ad-question
+title:Mochi cards
 #### Which matrices can be diagonalized ? #card
 
 Only non-defective matrices (which have $n$ linearly independent eigenvectors)
