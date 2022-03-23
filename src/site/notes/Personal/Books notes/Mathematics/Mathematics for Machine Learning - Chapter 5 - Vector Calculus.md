@@ -50,7 +50,7 @@ Example 5.2 -> ==TODO==
  
 ---
 ## 5.7 - Higher-Order Derivatives
-- ex: in [[___INBOX___/__à trier/Newton’s method|Newton’s method]] for optimization, we need second-order derivatives
+- ex: in [[Topics/Mathematics/Calculus/Newton’s method|Newton’s method]] for optimization, we need second-order derivatives
 
 ## 5.8 - Linearization and Multivariate Taylor Series
 - einsum -> in [[___INBOX___/__à trier/Numpy|Numpy]] : Einstein's sum
