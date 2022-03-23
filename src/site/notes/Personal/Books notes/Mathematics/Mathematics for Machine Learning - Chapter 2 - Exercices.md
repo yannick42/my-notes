@@ -2,8 +2,11 @@
 {"dg-publish":true,"dg-permalink":"Chapter 2 - Linear Algebra - Exercices","permalink":"/Chapter 2 - Linear Algebra - Exercices/"}
 ---
 
-<-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Linear Algebra|Mathematics for Machine Learning - Chapter 2 - Linear Algebra]]
 
+↑ [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Linear Algebra|Chapter 2 - Linear Algebra]]
+<-- **NONE** - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Exercices|Chapter 3 - Exercices]] -->
+
+---
 #### Exercice 2.1
 > We consider $(\mathbb{R} \setminus \{-1\},\star)$, where
 > $$a\star b:=ab+a+b, \quad\quad a, b \in \mathbb{R}\setminus\{-1\} \quad (2.134)$$
