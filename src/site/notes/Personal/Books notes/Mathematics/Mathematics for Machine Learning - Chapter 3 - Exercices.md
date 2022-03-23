@@ -27,24 +27,24 @@ We see that the matrix is **==not symmetric==** (...positive definite), and if w
 ---
 #### Exercice 3.3
 > Compute the distance between
-> $x=\begin{bmatrix}1\\2\\3\end{bmatrix}$, $y=\begin{bmatrix}-1\\-1\\0\end{bmatrix}$
+> $x=\begin{bmatrix}1\\2\\3\end{bmatrix}$, $y=\begin{bmatrix}-1 \newline -1 \newline 0\end{bmatrix}$
 > using
 > **a)** $\langle x,y \rangle :=x^\intercal y$
-> **b)** $\langle x,y \rangle :=x^\intercal A y$, $A:=\begin{bmatrix}2&1&0\\1&3&-1\\0&-1&2\end{bmatrix}$
+> **b)** $\langle x,y \rangle :=x^\intercal A y$, $A:=\begin{bmatrix}2&1&0 \newline 1&3&-1 \newline 0&-1&2\end{bmatrix}$
 
 The definition of a distance between two vector is $d(x,y):=\lVert x-y \rVert =\sqrt{\langle x-y, x-y \rangle}$
 - **a)** with the dot product as the inner product -> Euclidean distance : 
-we have $x - y = \begin{bmatrix}2\\3\\3\end{bmatrix}$ => $d(x,y) = \sqrt{2^2+3^2+3^2} = \sqrt{22}$
+we have $x - y = \begin{bmatrix}2 \newline 3 \newline 3\end{bmatrix}$ => $d(x,y) = \sqrt{2^2+3^2+3^2} = \sqrt{22}$
 - **b)** with an inner product defined by A (which is symmetric and positive definite (?))
- $d(x,y)=\sqrt{\begin{bmatrix}2&3&3\end{bmatrix}A\begin{bmatrix}2\\3\\3\end{bmatrix}}=\sqrt{47}$
+ $d(x,y)=\sqrt{\begin{bmatrix}2&3&3\end{bmatrix}A\begin{bmatrix}2 \newline 3 \newline 3\end{bmatrix}}=\sqrt{47}$
 
 ---
 #### Exercice 3.4
 > Compute the angle between
-> $x=\begin{bmatrix}1\\2\end{bmatrix}$, $y=\begin{bmatrix}-1\\-1\end{bmatrix}$
+> $x=\begin{bmatrix}1 \newline 2\end{bmatrix}$, $y=\begin{bmatrix}-1 \newline -1\end{bmatrix}$
 > using
 > **a)** $\langle x,y \rangle :=x^\intercal y$
-> **b)** $\langle x,y \rangle :=x^\intercal B y$, $B:=\begin{bmatrix}2&1\\1&3\end{bmatrix}$
+> **b)** $\langle x,y \rangle :=x^\intercal B y$, $B:=\begin{bmatrix}2&1 \newline 1&3\end{bmatrix}$
 
 $\cos \omega=\frac{\langle x,y \rangle}{\sqrt{\langle x,x \rangle \langle y,y \rangle}}=\frac{x^\intercal y}{\sqrt{x^\intercal x y^\intercal y}}$
 - **a)** we get
@@ -149,7 +149,7 @@ An endormorphism $\Phi:V\rightarrow V$ linear
 > by **30°**
 
 to rotate by $\theta$ = 30° (->$\frac{\pi}{6}$ radians) ==counterclockwise== (by convention as the angle is positive), (in 2D?) we can multiply $X$ containing the column vectors $[x_1,x_2]$ by the rotation matrix $R(\theta)=\begin{bmatrix}\cos\theta&-\sin\theta \newline \sin\theta&\cos\theta\end{bmatrix}$
--> $R(\theta)X = XR(\theta) = \begin{bmatrix}2\cos\theta-3\sin\theta&\sin\theta\\2\sin\theta+3\cos\theta&-\cos\theta\end{bmatrix} = \begin{bmatrix}\frac{2\sqrt{3}-3}{2}&\frac{1}{2}\\\frac{2+3\sqrt{3}}{2}&-\frac{\sqrt{3}}{2}\end{bmatrix}$
+-> $R(\theta)X = XR(\theta) = \begin{bmatrix}2\cos\theta-3\sin\theta&\sin\theta \newline 2\sin\theta+3\cos\theta&-\cos\theta\end{bmatrix} = \begin{bmatrix}\frac{2\sqrt{3}-3}{2}&\frac{1}{2} \newline \frac{2+3\sqrt{3}}{2}&-\frac{\sqrt{3}}{2}\end{bmatrix}$
 We get in each columns the rotated vectors $x_1^\prime = \frac{1}{2}\begin{bmatrix}2\sqrt{3}-3 \newline 2+3\sqrt{3}\end{bmatrix}$ and $x_2^\prime = \frac{1}{2} \begin{bmatrix}1 \newline -\sqrt{3}\end{bmatrix}$
 - [ ] Make a grid with colored vector + angle, ...etc in Python -> put code in here + image of the result #todo 
 - [ ] XR = RX in 2-d only
