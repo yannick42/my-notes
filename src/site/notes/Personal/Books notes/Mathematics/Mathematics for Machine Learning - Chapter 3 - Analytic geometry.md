@@ -70,17 +70,20 @@ False, it's the opposite
 
 ---
 #### 3.4 **Angles and orthogonality**
-- Orthogonal matrice : $A^{-1}=A^\intercal$
-- 
+- Orthogonal matrix : its columns are orthonormal $AA^\intercal=I=A^\intercal A$ -> $A^{-1}=A^\intercal$
+	- the inverse is obtained by transposing the matrix
+- Orthogonal matrix do rotations (-> see *Section 3.9*)
 
 ---
 #### 3.5 **Orthonormal basis**
-- ==Gram-Schmidt process== : put a B (a non orthonormal and unnormalized **basis vectors**) in this augmented form : [BB^T|B] to a row reduced form through Gaussian elimination -> get a orthonormal basis ?
+- ==Gram-Schmidt process== (Strang, 2003) : put a B (a non orthonormal and unnormalized **basis vectors**) in this augmented form : [BB^T|B] to a row reduced form through Gaussian elimination -> get a orthonormal basis ?
 
 ---
 #### 3.6 **Orthogonal Complement**
+- **Important** role in Chapter 10 on linear dimensionality reduction
 - a subspace $U^\perp$ that contains all vectors orthogonal to every vector in U
 - $U \cap U^\perp=\{0\}$
+- generally used to describe hyperplanes (?)
 
 ---
 #### 3.7 **Inner product of functions** (a few lines about it...)
@@ -89,18 +92,37 @@ False, it's the opposite
 
 ---
 #### 3.8 **Orthogonal projection**
+- An **important** class of linear transformations (besides: rotations & reflections)
+	- in Graphics, Coding theory, [[Topics/Mathematics/Statistics and probabilities/Statistics|statistics]] and Machine Learning
 - *Definition 3.10* (Projection) : a linear mapping is called a projection if $\pi^2=\pi\circ\pi=\pi$
-- $\pi_U(x) = \lambda b$ (a multiple of the basis vector)
+
+##### 3.8.1 - Projection onto One-Dimensional Subspaces (Lines)
+- 
+- $\pi_U(x) = \lambda b$ so the coordinate $\lambda$ it is a multiple of the basis vector, and is an element of $U$ ...
 - $<x-\lambda b, b>=0$ (exploit the bilinearity of the inner product)-> $<x,b>-\lambda<b,b>=0$
 - $\lambda=\frac{b^\intercal x}{b^\intercal b}$
-	- if $\lVert b \rVert =1$ -> $\lambda=b^\intercal x$
-- projection matrix : $P_{\pi}=\frac{bb^\intercal}{\lVert b\rVert^2}$
-	- symmetric matrix of rank 1
+	- if basis is "normal" $\lVert b \rVert =1$ -> simply $\lambda=b^\intercal x$
+- $\pi_U(x) = P_\pi x$
+	- projection matrix (are always symmetrix) : $P_{\pi}=\frac{bb^\intercal}{\lVert b\rVert^2}$
+		- here it is symmetric matrix of rank 1 ...
+	- Remark : we can show that $\pi_U(x)$ is an eigenvector of $P_\pi$ with an eigenvalue = 1
+		- => ==TODO==
 
+##### 3.8.2 - Projection onto General Subspaces
+- 
+- Info : we can find approximate solutions to unsolvable linear equations using projections
+- If basis is ONB it simplifies the equations (no longer have to compute the inverse)
 
 ##### 3.8.3 - ==Gram-Schmidt orthogonalization==
 - Projections are at the core of this constructive method
 - the basis (ONB) always exists
+- see Liesen & Mehrmann (2015)
+- $u_1:=b_1$
+- $u_k:=b_k-\pi_{span[u_1, ..., u_{k-1}]}(b_k), \quad k=2,...,n$
+
+##### 3.8.4 - Projection onto Affine subspaces
+- affine space $L=x_0+U$
+- 
 
 ---
 #### 3.9 **Rotations**
