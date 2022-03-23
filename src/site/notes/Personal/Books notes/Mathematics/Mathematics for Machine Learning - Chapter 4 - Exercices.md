@@ -2,8 +2,11 @@
 {"dg-publish":true,"dg-permalink":"Chapter 4 - Matrix Decomposition - Exercices","permalink":"/Chapter 4 - Matrix Decomposition - Exercices/"}
 ---
 
-<-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions]]
 
+↑ [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Chapter 4 - Matrix Decompositions]]
+<-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Exercices|Chapter 3 - Exercices]] - **TODO** -->
+
+---
 ### Exercices
 #### Exercice 4.1
 > Compute the determinant using the **Laplace expansion** (using the first row) and the **Sarrus rule** for
