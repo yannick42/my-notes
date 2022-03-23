@@ -2,6 +2,10 @@
 {"dg-publish":true,"permalink":"/topics/mathematics/singular-value-decomposition/"}
 ---
 
+<!--
+Note créée le 15 novembre 2013, vide ...
+-->
+
 ---
 ### Intro
 - **SVD** : Singular Value Decomposition (-> fr : Décomposition en valeurs singulière)
