@@ -10,6 +10,11 @@
 
 ### Part III - Algorithms
 - Unconstrained minimization
-	- [[___INBOX___/__à trier/Gradient descent|Gradient descent]] method
-	- [[___INBOX___/__à trier/Newton’s method|Newton’s method]]
+	- [[Topics/Machine Learning/Optimization methods/Gradient descent|Gradient descent]] method
+	- [[Topics/Mathematics/Calculus/Newton’s method|Newton’s method]]
 - Interior-points methods
+
+### See also
+- [[Topics/Mathematics/Convex optimization|Convex optimization]] (general note)
+- [[Topics/Mathematics/Linear programming|Linear programming]]
+- ...
