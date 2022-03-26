@@ -47,17 +47,17 @@ $p_A(\lambda) = det(A-\lambda I) = det(\begin{bmatrix} 1-\lambda & 0  \newline  
 We find the eigenvectors that corresponds to these eigenvalues (here, only 1 root/eigenvalue) by looking at vectors $x$ such that :
 $\begin{bmatrix} 1-\lambda & 0  \newline  1 & 1-\lambda \end{bmatrix}x=0$ => for $\lambda=1$ => $\begin{bmatrix} 0 & 0  \newline  1 & 0 \end{bmatrix}x=0$
 
-We solve and get $x_1=0$ (which spans a line) ??
+We solve $x$ and get $x_1=0$ (which spans a vertical line through origin ??)
 
 **b)** Similarly,
 $p_B(\lambda) = det(B-\lambda I) = det(\begin{bmatrix} -2-\lambda & 2  \newline  2 & 1-\lambda \end{bmatrix})=\lambda^2+\lambda-6=0$
 
 We get **2 roots** : $\lambda=2$ and $\lambda=-3$
 
-Eigenvector of lambda = 2 : $\begin{bmatrix}-4 & 2  \newline  2 & -1 \end{bmatrix}x=0$
+Eigenvector of $\lambda=2$ : $\begin{bmatrix}-4 & 2  \newline  2 & -1 \end{bmatrix}x=0$
 -> $E_2=span(\begin{bmatrix}1 \newline 2\end{bmatrix})$
 
-Eigenvector of lambda = -3 : $\begin{bmatrix}1 & 2  \newline  2 & 4 \end{bmatrix}x=0$
+Eigenvector of $\lambda=-3$ : $\begin{bmatrix}1 & 2  \newline  2 & 4 \end{bmatrix}x=0$
 -> $E_{-3}=span(\begin{bmatrix}2 \newline -1\end{bmatrix})$
 
 ---
@@ -81,8 +81,17 @@ $(-\lambda^4+\lambda^3-3\lambda) - (-\lambda^2 - \lambda + 6) - (-\lambda^2 + \l
 
 To be diagonalizable, the eigenvectors of a matrix must form a basis :
 
+**a)** $det(A-\lambda I)=0$ -> $det(\begin{bmatrix}-\lambda&0 \newline 0&-\lambda\end{bmatrix})=0$ so $\lambda^2=0$ -> it true only if it's equal to 0, ... how many eigenvector ?!
+- If $det(A)=0$, A is **not invertible**
 
-==TODO==
+**b)** $det(\begin{bmatrix}1-\lambda&0 \newline 0&-\lambda\end{bmatrix})=0$ -> $-\lambda(1-\lambda)=0$ -> roots are 0 and 1
+eigenvector $E_{\lambda_0}$ : $\begin{bmatrix}1&0 \newline 0&0\end{bmatrix}x=0$
+eigenvector $E_{\lambda_1}$ : $\begin{bmatrix}0&0 \newline 0&-1\end{bmatrix}x=0$
+=> ==TODO==
+
+**c)** ==TODO==
+
+**d)** ==TODO==
 
 ---
 #### Exercice 4.6
