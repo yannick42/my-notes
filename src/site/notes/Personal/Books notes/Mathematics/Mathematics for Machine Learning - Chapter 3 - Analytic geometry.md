@@ -95,12 +95,13 @@ False, it's the opposite
 - An **important** class of linear transformations (besides: rotations & reflections)
 	- in Graphics, Coding theory, [[Topics/Mathematics/Statistics and probabilities/Statistics|statistics]] and Machine Learning
 - *Definition 3.10* (Projection) : a linear mapping is called a projection if $\pi^2=\pi\circ\pi=\pi$
+- projection matrix $P_\pi^2=P_\pi$
 
 ##### 3.8.1 - Projection onto One-Dimensional Subspaces (Lines)
 - 
 - $\pi_U(x) = \lambda b$ so the coordinate $\lambda$ it is a multiple of the basis vector, and is an element of $U$ ...
 - $<x-\lambda b, b>=0$ (exploit the bilinearity of the inner product)-> $<x,b>-\lambda<b,b>=0$
-- $\lambda=\frac{b^\intercal x}{b^\intercal b}$
+- $\lambda=\frac{\langle x, b \rangle}{\langle b, b \rangle}=\frac{b^\intercal x}{b^\intercal b}$
 	- if basis is "normal" $\lVert b \rVert =1$ -> simply $\lambda=b^\intercal x$
 - $\pi_U(x) = P_\pi x$
 	- projection matrix (are always symmetrix) : $P_{\pi}=\frac{bb^\intercal}{\lVert b\rVert^2}$
@@ -139,8 +140,22 @@ False, it's the opposite
 
 ---
 #### 3.10 **Further readings**
-- Axler (2015) -> [[___INBOX___/__à trier/Linear Algebra Done Right (Axler, 2015)|Linear Algebra Done Right (Axler, 2015)]]
-- Boyd & Vandenberghe (2018) -> [[___INBOX___/__à trier/Introduction to Applied Linear Algebra (book, 2018)|Introduction to Applied Linear Algebra (book, 2018)]]
+- broader and more in-depth :
+	- Axler (2015) -> [[___INBOX___/__à trier/Linear Algebra Done Right (Axler, 2015)|Linear Algebra Done Right (Axler, 2015)]]
+	- Boyd & Vandenberghe (2018) -> [[___INBOX___/__à trier/Introduction to Applied Linear Algebra (book, 2018)|Introduction to Applied Linear Algebra (book, 2018)]]
+- Orthogonal bases (Gram-Schmidt)
+	- important in **optimization** and **numerical algorithms** for solving SLE (Krylov subspaces methods : conjugate gradient, GMRES, minimize residual errors that are orthogonal to each other) -> Stoer & Burlirsch (2002)
+- inner product
+	- in **ML**, important in ==Kernel method== (Schölkopf & Smola (2002)) which exploit the fact that many linear algorithm can be expressed as purely inner product computations => ??. Implicitly computed with the "Kernel trick" in a potentially infinite-dimensional feature space.
+		- Kernel-PCA (Schölkopf, 1997) for dimensionality reduction
+		- Gaussian processes (Rasmussen & Williams, 2006) in probabilitistic regression
+	- --> see **Chapter 12**
+- Projections
+	- in **computer graphics** to generate shadows
+	- in **Optimization** : orthogonal projections to (iteratively) minimize residual errors
+	- Bishop (2006) -> [[Topics/Machine Learning/Books/Pattern Recognition and Machine Learning (2006)|Pattern Recognition and Machine Learning (2006)]]
+	- Linear regression
+	- PCA
 
 ---
 ### See also
