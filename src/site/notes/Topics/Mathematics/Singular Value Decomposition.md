@@ -19,7 +19,7 @@ Note créée le 15 novembre 2013, vide ...
 
 ---
 ### Courses / MOOCs / Taught at
-- [[___INBOX___/__à trier/INSA|INSA#Lyon - Parcours Bioinformatique et modélisation BiM]] - **3ème année** : cours - **Algèbre linéaire & analyse matricielle** (Mathématiques et Statistiques)
+- [[___INBOX___/__à trier/INSA#Lyon - Parcours Bioinformatique et modélisation BiM|INSA#Lyon - Parcours Bioinformatique et modélisation BiM]] - **3ème année** : cours - **Algèbre linéaire & analyse matricielle** (Mathématiques et Statistiques)
 	- Notes de cours -> http://math.univ-lyon1.fr/~bernard/teach/numalg/algebre_notes_de_cours_3.pdf
 
 ---
@@ -40,4 +40,4 @@ Note créée le 15 novembre 2013, vide ...
 
 ### See also
 - [[___INBOX___/__à trier/Forme bilinéaire|Forme bilinéaire]] : = bilinear mapping(?)
-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions#4 5 - Singular Value Decomposition p 119]]
+- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions#4 5 - Singular Value Decomposition p 119|Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions#4 5 - Singular Value Decomposition p 119]]
