@@ -301,7 +301,7 @@ title:
 	- Golub & Van Loan (**2012**) -> [[___INBOX___/__à trier/Matrix Computations (book, 2013)|Matrix Computations (book, 2013)]]
 	- Horn & Johnson (**2013**) -> [[___INBOX___/__à trier/Matrix analysis (book, 2013)|Matrix analysis (book, 2013)]]
 - **Linear Algebra**
-	- Strang (**2003**) -> [[___INBOX___/__à trier/Gilbert Strang|Gilbert Strang#Introduction to Linear Algebra - 5th ed 2016]]
+	- Strang (**2003**) -> [[___INBOX___/__à trier/Gilbert Strang#Introduction to Linear Algebra - 5th ed 2016|Gilbert Strang#Introduction to Linear Algebra - 5th ed 2016]]
 	- ==Stoer & Burlirsch== (**2002**) -> [[___INBOX___/__à trier/Introduction to Numerical Analysis (book, 2002)|Introduction to Numerical Analysis (book, 2002)]]
 	- Liesen & Mehrmann (**2015**) -> *Linear Algebra* (Springer Undergraduate Mathematics Series)
 		- => https://antivirus.uclv.edu.cu/update/libros/Mathematics%20and%20Statistics/Linear%20Algebra%20-%20Jrg%20Liesen%2C%20Volker%20Mehrmann%2C%201st%20ed.%202015%20-%20978-3-319-24346-7.pdf
