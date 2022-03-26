@@ -51,7 +51,7 @@
 	- Chapter 2
 	- --> Paul Halmos’s **Finite-Dimensional Vector Spaces**
 - Hoffman and Kunze’s **Linear Algebra**
-- [[___INBOX___/__à trier/Gilbert Strang|Gilbert Strang#Introduction to Linear Algebra - 5th ed 2016]]
+- [[___INBOX___/__à trier/Gilbert Strang#Introduction to Linear Algebra - 5th ed 2016|Gilbert Strang#Introduction to Linear Algebra - 5th ed 2016]]
 - **Linear Algebra and its Applications** by [[___INBOX___/__à trier/Gilbert Strang|Gilbert Strang]]
 	- loaded with applications.
 - Steven Roman’s **Advanced Linear Algebra**
