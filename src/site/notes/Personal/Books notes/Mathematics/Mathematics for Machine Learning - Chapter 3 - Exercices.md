@@ -92,29 +92,29 @@ $\lVert x - \pi_U(x)\rVert$ = $\lVert \begin{bmatrix}-2&-4&0&6&-2\end{bmatrix}^\
 > **b)** Compute the distance $d(e_2, U)$
 > **c)** Draw the scenario: standard basis vectors and $\pi_U(x)$
 
-=> ==TO_FINISH !==
+(*remark* : $A$ is positive definite if $x^\intercal Ax > 0$ -> ==see if it's the case==)
+If it was the simple dot product, $e_2$ would just project onto point $(0,0)$... in $U = span[\begin{bmatrix}1 \newline 0 \newline 0\end{bmatrix},\begin{bmatrix}0 \newline 0 \newline 1\end{bmatrix}]$, but the orthogonality is defined through (/depends on) the inner product (which use the $A$ symmetric positive definite matrix, above). So to determine the orthogonal projection $\pi_U(x)$ of $e_2$, it must be orthogonal to all basis vectors of $U$.
 
-(*remark* : $A$ is positive definite if $x^\intercal Ax > 0$)
+=> Can we cannot simple use the formula $\pi_U(x) = B\lambda =B(B^\intercal B)^{−1}B^\intercal x$ but with the inner product (matrix A) ... as it was using the dot product.
+With $\lambda$, the (only 2) coordinates in the basis of $U$ and $x=e_2=\begin{bmatrix}0 \newline 1 \newline 0\end{bmatrix}$, $B=\begin{bmatrix}1&0 \newline 0&0 \newline 0&1\end{bmatrix}$
+$\langle e_2, e_1 \rangle = \langle e_2, e_3 \rangle = 0$ if all are orthonormal, but it's not the case with this inner product, eg.
+$\langle e_2, e1 \rangle = \begin{bmatrix}0&1&0\end{bmatrix} \begin{bmatrix}2&1&0 \newline 1&2&-1 \newline 0&-1&2\end{bmatrix} \begin{bmatrix}1 \newline 0 \newline 0\end{bmatrix} = 1$
 
-If it was the simple dot product, $e_2$ would just project onto point $(0,0)$ in $U = span[\begin{bmatrix}1 \newline 0 \newline 0\end{bmatrix},\begin{bmatrix}0 \newline 0 \newline 1\end{bmatrix}]$, but the orthogonality is defined through (/depends on) the inner product (which use the $A$ symmetric positive definite matrix, above). So to determine the orthogonal projection $\pi_U(x)$ of $e_2$, it must be orthogonal to all basis vectors of $U$.
+> (dead end ?)
+> We have $\langle e_1, e_2 - \pi_U(x) \rangle = \langle e_3, e_2 - \pi_U(x) \rangle=0$ where $\pi_U(x)$
+> -> $\sqrt{\begin{bmatrix}1&0&0\end{bmatrix}\cdot \begin{bmatrix}2&1&0 \newline 1&2&-1 \newline 0&-1&2\end{bmatrix} \cdot (e_2 - \pi_U(x)) }$
 
-=> Can we use $\pi_U(x) = B\lambda =B(B^\intercal B)^{−1}B^\intercal x$ ?
-where $\lambda$ is the (only 2) coordinates in the basis of $U$ and $x=e_2=\begin{bmatrix}0 \newline 1 \newline 0\end{bmatrix}$, $B=\begin{bmatrix}1&0 \newline 0&0 \newline 0&1\end{bmatrix}$
-==No...==
-
-$\langle e_2, e_1 \rangle = \langle e_2, e_3 \rangle = 0$ if all are orthonormal ... ?! ==no ...==
-Example : $\langle e_2, e1 \rangle = \begin{bmatrix}0&1&0\end{bmatrix} \begin{bmatrix}2&1&0 \newline 1&2&-1 \newline 0&-1&2\end{bmatrix} \begin{bmatrix}1 \newline 0 \newline 0\end{bmatrix} = 1$
-
-...
-
-We get :
-$$\pi_U(x)=\begin{bmatrix}? \newline ? \newline ?\end{bmatrix}$$
+$\pi_U(x)=B\lambda$ and from the definitions with inner products we can get : $B^\intercal A (x - B\lambda)=0$ => $\lambda=\frac{B^\intercal A}{B^\intercal A B}x=(B^\intercal A B)^{-1}B^\intercal A x=P_\pi x$
+$(B^\intercal A B)^{-1}=\begin{bmatrix}1/2&0 \newline 0&1/2 \end{bmatrix}$
+$\pi_U(e_2)=P_\pi e_2=\begin{bmatrix}1 & 1/2 & 0 \newline 0&-1/2&1 \end{bmatrix} \begin{bmatrix}0 \newline 1 \newline 0\end{bmatrix}=\begin{bmatrix}1/2 \newline -1/2 \end{bmatrix}=\lambda=\begin{bmatrix}\lambda_1 \newline \lambda_3 \end{bmatrix}$
+$$\pi_U(x)=\begin{bmatrix}1/2 \newline 0 \newline -1/2\end{bmatrix}$$
 
 **b)** Compute the distance :
 > *"In vector spaces with general inner products, we have to pay attention when computing angles and distances, which are defined by means of the inner product."* **(p. 88)**
 
-$\lVert e_2 - \pi_U(e_2)\rVert$ = $\sqrt{(x-\pi_U(x))^\intercal A (x-\pi_U(x))} = \sqrt{?}\approx \colorbox{orange}{?}$
+The distance $d(e_2,U)$ is simply $\lVert e_2 - \pi_U(e_2) \rVert = \sqrt{\begin{bmatrix}-1/2 & 1 & 1/2\end{bmatrix} \begin{bmatrix}2&1&0 \newline 1&2&-1 \newline 0&-1&2\end{bmatrix} \begin{bmatrix}-1/2 \newline 1 \newline 1/2\end{bmatrix}}=1$
 
+**c)** ==DRAW==
 
 ---
 #### Exercice 3.7
@@ -132,7 +132,15 @@ An endormorphism $\Phi:V\rightarrow V$ linear
 > Using the **Gram-Schmidt method**, turn the basis $B=(b_1,b_2)$ of a two dimensional subspace $U \subseteq\mathbb{R}^3$ into an **ONB** $C=(c_1,c_2)$ of $U$, where
 > $b_1:=\begin{bmatrix}1 \newline 1 \newline 1\end{bmatrix}$, $b_2:=\begin{bmatrix}-1 \newline 2 \newline 0\end{bmatrix}$
 
-==TODO==
+The Gram-Schmidt method, tell us that :
+$c_1=b_1$ and $c_2=b_k - \pi_{span[c_1]}(b2)$
+$\pi_{span[c_1]}(b2)=\frac{BB^\intercal}{B^\intercal B} b_2$ where $B=[c_1]$
+
+$c1=\begin{bmatrix}1 \newline 1 \newline 1\end{bmatrix}$
+$c_2 = \begin{bmatrix}-1 \newline 2 \newline 0\end{bmatrix} - \frac{1}{3}\begin{bmatrix}1&1&1 \newline 1&1&1 \newline 1&1&1 \end{bmatrix} \begin{bmatrix}-1 \newline 2 \newline 0\end{bmatrix} = \begin{bmatrix}-1 \newline 2 \newline 0\end{bmatrix} - \begin{bmatrix}1/3 \newline 1/3 \newline 1/3 \end{bmatrix}=\begin{bmatrix}-4/3 \newline 5/3 \newline -1/3\end{bmatrix}$
+After normalization :
+$c1=\begin{bmatrix}1/\sqrt{3} \newline 1/\sqrt{3} \newline 1/\sqrt{3}\end{bmatrix}$
+$c_2=\frac{3}{\sqrt{42}}\begin{bmatrix}-4/3 \newline 5/3 \newline -1/3\end{bmatrix}$
 
 ---
 #### Exercice 3.9
@@ -140,6 +148,8 @@ An endormorphism $\Phi:V\rightarrow V$ linear
 > **a)** $\sum_{i=1}^{n}x_i^2 \geq\frac{1}{n}$
 > **b)** $\sum_{i=1}^{n}\frac{1}{x_i} \geq n^2$
 > Hint: Think about the dot product on $\mathbb{R}^n$. Then, choose specific vectors $x, y \in \mathbb{R}^n$ and apply the Cauchy-Schwarz inequality.
+
+--> The Cauchy-Schwarz inequality states that : $|\langle x,y \rangle|\leq \lVert x \rVert \lVert y \rVert$
 
 ==TODO==
 
