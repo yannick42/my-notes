@@ -7,7 +7,7 @@ Taught at [[Topics/Machine Learning/Academia, universities/MIT|MIT]]
 - -> https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/
 - [[___INBOX___/__à trier/Undergraduate level|Undergraduate level]] in [[Topics/Mathematics/Linear Algebra|Linear Algebra]]
 - Videos recorded live in the **Fall of 1999**
-- Reading -> [[___INBOX___/__à trier/Gilbert Strang|Gilbert Strang#Introduction to Linear Algebra - 5th ed 2016]]
+- Reading -> [[___INBOX___/__à trier/Gilbert Strang#Introduction to Linear Algebra - 5th ed 2016|Gilbert Strang#Introduction to Linear Algebra - 5th ed 2016]]
 
 ---
 ### Content
