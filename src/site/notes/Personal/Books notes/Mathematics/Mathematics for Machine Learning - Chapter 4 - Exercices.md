@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Chapter 4 - Matrix Decomposition - Exercices","permalink":"/Chapter 4 - Matrix Decomposition - Exercices/"}
+{"dg-publish":true,"dg-permalink":"mml/chap4/ex","permalink":"/mml/chap4/ex/"}
 ---
 
 ↑ [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Chapter 4 - Matrix Decompositions]]
