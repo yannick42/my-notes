@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Chapter 3 - Analytic Geometry - Exercices","permalink":"/Chapter 3 - Analytic Geometry - Exercices/"}
+{"dg-publish":true,"dg-permalink":"mml/chap3/ex","permalink":"/mml/chap3/ex/"}
 ---
 
 ↑ [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Analytic geometry|Chapter 3 - Analytic geometry]]
