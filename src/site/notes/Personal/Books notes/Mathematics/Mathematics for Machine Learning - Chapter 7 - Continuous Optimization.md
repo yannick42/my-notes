@@ -2,6 +2,7 @@
 {"dg-publish":true,"dg-permalink":"Chapter 7 - Continuous Optimization","permalink":"/Chapter 7 - Continuous Optimization/"}
 ---
 
+↑[[Topics/Published notes/MML (home)|Mathematics for Machine Learning (home)]]
 <-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 6 - Probability and Distributions|Chapter 6 - Probability and Distributions]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 8 - When Models Meet Data|Chapter 8 - When Models Meet Data]]
 
 ---
