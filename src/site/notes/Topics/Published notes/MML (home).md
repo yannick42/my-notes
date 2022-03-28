@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"MML","permalink":"/MML/"}
+{"dg-publish":true,"dg-permalink":"mml","permalink":"/mml/"}
 ---
 
 ### Mathematics for Machine Learning book
