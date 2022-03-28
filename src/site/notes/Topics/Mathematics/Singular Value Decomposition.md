@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/singular-value-decomposition/"}
+{"dg-publish":true,"dg-permalink":"SVD","permalink":"/SVD/"}
 ---
 
 <!--
