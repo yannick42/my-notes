@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-permalink":"Chapter 6 - Probability and Distributions","permalink":"/Chapter 6 - Probability and Distributions/"}
+{"dg-publish":true,"dg-permalink":"mml/chap6","permalink":"/mml/chap6/"}
 ---
 
-↑[[Topics/Published notes/MML (home)|Mathematics for Machine Learning (home)]]
+↑ [[Topics/Published notes/MML (home)|Mathematics for Machine Learning (home)]]
 <-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 5 - Vector Calculus|Chapter 5 - Vector Calculus]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 7 - Continuous Optimization|Chapter 7 - Continuous Optimization]] --> 
 
 ---
