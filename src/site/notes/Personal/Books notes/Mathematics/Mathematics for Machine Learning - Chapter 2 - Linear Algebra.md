@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-permalink":"Chapter 2 - Linear Algebra","permalink":"/Chapter 2 - Linear Algebra/"}
+{"dg-publish":true,"dg-permalink":"mml/chap2","permalink":"/mml/chap2/"}
 ---
 
-↑[[Topics/Published notes/MML (home)|Mathematics for Machine Learning (home)]]
+↑ [[Topics/Published notes/MML (home)|Mathematics for Machine Learning (home)]]
 <-- [[Topics/Machine Learning/Books/Mathematics for Machine Learning (2020)|Mathematics for Machine Learning (2020)]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Analytic geometry|Mathematics for Machine Learning - Chapter 3 - Analytic geometry]] -->
 
 ---
