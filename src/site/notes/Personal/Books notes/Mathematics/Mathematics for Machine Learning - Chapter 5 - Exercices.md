@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Chapter 5 - Vector Calculus - Exercices","permalink":"/Chapter 5 - Vector Calculus - Exercices/"}
+{"dg-publish":true,"dg-permalink":"mml/chap5/ex","permalink":"/mml/chap5/ex/"}
 ---
 
 ↑ [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 5 - Vector Calculus|Chapter 5 - Vector Calculus]]
