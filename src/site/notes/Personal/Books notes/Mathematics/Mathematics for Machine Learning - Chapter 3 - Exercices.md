@@ -118,14 +118,16 @@ The distance $d(e_2,U)$ is simply $\lVert e_2 - \pi_U(e_2) \rVert = \sqrt{\begin
 
 ---
 #### Exercice 3.7
-> Let $V$ be a vector space and $\pi$ an endormorphism of $V$.
+> Let $V$ be a vector space and $\pi$ an endomorphism of $V$.
 > **a)** Prove that $\pi$ is a projection if and only if $id_V-\pi$ is a projection, where $id_V$ is the identity endomorphism on $V$.
 > **b)** Assume now that $\pi$ is a projection. Calculate $Im(id_V-\pi)$ and $ker(id_V-\pi)$ as a function of $Im(\pi)$ and $ker(\pi)$.
 
+**a)** 
+An endomorphism $\Phi:V\rightarrow V$ is linear
 ==TODO==
 
-An endormorphism $\Phi:V\rightarrow V$ linear
-
+**b)**
+==TODO==
 
 ---
 #### Exercice 3.8
