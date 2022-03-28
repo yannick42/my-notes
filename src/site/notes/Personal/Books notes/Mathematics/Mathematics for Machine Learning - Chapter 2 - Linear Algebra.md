@@ -180,19 +180,18 @@ example : $\begin{bmatrix}1 & 0 & a_1 & 0 & b_1  \newline  0 & 1 & a_2 & 0 & b_2
 ###### Benefits of RREF
 - See : https://www.reddit.com/r/learnmath/comments/29d2ms/linear_algebra_whats_the_benefit_of_reduced_row/
 - get the ==inverse of a matrix== by augmenting with identity matrix and finding the ==RREF== => **`done in Colab`**
-- [ ] Use of the Minus-1 trick to find general solutions ("null space" solutions)
+- [ ] Use of the Minus-1 trick to find general solutions (= solutions with the "null space" solutions)
 - **easily see the solutions**
-	- RREF takes longer to calculate but the values can be read straight off, whereas REF requires (more?) back substitution
+	- RREF takes longer to calculate but the values can be read straight off, whereas REF requires (more?) back substitution and calculation (?)
 - most useful for identifying your solution (null space basis) **when free variables are involved**
-	- easily see the **nullspace** of a matrix -> the Xs where $Ax$ is 0 (and a scalar multiplication)
-	- more easily than REF
+	- easily see the **nullspace** of a matrix -> the $X$s where $Ax$ is 0 (and a scalar multiplication)
+	- more easily than **REF**
 - gives you a unique basis for the **row space** ??
-	- ex: to compare if two matrices are **row equivalent** (a matrix can changed to an other, by elementary row operations)
-	- ex: to check if two lists of vectors span the same subspace
+	- ex: to compare if two matrices are **row equivalent** (=> a matrix can changed to an other, by elementary row operations)
+	- ex: ==to check if two lists of vectors span the same subspace==
 - https://math.stackexchange.com/questions/1718026/differences-between-row-echelon-and-reduced-row-echelon
 
 > Ok I think I get it, it's just that it's easier to read solutions (the null space, so for the general solution X) as a combinaison of the pivot columns (which have only 0s and a 1) to make them 0-vectors, starting from the rightmost side toward left. And also to use the -1 trick also to get them, and to invert a (non singular/square) matrix. But I'm not sure if Gaussian elimination bring the augmented matrix to REF, and if the term Gauss-Jordan elimination is a continuation of the method which put it in RREF, it seems to be the difference but the book doesn't mention it.
-
 
 ---
 ###### How to prove uniqueness of the RREF
@@ -200,9 +199,9 @@ example : $\begin{bmatrix}1 & 0 & a_1 & 0 & b_1  \newline  0 & 1 & a_2 & 0 & b_2
 	- **row space** (or coimage) ?
 - "easier" proof --> https://www.isical.ac.in/~arnabc/isivm2/rrefunique.pdf
 
-
+---
 #### TODO
-- Coding : for it to be less "theory"
+- **Coding** : for it to be less "theory"
 	- [x] coder un algo. pour trouver la REF (row-echelon form)
 	- [x] coder un algo. pour trouver la RREF (qui est unique)
 		- Même si c'est faisable avec **sympy** Matrix object `->rref()`
@@ -264,12 +263,19 @@ example : $\begin{bmatrix}1 & 0 & a_1 & 0 & b_1  \newline  0 & 1 & a_2 & 0 & b_2
 ### 2.7 - Linear Mappings
 - `Linear mappings can be represented as matrices`
 - Mapping can be : Injective / Surjective / Bijective
+- Endomorphism : 
 - Homomorphism : 
 
 #### 2.7.2 - Basis Change
+- to find how transformation matrices changes when we change bases in V and W (on $\Phi : V\rightarrow W$)
 
 ```ad-info
 title:
+**Matrix equivalence**, what is it ? (*Definition 2.21*) #card 
+
+Two matrices are equivalent if there exists $\tilde{A}=T^{-1}AS$, where $T$ and $S$ are regular
+
+---
 **Matrix similarity**, what is it ? (*Definition 2.22*) #card
 
 - Two matrices $A$ and $\tilde{A}$ are similar if there exists a regular (=invertible) matrix $S\in\mathbb{R}^{n \times n}$ such that $\tilde{A}=S^{-1}AS$
