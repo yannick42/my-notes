@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Chapter 4 - Matrix Decomposition - Exercices","permalink":"/Chapter 4 - Matrix Decomposition - Exercices/"}
+{"dg-publish":true,"dg-permalink":"Chapter 5 - Vector Calculus - Exercices","permalink":"/Chapter 5 - Vector Calculus - Exercices/"}
 ---
 
 ↑ [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 5 - Vector Calculus|Chapter 5 - Vector Calculus]]
