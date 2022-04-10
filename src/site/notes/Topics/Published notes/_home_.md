@@ -6,7 +6,7 @@
 
 *Entries are not timestamped as in a blog, but are more like notes that should evolve through time.*
 
-> Most pages are still 🚧 **==UNDER CONSTRUCTION==** 🚧 and were last published on **March 28th, 2022**
+> Most pages are still 🚧 **==UNDER CONSTRUCTION==** 🚧 and were last published in **April 2022**
 
 ### Reading (In Progress)
 - [[Topics/Published notes/MML (home)|Mathematics for Machine Learning (2020)]] book notes & exercices (**DONE : 36%**)
