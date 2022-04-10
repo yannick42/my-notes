@@ -9,7 +9,7 @@
 
 ### Prerequisites
 - **==basic probability theory==** : **Stat 116** (sufficient but not necessary)
-	- **Probability spaces** as models for phenomena with statistical regularity. **Discrete spaces** (binomial, hypergeometric, Poisson). **Continuous spaces** (normal, exponential) and densities. [[___INBOX___/__à trier/Random variables|Random variables]], expectation, independence, [[___INBOX___/__à trier/Probabilité conditionnelle|conditional probability]]. Introduction to **the laws of large numbers** and **[[___INBOX___/__à trier/Théorème central limite|central limit theorem]]**
+	- **Probability spaces** as models for phenomena with statistical regularity. **Discrete spaces** (binomial, hypergeometric, Poisson). **Continuous spaces** (normal, exponential) and densities. [[___INBOX___/__à trier/Random variables|Random variables]], expectation, independence, [[___INBOX___/__à trier/Probabilité conditionnelle|conditional probability]]. Introduction to **the laws of large numbers** and **[[___INBOX___/__à trier/Central limit theorem|central limit theorem]]**
 - **basic linear algebra** :
 	- Math 51
 	- Math 103
