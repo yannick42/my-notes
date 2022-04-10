@@ -15,6 +15,7 @@
 
 ### Entries
 - [[Topics/Mathematics/Books on Statistics|Books on Statistics]]
+	- [[Topics/Machine Learning/Books/An Introduction to Statistical Learning (2013, 2021)|An Introduction to Statistical Learning (2013, 2021)]]
 
 ### TODO
 - [[___INBOX___/__à trier/Greedy algorithms|Greedy algorithms]]
