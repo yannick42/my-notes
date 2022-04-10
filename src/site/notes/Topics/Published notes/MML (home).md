@@ -4,6 +4,8 @@
 
 ### Mathematics for Machine Learning book
 > My notes and solutions to exercices
+> **GOAL 1** : Finish **Part I** ==before May== (D-34)
+> **GOAL 2** : Finish **Part II** ==before mid-July ?==
 - [[Topics/Machine Learning/Books/Mathematics for Machine Learning (2020)|Mathematics for Machine Learning (2020)]] (general overview)
 - **Part I - Mathematical Foundations**
 	- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Linear Algebra|Chapter 2 - Linear Algebra]] ([[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Exercices|Exercices]])
