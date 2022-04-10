@@ -79,18 +79,23 @@ $(-\lambda^4+\lambda^3-3\lambda) - (-\lambda^2 - \lambda + 6) - (-\lambda^2 + \l
 > $\begin{bmatrix}1&0 \newline 0&1\end{bmatrix}, \begin{bmatrix}1&0 \newline 0&0\end{bmatrix}, \begin{bmatrix}1&1 \newline 0&1\end{bmatrix}, \begin{bmatrix}0&1 \newline 0&0\end{bmatrix}$
 
 To be diagonalizable, the eigenvectors of a matrix must form a basis :
-
-**a)** $det(A-\lambda I)=0$ -> $det(\begin{bmatrix}-\lambda&0 \newline 0&-\lambda\end{bmatrix})=0$ so $\lambda^2=0$ -> it true only if it's equal to 0, ... how many eigenvector ?!
+**a)** $det(A-\lambda I)=0$ -> $det(\begin{bmatrix}-\lambda&0 \newline 0&-\lambda\end{bmatrix})=0$ so $\lambda^2=0$ -> it's true only if it's equal to 0, so $\lambda=0$ is the only eigenvalue.
 - If $det(A)=0$, A is **not invertible**
+=> how many eigenvector ?!
+- To find the eigenspace associated with each eigenvalues, we solve for $x$ in $(A-\lambda I)x$
+=> $Ax=0$ => only when $x=0$
+--> it doesn't form a basis => so it's not diagonalizable ??!
 
-**b)** $det(\begin{bmatrix}1-\lambda&0 \newline 0&-\lambda\end{bmatrix})=0$ -> $-\lambda(1-\lambda)=0$ -> roots are 0 and 1
+**b)** $det(\begin{bmatrix}1-\lambda&0 \newline 0&-\lambda\end{bmatrix})=0$ -> $-\lambda(1-\lambda)=0$ -> roots are $\lambda_0=$ **0** and $\lambda_1=$ **1**
 eigenvector $E_{\lambda_0}$ : $\begin{bmatrix}1&0 \newline 0&0\end{bmatrix}x=0$
 eigenvector $E_{\lambda_1}$ : $\begin{bmatrix}0&0 \newline 0&-1\end{bmatrix}x=0$
 => ==TODO==
 
-**c)** ==TODO==
+**c)** $det(\begin{bmatrix} 1-\lambda & 1 \newline 0& 1-\lambda\end{bmatrix})=0$ => $(1-\lambda)^2$
+=> ==TODO==
 
-**d)** ==TODO==
+**d)** $det(\begin{bmatrix} -\lambda & 1 \newline 0& -\lambda\end{bmatrix})=0$ => $\lambda^2=0$
+=> ==TODO==
 
 ---
 #### Exercice 4.6
