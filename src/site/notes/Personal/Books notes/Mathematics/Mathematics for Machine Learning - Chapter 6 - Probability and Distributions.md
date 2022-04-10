@@ -64,6 +64,6 @@
 
 ## 6.8 - Further reading
 - For self-study
-	- Grinstead and Snell (1997)
+	- Grinstead and Snell (1997) -> [[___INBOX___/__à trier/Introduction to Probability (2006)|Introduction to Probability (2006)]]
 	- Walpole et al. (2011)
 - 
