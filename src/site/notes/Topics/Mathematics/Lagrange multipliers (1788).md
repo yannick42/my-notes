@@ -3,7 +3,7 @@
 ---
 
 <!--
-Vu sur le MOOC [[Topics/Machine Learning/MOOCS, Courses, Teachings/Coursera|Coursera]](?) de l'Imperial College of London : [[PCA]] ...etc
+Vu sur le MOOC [[Coursera]](?) de l'Imperial College of London : [[PCA]] ...etc
 -->
 
 ---
