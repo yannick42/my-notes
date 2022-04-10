@@ -81,13 +81,23 @@ $J_3=\begin{bmatrix} \frac{\partial f}{\partial x} \end{bmatrix}=\begin{bmatrix}
 ==TODO==
 
 
----
----
 ### Exercice 5.6
+> Differentiate $f$ with respect to $t$ and $g$ with respect to $X$, where
+> $f(t)=\sin(\log(t^\intercal t)), t\in\mathbb{R}^D$
+> $g(X)=tr(AXB), A\in\mathbb{R}^{D\times E}, X\in \mathbb{R}^{E\times F}, B\in \mathbb{R}^{F\times D}$
+> where $tr(.)$ denotes the trace.
+
+==TODO==
+
 
 ### Exercice 5.7
+==TODO==
+
 
 ### Exercice 5.8
+==TODO==
+
 
 ### Exercice 5.9
+==TODO==
 
