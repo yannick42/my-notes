@@ -12,12 +12,14 @@
 	- descriptions of electromagnetic fields, gravitational fields, and fluid flow
 	- Maxwell's equations, Kinematics, Field theory, Center of mass
 
+---
 ### History
 - Developed in late 19th century by J. Willard **Gibbs** and Oliver **Heaviside**
 - Vector Analysis - book in **1901** (Wilson & Gibbs)
 - -> see paper book : ***History of Vector Analysis*** - 1967 by Michael J. Crowe
 	- Topics : Quaternions, Exterior Algebra (Grassmann), ...
 
+---
 ### Topics
 - [[Jacobian]] : partial derivatives at a particular point of a vector function
 - [[___INBOX___/__à trier/Hessian|Hessian]] : square matrix with the second-order partial derivatives
@@ -28,11 +30,21 @@
 - Order 2
 	- Laplacian : 
 - Cartesian product, Vector product, ...
-- Green's theorem, ...
+- Integral Theorems
+	- Green's theorem
+	- Stoke's theorem
+	- Gauss' theorem
 - fields
 - intégrale curviligne
 - flux
 - --> see [[Personal/Books notes/Mathematics/Advanced Engineering Mathematics - 10th ed. - Kreyszig (2011)|Advanced Engineering Mathematics - 10th ed. - Kreyszig (2011)]]
+
+---
+### Books
+> Suggestions : https://math.stackexchange.com/questions/1198797/multivariable-vector-calculus-textbook-recommendation-please
+- Vector Calculus by Marsden & Tromba (1976, 1st ed.)
+	- 5th ed. : 2003 -> pdf : [[Vector Calculus - 5th ed. - Marsden & Tromba.pdf]] (100 MB !)
+	- 6th ed. : ?
 
 ---
 [Vector calculus (wikipedia)](https://en.wikipedia.org/wiki/Vector_calculus)
