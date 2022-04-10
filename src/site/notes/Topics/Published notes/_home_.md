@@ -14,7 +14,11 @@
 - [[Deep Reinforcement Learning Hands-On]] book notes (**DONE : 15%**)
 
 ### Entries
+- [[Topics/Mathematics/Books on Statistics|Books on Statistics]]
+
+### TODO
 - [[___INBOX___/__à trier/Greedy algorithms|Greedy algorithms]]
-	- [[___INBOX___/__à trier/Beam search|Beam search]]
-- [[Topics/IT-Computing/Computer Science/Algorithms/Simulated annealing|Simulated annealing]]
+- [[___INBOX___/__à trier/Beam search|Beam search]]
+- Optimization
+	- [[Topics/IT-Computing/Computer Science/Algorithms/Simulated annealing|Simulated annealing]]
 - [[Topics/Machine Learning/Concepts/Reinforcement Learning|Reinforcement Learning]]
