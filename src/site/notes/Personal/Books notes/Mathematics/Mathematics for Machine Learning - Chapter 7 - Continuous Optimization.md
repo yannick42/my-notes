@@ -3,7 +3,7 @@
 ---
 
 ↑ [[Topics/Published notes/MML (home)|Mathematics for Machine Learning (home)]]
-<-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 6 - Probability and Distributions|Chapter 6 - Probability and Distributions]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 8 - When Models Meet Data|Chapter 8 - When Models Meet Data]]
+<-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 6 - Probability and Distributions|Chapter 6 - Probability and Distributions]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 8 - When Models Meet Data|Chapter 8 - When Models Meet Data]] -->
 
 ---
 
@@ -44,7 +44,7 @@
 
 
 #### 7.3.2 - Quadratic Programming
-- We'll see an application in Chapter 12 : for the squared norm in [[Topics/Machine Learning/Models/Support Vector Machine (1992)|SVM]]
+- We'll see an application in Chapter 12 : for the squared norm in **SVM**
 
 
 #### 7.3.3 - Legendre-Fenchel Transform & Convex Conjugate
