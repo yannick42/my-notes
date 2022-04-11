@@ -82,7 +82,7 @@
 
 ---
 ### Chapter 9 - Support Vector Machine
--> [[Topics/Machine Learning/Models/Support Vector Machine (1992)|SVM]]
+-> see [[Topics/Machine Learning/Models/Support Vector Machine (1992)|SVM]] note
 
 ---
 ### Chapter 10 - Deep Learning
@@ -94,4 +94,4 @@
 ### Chapter 12 : Unsupervised Learning
 
 ---
-- [[___INBOX___/__à trier/An Introduction to Statistical Learning - Chapter 13 - Multiple testing|Chapter 13 - Multiple testing]]
+- [[Topics/Machine Learning/Books/An Introduction to Statistical Learning - Chapter 13 - Multiple testing|Chapter 13 - Multiple testing]]
