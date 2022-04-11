@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-permalink":"isl/chap2","permalink":"/isl/chap2/"}
 ---
 
-Book : [[Topics/Machine Learning/Books/An Introduction to Statistical Learning (2013, 2021)|An Introduction to Statistical Learning (2013, 2021)]]
+Book's main note : [[Topics/Machine Learning/Books/An Introduction to Statistical Learning (2013, 2021)|An Introduction to Statistical Learning (2013, 2021)]]
 
 ### Chapter 2 : Statistical Learning
 
