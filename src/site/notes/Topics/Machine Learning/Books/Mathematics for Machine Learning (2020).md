@@ -131,6 +131,8 @@
 
 
 ##### Chapter 7 - Continuous Optimization
+-> [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 7 - Continuous Optimization|Mathematics for Machine Learning - Chapter 7 - Continuous Optimization]]
+
 - **7.1** - Optimization using [[Topics/Machine Learning/Optimization methods/Gradient descent|Gradient descent]]
 	- with momentum : [[Topics/Machine Learning/Optimization methods/Extensions of SGD/Momentum method (1964)|Momentum method (1964)]] & [[Topics/Machine Learning/Optimization methods/Extensions of SGD/Nesterov momentum (1983)|Nesterov momentum (1983)]] ?
 	- [[Topics/Machine Learning/Optimization methods/Stochastic Gradient Descent|Stochastic Gradient Descent]]
@@ -144,6 +146,7 @@
 ---
 
 #### Part II - Central machine learning problems
+-> [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 8 - When Models Meet Data|Mathematics for Machine Learning - Chapter 8 - When Models Meet Data]]
 
 ##### 8 - When Models Meet Data
 - **8.2** - Empirical Risk Minimization
