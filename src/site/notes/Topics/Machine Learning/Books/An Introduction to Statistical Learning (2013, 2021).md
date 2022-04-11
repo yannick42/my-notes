@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"ISL","permalink":"/ISL/"}
+{"dg-publish":true,"dg-permalink":"isl","permalink":"/isl/"}
 ---
 
 > 2013, **2021** (2nd ed. => [[ISLRv2.pdf]])
@@ -29,7 +29,7 @@
 
 #### A brief history of  Statistical Learning
 - in the beginning of **19th century** : [[___INBOX___/__à trier/Least-squares method|Least-squares]]
-- [[Topics/Mathematics/LDA|Linear discriminant analysis]] is proposed in **1936**
+- [[Topics/Mathematics/Linear discriminant analysis|Linear discriminant analysis]] is proposed in **1936**
 - [[Topics/Machine Learning/Models/Support Vector Machine (1992)|SVM]] arose in the **1990s**
 
 ---
@@ -46,12 +46,22 @@
 ---
 ### Chapter 3 - Linear Regression
 - very simple approach to [[Topics/Machine Learning/Concepts/Supervised learning|supervised learning]]
-- 
 
 ==TODO==
 
 ---
 ### Chapter 4 - Classification
+--> [[Topics/Machine Learning/Models/Logistic regression|Logistic regression]], [[Topics/Mathematics/Linear discriminant analysis|Linear discriminant analysis]]
+
+#### 4.4 - Generative Models for classification
+##### 4.4.1 - Linear Discriminant Analysis for p = 1
+- -> only one predictor ()
+
+##### 4.4.2 - Linear Discriminant Analysis for p > 1
+- 
+
+##### 4.4.3 - Quadratic Discriminant Analysis
+
 
 ---
 ### Chapter 5 - Resampling methods
@@ -72,20 +82,16 @@
 
 ---
 ### Chapter 9 - Support Vector Machine
+-> [[Topics/Machine Learning/Models/Support Vector Machine (1992)|SVM]]
 
 ---
 ### Chapter 10 - Deep Learning
 
 ---
-### Chapter 11 : Survival analysis & Censored data
-- applications
-	- medical study
-	- churn (=cancellation of a service subscription)
-
-==TODO==
+- [[Topics/Machine Learning/Books/An Introduction to Statistical Learning - Chapter 11 - Survival analysis & Censored data|Chapter 11 - Survival analysis & Censored data]]
 
 ---
 ### Chapter 12 : Unsupervised Learning
 
 ---
--> [[___INBOX___/__à trier/An Introduction to Statistical Learning - Chapter 13 - Multiple testing|Chapter 13 - Multiple testing]]
+- [[___INBOX___/__à trier/An Introduction to Statistical Learning - Chapter 13 - Multiple testing|Chapter 13 - Multiple testing]]
