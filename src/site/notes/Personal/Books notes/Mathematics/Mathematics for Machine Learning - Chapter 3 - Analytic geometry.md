@@ -94,7 +94,7 @@ False, it's the opposite
 ---
 #### 3.8 **Orthogonal projection**
 - An **important** class of linear transformations (besides: rotations & reflections)
-	- in Graphics, Coding theory, [[Topics/Mathematics/Statistics and probabilities/Statistics|statistics]] and Machine Learning
+	- in Graphics, Coding theory, Statistics and Machine Learning
 - *Definition 3.10* (Projection) : a linear mapping is called a projection if $\pi^2=\pi\circ\pi=\pi$
 - projection matrix $P_\pi^2=P_\pi$
 
