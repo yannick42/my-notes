@@ -8,6 +8,11 @@
 
 > An introduction to practical tools in **EDA**
 
+
+
+
+
+
 - It takes a "computational" approach over a mathematical one (Python code rather than math. notations)
 - use [[Topics/Machine Learning/Tools, Software/Pandas|Pandas]], [[SciPy]] & StatsModels
 
