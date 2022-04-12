@@ -21,7 +21,6 @@
 - Distributions (exponential, normal, lognormal, Pareto, ...)
 - correlation
 - covariance
-- [[Topics/Mathematics/Statistics and probabilities/Statistics/Spearman's rank correlation|Spearman's rank correlation]]
 - <mark style="background: #FFB86CA6;">hypothesis testing</mark> (p-values, chi-squared tests, power, [[___INBOX___/__à trier/t-test|t-test]], ...), Linear least squares (residuals, goodness of fit, ...)
 - [[Topics/Machine Learning/Concepts/Regression|Regression]]
 - [[___INBOX___/__à trier/Time series|Time series]] analysis
@@ -39,7 +38,7 @@
 	- the mean is $\frac{1}{\lambda}$
 - it appears when measuring times between events ("interarrival times") if events are equally likely to occur
 	- eg. ==baby births in an hospital== in a day
-- to verify you have an exponential distribution, one can take the "complementary CDF" of the sample data (*empirical distribution*), and use a log-scale on the y axis : it should be a straight line of slope $-\lambda$ 
+- to verify you can model your data with an exponential distribution, one can take the "complementary CDF" from the sample data (*empirical distribution*), and use a log-scale on the y axis : it should be a straight line of slope $-\lambda$ 
 
 #### 5.2 - Normal distribution
 
@@ -60,5 +59,8 @@
 - ==TODO==
 
 ---
-### Chapter ?
+### Chapter 7
+
+#### 7.7 - Spearman's rank correlation (p. 101)
+-> see note [[Topics/Mathematics/Statistics and probabilities/Statistics/Spearman's rank correlation|Spearman's rank correlation]]
 
