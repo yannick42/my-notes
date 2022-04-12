@@ -12,7 +12,7 @@
 - it summarizes the strength and direction of a relationship (statistical dependence) between (only) 2 variables (<mark style="background: #ABF7F7A6;">sets of data which can be continuous or ordinal</mark>) when we have not necessarily an "affine/linear" relation, but a **monotonous function**
 	- **Continuous** can be : age, weight, height, test scores, survey scores, yearly salary, etc
 	- **Monotonicity** -> monotonically increasing or decreasing...
-- method often used if there are *outliers in the data*
+- method often used (more robust) if there are <mark style="background: #BBFABBA6;">outliers</mark> in the data, or non-normal, or <mark style="background: #BBFABBA6;">skewed distribution</mark> 
 - Application/Examples
 	- to find a correlation in the ==price of a bottle of water== vs. the ==distance== from a key ==area of gentrification==
 	- ==TODO==
@@ -29,11 +29,11 @@
 
 ---
 **Formulas :**
-$$r_s=\frac{cov(R(X), R(Y)}{\sigma_{R(X)} \sigma_{R(Y)}}$$
+$$r_s=\frac{cov(R(X), R(Y))}{\sigma_{R(X)} \sigma_{R(Y)}}$$
 If ranks are distinct integer (=no tied rank), the "full version" can be simplified to this popular formula :
 $$r_s=1-\frac{6\sum d^2}{n^3-n}$$ where $d=R(X_i)-R(Y_i)$
 
-> **Correlation** doesn't necessarily means that one thing affect the other
+> ⚠️ **Correlation** doesn't necessarily means that one thing affects the other
 
 ### Prerequisite
 - [[Topics/Mathematics/Statistics and probabilities/Correlation|Correlation]]
@@ -45,7 +45,7 @@ $$r_s=1-\frac{6\sum d^2}{n^3-n}$$ where $d=R(X_i)-R(Y_i)$
 
 ### Python
 - `scipy.stats.spearmanr(x, y)`
-- `pandas.DataFrame.corr`
+- `pandas.DataFrame.corr(..., method='spearman')`
 
 ### TODO
 - [ ] Find a practical application in a real dataset
