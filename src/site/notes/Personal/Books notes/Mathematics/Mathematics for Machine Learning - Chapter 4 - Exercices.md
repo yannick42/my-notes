@@ -186,7 +186,22 @@ When can check that : $A=PDP^{-1}=\begin{bmatrix} -1 & -1 & 1 \newline 1 & 0 & 1
 > Find the SVD of the matrix
 > $$A=\begin{bmatrix}3&2&2 \newline 2&3&-2\end{bmatrix}$$
 
-$A=U\Sigma V^\intercal$
+To find the decomposition : $A=U\Sigma V^\intercal$
+We must proceed as explained in Example 4.13
+**Step 1** : Right-singular vectors $V$ as the eigenbasis of $A^\intercal A$
+$A^\intercal A=\begin{bmatrix}3&2 \newline 2&3 \newline 2&-2 \end{bmatrix} \begin{bmatrix}3&2&2 \newline 2&3&-2\end{bmatrix} = \begin{bmatrix} 13 & 12 & 2 \newline 12 & 13 & -2 \newline 2 & -2 & 8 \end{bmatrix}$
+-> do a **eigen**(value)**-decomposition** of $A^\intercal A=PDP^\intercal$
+
+- find the eigenspace of $A^\intercal A$
+	- search the eigenvalues : $p(\lambda)=det(A-\lambda I)=det(\begin{bmatrix} 13-\lambda & 12 & 2 \newline 12 & 13-\lambda & -2 \newline 2 & -2 & 8-\lambda \end{bmatrix})$
+	- $\lambda(13-\lambda)^2-96+144\lambda-8(13-\lambda)=0$
+
+==TO FINISH==
+
+**Step 2** : Singular-value matrix $\Sigma$
+
+
+**Step 3** : Left-singular vectors ...
 
 ==TODO==
 
