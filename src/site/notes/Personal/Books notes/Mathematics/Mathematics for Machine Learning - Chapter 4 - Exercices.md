@@ -8,7 +8,7 @@
 ---
 ### Exercices
 #### Exercice 4.1
-> Compute the determinant using the **Laplace expansion** (using the first row) and the **Sarrus rule** for
+> Compute the determinant using the **Laplace expansion** (using the first row) and the **Sarrus' rule** for
 > $$A=\begin{bmatrix}1&3&5 \newline 2&4&6 \newline 0&2&4\end{bmatrix}$$
 
 - with ==**Laplace expansion**== for a n by n matrix (along rows $j$, first 1 only...) :
@@ -92,15 +92,18 @@ so it **diagonalizable** => $Eig(A)=span(\begin{bmatrix}1 \newline 0\end{bmatrix
 
 **b)** $A=\begin{bmatrix}1&0 \newline 0&0\end{bmatrix}$ is **not invertible** as its determinant is $0$
 $det(\begin{bmatrix}1-\lambda&0 \newline 0&-\lambda\end{bmatrix})=0$ -> $-\lambda(1-\lambda)=0$ -> roots are $\lambda_0=$ **0** and $\lambda_1=$ **1**
-eigenvector $E_{\lambda_0}$ : $\begin{bmatrix}1&0 \newline 0&0\end{bmatrix}x=0$ -> we can take any $x_2$, let's take $1$, $x_1$ must be $0$ -> $\begin{bmatrix}0 \newline 1 \end{bmatrix}$
-eigenvector $E_{\lambda_1}$ : $\begin{bmatrix}0&0 \newline 0&-1\end{bmatrix}x=0$ -> we can take any $x_1$, let's take $1$, $x_2$ must be $0$ -> $\begin{bmatrix}1 \newline 0 \end{bmatrix}$
-=> both for a basis, to $A$ is **diagonalizable**
+eigenvector $E_0$ : $\begin{bmatrix}1&0 \newline 0&0\end{bmatrix}x=0$ -> we can take any $x_2$, let's take $1$, $x_1$ must be $0$ -> $\begin{bmatrix}0 \newline 1 \end{bmatrix}$
+eigenvector $E_1$ : $\begin{bmatrix}0&0 \newline 0&-1\end{bmatrix}x=0$ -> we can take any $x_1$, let's take $1$, $x_2$ must be $0$ -> $\begin{bmatrix}1 \newline 0 \end{bmatrix}$
+=> both form a basis, so $A$ is **diagonalizable**
 
 **c)** $A=\begin{bmatrix}1&1 \newline 0&1\end{bmatrix}$ is **invertible** as its determinant is different from $0$
-$det(\begin{bmatrix} 1-\lambda & 1 \newline 0& 1-\lambda\end{bmatrix})=0$ => $(1-\lambda)^2$
+$det(\begin{bmatrix} 1-\lambda & 1 \newline 0& 1-\lambda\end{bmatrix})=0$ => $(1-\lambda)^2=0$ -> it's true only if $\lambda=1$ is the only eigenvalue : algebraic multiplicity : 2.
+
 => ==TODO==
 
-**d)** $det(\begin{bmatrix} -\lambda & 1 \newline 0& -\lambda\end{bmatrix})=0$ => $\lambda^2=0$
+**d)** $A=\begin{bmatrix}0&1 \newline 0&0\end{bmatrix}$ is **not invertible** as its determinant is $0$
+$det(\begin{bmatrix} -\lambda & 1 \newline 0& -\lambda\end{bmatrix})=0$ => $\lambda^2=0$ -> $\lambda=0$ with algebraic multiplicity : 2
+
 => ==TODO==
 
 ---
@@ -111,10 +114,12 @@ $det(\begin{bmatrix} 1-\lambda & 1 \newline 0& 1-\lambda\end{bmatrix})=0$ => $(1
 > **b)** For
 > $$A:=\begin{bmatrix}1&1&0&0 \newline 0&0&0&0 \newline 0&0&0&0 \newline 0&0&0&0\end{bmatrix}$$
 
-**a)** 
+**a)** $A$ is **invertible** (its determinant is not $0$). We must find all the eigenvectors of $A$ from $p(\lambda)=det(A-\lambda I)$
+-> $\begin{bmatrix}2-\lambda&3&0 \newline 1&4-\lambda&3 \newline 0&0&1-\lambda\end{bmatrix}=(2-\lambda)(4-\lambda)(1-\lambda)-3(1-\lambda)=0$
+$\lambda=$
+==TODO==
 
-**b)** A is not invertible but ...
-
+**b)** A is **not invertible** ...
 ==TODO==
 
 #### Exercice 4.7
@@ -180,6 +185,8 @@ When can check that : $A=PDP^{-1}=\begin{bmatrix} -1 & -1 & 1 \newline 1 & 0 & 1
 #### Exercice 4.8
 > Find the SVD of the matrix
 > $$A=\begin{bmatrix}3&2&2 \newline 2&3&-2\end{bmatrix}$$
+
+$A=U\Sigma V^\intercal$
 
 ==TODO==
 
