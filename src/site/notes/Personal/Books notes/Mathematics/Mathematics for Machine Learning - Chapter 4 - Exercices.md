@@ -64,14 +64,18 @@ Eigenvector of $\lambda=-3$ : $\begin{bmatrix}1 & 2  \newline  2 & 4 \end{bmatri
 > Compute all eigenspaces of 
 > $A:=\begin{bmatrix}0&-1&1&1 \newline -1&1&-2&3 \newline 2&-1&0&0 \newline 1&-1&1&0\end{bmatrix}$
 
-First we calculate the eigenvalues :
+First we calculate the **eigenvalues** with the ==characteristic polynomial== :
 $p_A(\lambda) = det(A-\lambda I) = det(\begin{bmatrix} -\lambda & -1 & 1 & 1  \newline  -1 & 1-\lambda & -2 & 3  \newline  2 & -1 & -\lambda & 0  \newline  1 & -1 & 1 & -\lambda \end{bmatrix})$
 
 With **Laplace expansion**, we get :
 $\lambda\cdot\begin{vmatrix}1-\lambda & -2 & 3  \newline  -1 & -\lambda & 0  \newline  -1 & 1 & -\lambda\end{vmatrix} - \begin{vmatrix}-1 & -2 & 3  \newline  2 & -\lambda & 0  \newline  1 & 1 & -\lambda\end{vmatrix} - \begin{vmatrix}-1 & 1-\lambda & 3  \newline  2 & -1 & 0  \newline  1 & -1 & -\lambda\end{vmatrix} + \begin{vmatrix}-1 & 1-\lambda & 2  \newline  2 & -1 & -\lambda  \newline  1 & -1 & 1 \end{vmatrix}=$
 $(-\lambda^4+\lambda^3-3\lambda) - (-\lambda^2 - \lambda + 6) - (-\lambda^2 + \lambda - 3) + (-\lambda^2+4\lambda+1) =$
-
 ==TO FINISH...==
+
+Then for each eigenvalue, we find corresponding eigenvector(s)
+==TODO==
+
+$Eig(A)=span(\begin{bmatrix} ? \newline ? \newline ? \newline ? \end{bmatrix}, \begin{bmatrix} ? \newline ? \newline ? \newline ? \end{bmatrix}, \begin{bmatrix} ? \newline ? \newline ? \newline ? \end{bmatrix}, \begin{bmatrix} ? \newline ? \newline ? \newline ? \end{bmatrix})$
 
 ---
 #### Exercice 4.5
@@ -79,19 +83,21 @@ $(-\lambda^4+\lambda^3-3\lambda) - (-\lambda^2 - \lambda + 6) - (-\lambda^2 + \l
 > $\begin{bmatrix}1&0 \newline 0&1\end{bmatrix}, \begin{bmatrix}1&0 \newline 0&0\end{bmatrix}, \begin{bmatrix}1&1 \newline 0&1\end{bmatrix}, \begin{bmatrix}0&1 \newline 0&0\end{bmatrix}$
 
 To be diagonalizable, the eigenvectors of a matrix must form a basis :
-**a)** $det(A-\lambda I)=0$ -> $det(\begin{bmatrix}-\lambda&0 \newline 0&-\lambda\end{bmatrix})=0$ so $\lambda^2=0$ -> it's true only if it's equal to 0, so $\lambda=0$ is the only eigenvalue.
-- If $det(A)=0$, A is **not invertible**
-=> how many eigenvector ?!
-- To find the eigenspace associated with each eigenvalues, we solve for $x$ in $(A-\lambda I)x$
-=> $Ax=0$ => only when $x=0$
---> it doesn't form a basis => so it's not diagonalizable ??!
+**a)** $A=\begin{bmatrix}1&0 \newline 0&1\end{bmatrix}$ (already diagonalized...), it is **invertible** $A=A^{-1}$
+$p(\lambda)=det(A-\lambda I)=0$ -> $det(\begin{bmatrix}1-\lambda&0 \newline 0&1-\lambda\end{bmatrix})=0$ so $(1-\lambda)^2=0$ -> it's true only if $\lambda=1$ is the only eigenvalue : algebraic multiplicity = 2.
+=> how many eigenvector ?
+- To find the eigenspace (collection of the eigenvectors) associated with each eigenvalues, we solve for $x$ in $(A-\lambda I)x$
+=> $Ax=\begin{bmatrix} 0&0 \newline 0&0 \end{bmatrix} x=0$ => there is infinitely many solution --> if we chose $x_1=1$ we can choose any $x_2$, so let's take $x_2=0$ => one eigenvector is $\begin{bmatrix}1 \newline 0 \end{bmatrix}$, as a second one we can take on orthogonal one $\begin{bmatrix}0 \newline 1 \end{bmatrix}$ so that they both are linearly independent and form a basis
+so it **diagonalizable** => $Eig(A)=span(\begin{bmatrix}1 \newline 0\end{bmatrix}, \begin{bmatrix}0 \newline 1\end{bmatrix})$
 
-**b)** $det(\begin{bmatrix}1-\lambda&0 \newline 0&-\lambda\end{bmatrix})=0$ -> $-\lambda(1-\lambda)=0$ -> roots are $\lambda_0=$ **0** and $\lambda_1=$ **1**
-eigenvector $E_{\lambda_0}$ : $\begin{bmatrix}1&0 \newline 0&0\end{bmatrix}x=0$
-eigenvector $E_{\lambda_1}$ : $\begin{bmatrix}0&0 \newline 0&-1\end{bmatrix}x=0$
-=> ==TODO==
+**b)** $A=\begin{bmatrix}1&0 \newline 0&0\end{bmatrix}$ is **not invertible** as its determinant is $0$
+$det(\begin{bmatrix}1-\lambda&0 \newline 0&-\lambda\end{bmatrix})=0$ -> $-\lambda(1-\lambda)=0$ -> roots are $\lambda_0=$ **0** and $\lambda_1=$ **1**
+eigenvector $E_{\lambda_0}$ : $\begin{bmatrix}1&0 \newline 0&0\end{bmatrix}x=0$ -> we can take any $x_2$, let's take $1$, $x_1$ must be $0$ -> $\begin{bmatrix}0 \newline 1 \end{bmatrix}$
+eigenvector $E_{\lambda_1}$ : $\begin{bmatrix}0&0 \newline 0&-1\end{bmatrix}x=0$ -> we can take any $x_1$, let's take $1$, $x_2$ must be $0$ -> $\begin{bmatrix}1 \newline 0 \end{bmatrix}$
+=> both for a basis, to $A$ is **diagonalizable**
 
-**c)** $det(\begin{bmatrix} 1-\lambda & 1 \newline 0& 1-\lambda\end{bmatrix})=0$ => $(1-\lambda)^2$
+**c)** $A=\begin{bmatrix}1&1 \newline 0&1\end{bmatrix}$ is **invertible** as its determinant is different from $0$
+$det(\begin{bmatrix} 1-\lambda & 1 \newline 0& 1-\lambda\end{bmatrix})=0$ => $(1-\lambda)^2$
 => ==TODO==
 
 **d)** $det(\begin{bmatrix} -\lambda & 1 \newline 0& -\lambda\end{bmatrix})=0$ => $\lambda^2=0$
