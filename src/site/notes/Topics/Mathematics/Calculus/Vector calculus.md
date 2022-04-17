@@ -31,7 +31,7 @@
 	- Laplacian : 
 - Cartesian product, Vector product, ...
 - Integral Theorems
-	- Green's theorem
+	- [[___INBOX___/__à trier/Green's theorem (vector calculus)|Green's theorem (vector calculus)]]
 	- Stoke's theorem
 	- Gauss' theorem
 - fields
