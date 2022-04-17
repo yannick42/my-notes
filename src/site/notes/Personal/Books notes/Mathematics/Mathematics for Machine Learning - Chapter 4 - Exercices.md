@@ -112,7 +112,7 @@ eigenvector $E_{\lambda_1}$ : $\begin{bmatrix}0&0 \newline 0&-1\end{bmatrix}x=0$
 ==TODO==
 
 #### Exercice 4.7
-> Are the following matrices diagonlizable ? If yes, determine their diagonal form and a basis with respect to which the transformation matrices are diagonal. If no, give reasons why they are not diagonalizable.
+> Are the following matrices diagonalizable ? If yes, determine their diagonal form and a basis with respect to which the transformation matrices are diagonal. If no, give reasons why they are not diagonalizable.
 > 
 > **a)**
 > $$A=\begin{bmatrix}0&1 \newline -8&4\end{bmatrix}$$
@@ -123,8 +123,49 @@ eigenvector $E_{\lambda_1}$ : $\begin{bmatrix}0&0 \newline 0&-1\end{bmatrix}x=0$
 > **d)**
 > $$A=\begin{bmatrix}5&-6&-6 \newline -1&4&2 \newline 3&-6&-4\end{bmatrix}$$
 
+**a)**
+for $A$ to be diagonalizable its eigenvectors must form a basis
+- we must **find the eigenvectors** of $A$ with :
+	- $det(A-\lambda I)=det(\begin{bmatrix} -\lambda & 1 \newline -8 & 4-\lambda \end{bmatrix})=0$
+	- -> $-\lambda (4-\lambda)+8=\lambda^2-4\lambda +8=0$
+	- so the roots are : $\lambda_1=2-2i$ and $\lambda_2=2+2i$
+- Then the eigenvectors for each eigenvalues are :
+	- $(A-\lambda I)x=0$ -> by **Gaussian elimination** to bring it to reduced form (by multiplying with complex conjugates to get real numbers at times...)
+		- with $\lambda_1$ :
+			- $\begin{bmatrix} -2+2i & 1 \newline -8 & 2-2i \end{bmatrix} x=0$
+			- so after calculation we get $x_2=1$ and $x_1=\frac{1}{4}+\frac{1}{4}i$ => $x=\begin{bmatrix}x_1 \newline x_2 \end{bmatrix}=E_{\lambda_1}=\begin{bmatrix} \frac{1}{4}+\frac{1}{4}i \newline 1 \end{bmatrix}$
+		- with $\lambda_2$ :
+			- $\begin{bmatrix} -2-2i & 1 \newline -8 & 2+2i \end{bmatrix} x=0$
+			- so with the same procedure : $E_{\lambda_2}=\begin{bmatrix} \frac{1}{4}-\frac{1}{4}i \newline 1 \end{bmatrix}$
+**These column vectors must form a basis** (they span the eigenspace of $A$) : with $P=\begin{bmatrix} \frac{1}{4}+\frac{1}{4}i  & \frac{1}{4}-\frac{1}{4}i \newline 1 & 1 \end{bmatrix}$
+=> so they ==must be **linearly independent==** -> I checked we can put it in row (reduced) echelon form, I also checked that $P^\intercal P=I$ (??)
+and the eigenvectors should be used to form the diagonal of $D=\begin{bmatrix} 2-2i & 0 \newline 0 & 2+2i \end{bmatrix}$
+(remember that in eigendecomposition $A=PDP^{-1}$, and $A$ & $D$ are *==similar matrices==*)
+
+**b)**
+$A$ is **symmetric** so it must be diagonalizable with ==real eigenvalues== (-> see Spectral Theorem - 4.15) (even if it's **not invertible** as its determinant is 0)
+$det(A-\lambda I)=det(\begin{bmatrix}1-\lambda&1&1 \newline 1&1-\lambda&1 \newline 1&1&1-\lambda\end{bmatrix})=0$
+With the **Sarrus' rule** : $(1-\lambda)^3+2-3(1-\lambda)=0$ after some calculation : $\lambda\lambda(-\lambda+3)=0$ so $\lambda_1=0$, $\lambda_2=0$ and $\lambda_3=3$
+($\lambda=0$ has an **algebraic multiplicity of 2**)
+- With $\lambda_1$ :
+$(A-\lambda_1 I)x=0=\begin{bmatrix} 1 & 1 & 1 \newline 1 & 1 & 1 \newline 1 & 1 & 1 \end{bmatrix} x$ we get $x_1+x_2+x_3=0$ which has infinitely many solutions ...
+-> on a plane ?
+we set $x_3=0$ and $x_2=1$ => $x_1=-1$
+$E_{\lambda_1}=\begin{bmatrix} -1 \newline 1 \newline 0 \end{bmatrix}$
+Now if we set $x_3=1$ and $x_2=0$ => $x_1=-1$
+$E_{\lambda_2}=\begin{bmatrix} -1 \newline 0 \newline 1 \end{bmatrix}$
+- With $\lambda_3=3$ :
+$\begin{bmatrix} -2 & 1 & 1 \newline 1 & -2 & 1 \newline 1 & 1 & -2 \end{bmatrix} x = 0$ => the 3rd column is free -> if we set $x_3=1$ => $E_{\lambda_3}=\begin{bmatrix} 1 \newline 1 \newline 1 \end{bmatrix}$
+-> infinitely many solutions on a line ?
+$P=\begin{bmatrix} -1 & -1 & 1 \newline 1 & 0 & 1 \newline 0 & 1 & 1 \end{bmatrix}$ -> $P^{-1}=\begin{bmatrix} -1/3 & 2/3 & -1/3 \newline -1/3 & -1/3 & 2/3 \newline 1/3 & 1/3 & 1/3 \end{bmatrix}$
+$D=\begin{bmatrix} 0 & 0 & 0 \newline 0 & 0 & 0 \newline 0 & 0 & 3 \end{bmatrix}$
+When can check that : $A=PDP^{-1}=\begin{bmatrix} -1 & -1 & 1 \newline 1 & 0 & 1 \newline 0 & 1 & 1 \end{bmatrix}\begin{bmatrix} 0 & 0 & 0 \newline 0 & 0 & 0 \newline 0 & 0 & 3 \end{bmatrix}\begin{bmatrix} -1/3 & 2/3 & -1/3 \newline -1/3 & -1/3 & 2/3 \newline 1/3 & 1/3 & 1/3 \end{bmatrix}=\begin{bmatrix} 1 & 1 & 1 \newline 1 & 1 & 1 \newline 1 & 1 & 1 \end{bmatrix}$
+
+**c)**
 ==TODO==
 
+**d)**
+==TODO==
 
 
 ---
