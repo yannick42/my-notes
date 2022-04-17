@@ -39,7 +39,7 @@
 	- "we have **minimized discussion of technical details** related to fitting procedures and theoretical properties"
 	- "We presume that ==the reader is interested== in **applying statistical learning methods to real-world problems**."
 
-
+---
 ## Chapters
 - [[Topics/Machine Learning/Books/An Introduction to Statistical Learning - Chapter 2 - Statistical Learning|Chapter 2 - Statistical Learning]]
 
