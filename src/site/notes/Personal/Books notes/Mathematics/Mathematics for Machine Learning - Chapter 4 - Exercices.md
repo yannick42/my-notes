@@ -186,24 +186,36 @@ When can check that : $A=PDP^{-1}=\begin{bmatrix} -1 & -1 & 1 \newline 1 & 0 & 1
 > Find the SVD of the matrix
 > $$A=\begin{bmatrix}3&2&2 \newline 2&3&-2\end{bmatrix}$$
 
-To find the decomposition : $A=U\Sigma V^\intercal$
-We must proceed as explained in Example 4.13
-**Step 1** : Right-singular vectors $V$ as the eigenbasis of $A^\intercal A$
+-> To find the decomposition : $A=U\Sigma V^\intercal$, we must proceed as explained in Example 4.13
+
+**Step 1** : Find the ==right-singular== vectors $V$ as the eigenbasis of $A^\intercal A$
 $A^\intercal A=\begin{bmatrix}3&2 \newline 2&3 \newline 2&-2 \end{bmatrix} \begin{bmatrix}3&2&2 \newline 2&3&-2\end{bmatrix} = \begin{bmatrix} 13 & 12 & 2 \newline 12 & 13 & -2 \newline 2 & -2 & 8 \end{bmatrix}$
 -> do a **eigen**(value)**-decomposition** of $A^\intercal A=PDP^\intercal$
 
 - find the eigenspace of $A^\intercal A$
 	- search the eigenvalues : $p(\lambda)=det(A-\lambda I)=det(\begin{bmatrix} 13-\lambda & 12 & 2 \newline 12 & 13-\lambda & -2 \newline 2 & -2 & 8-\lambda \end{bmatrix})$
-	- $\lambda(13-\lambda)^2-96+144\lambda-8(13-\lambda)=0$
+	- after **Sarrus' rule** & simplifications ! => $\lambda(\lambda^2+34\lambda-225)=0$
+	- so $\lambda=0$ and with the **discriminant formula**, we get $\lambda=9$ and $\lambda=25$
+- For these 3 eigenvalues, find the **associated eigenvectors** as in the exercices above :
+	- for $\lambda=25$ -> $\begin{bmatrix} 1 \newline 1 \newline 0 \end{bmatrix}$
+	- for $\lambda=9$ -> $\begin{bmatrix} \frac{1}{4} \newline -\frac{1}{4} \newline 1 \end{bmatrix}$
+	- for $\lambda=0$ -> $\begin{bmatrix} -2 \newline 2 \newline 1 \end{bmatrix}$
+=> $P=\begin{bmatrix} 1 & 0.25 & -2 \newline 1 & -0.25 & 2 \newline 0 & 1 & 1 \end{bmatrix}$, $D=\begin{bmatrix} 25 & 0 & 0 \newline 0 & 9 & 0 \newline 0 & 0 & 0 \end{bmatrix}$, $P^\intercal=\begin{bmatrix} 1 & 1 & 0 \newline 0.25 & -0.25 & 1 \newline -2 & 2 & 1 \end{bmatrix}$
+$A^\intercal A=PDP^\intercal$, $V=P$
 
-==TO FINISH==
+-> We **normalize** vectors of $V$ :
+$V=\begin{bmatrix} \frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{6} & -2/3 \newline \frac{\sqrt{2}}{2} & -\frac{\sqrt{2}}{6} & 2/3 \newline 0 & \frac{2\sqrt{2}}{3} & 1/3 \end{bmatrix}$
 
-**Step 2** : Singular-value matrix $\Sigma$
+**Step 2** : ==Singular-value matrix== $\Sigma$
+These are the square roots of the eigenvalues (of $D$)
+-> $\sigma_1=5$ and $\sigma_2=3$, only 2 as $rk(A)=2$
+=> $\Sigma=\begin{bmatrix} 5 & 0 & 0 \newline 0 & 3 & 0 \end{bmatrix}$
 
-
-**Step 3** : Left-singular vectors ...
-
-==TODO==
+**Step 3** : ==Left-singular vectors== are "the **normalized** images of the ==right singular vectors=="
+$u_1=\frac{1}{\sigma_1}Av_1$ -> $\frac{1}{5}\begin{bmatrix}3&2&2 \newline 2&3&-2\end{bmatrix}\begin{bmatrix} \frac{\sqrt{2}}{2} \newline \frac{\sqrt{2}}{2} \newline 0 \end{bmatrix}=\begin{bmatrix} \frac{\sqrt{2}}{2} \newline \frac{\sqrt{2}}{2} \end{bmatrix}$
+$u_2=\frac{1}{\sigma_2}Av_2$ -> $\frac{1}{3}\begin{bmatrix}3&2&2 \newline 2&3&-2\end{bmatrix}\begin{bmatrix} \frac{\sqrt{2}}{6} \newline -\frac{\sqrt{2}}{6} \newline \frac{2\sqrt{2}}{3} \end{bmatrix}=\begin{bmatrix} \frac{\sqrt{2}}{2} \newline -\frac{\sqrt{2}}{2} \end{bmatrix}$
+=> $U=\begin{bmatrix} \frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2} \newline \frac{\sqrt{2}}{2} & -\frac{\sqrt{2}}{2} \end{bmatrix}$
+So we get $A=U\Sigma V^\intercal=\begin{bmatrix} \frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2} \newline \frac{\sqrt{2}}{2} & -\frac{\sqrt{2}}{2} \end{bmatrix}\begin{bmatrix} 5 & 0 & 0 \newline 0 & 3 & 0 \end{bmatrix}\begin{bmatrix} \frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{6} & -2/3 \newline \frac{\sqrt{2}}{2} & -\frac{\sqrt{2}}{6} & 2/3 \newline 0 & \frac{2\sqrt{2}}{3} & 1/3 \end{bmatrix}^\intercal$
 
 #### Exercice 4.9
 > Find the singular value decomposition of
