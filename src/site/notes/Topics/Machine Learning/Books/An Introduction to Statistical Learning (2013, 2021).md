@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"isl","permalink":"/isl/"}
+{"dg-publish":true,"dg-permalink":"isl","permalink":"/isl/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 > 2013, **2021** (2nd ed. => [[ISLRv2.pdf]])
 
@@ -17,7 +18,7 @@
 - textbook of a course **spanning two semesters**
 
 ---
-- [[Statistical learning]] : making sense of complex datasets...
+- [[Statistical learning|Statistical learning]] : making sense of complex datasets...
 
 ---
 ### QUESTIONS
