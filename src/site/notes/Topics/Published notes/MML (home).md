@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"mml","permalink":"/mml/"}
+{"dg-publish":true,"dg-permalink":"mml","permalink":"/mml/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 ### Mathematics for Machine Learning book
 > My notes and solutions to exercices
