@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"mml/chap5","permalink":"/mml/chap5/"}
+{"dg-publish":true,"dg-permalink":"mml/chap5","permalink":"/mml/chap5/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 ↑ [[Topics/Published notes/MML (home)|Mathematics for Machine Learning (home)]]
 <-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Chapter 4 - Matrix Decompositions]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 6 - Probability and Distributions|Chapter 6 - Probability and Distributions]] -->
@@ -43,7 +44,7 @@
 - Partial derivative $\mathbb{R}^n \rightarrow \mathbb{R}$
 	- $\nabla_x f=grad f$ -> it is a ***row** vector*
 		- **why ?** -> see the 2 explanations !
-	- aka. the [[Jacobian]]
+	- aka. the [[Jacobian|Jacobian]]
 
 ==TODO== (*example*)
 
