@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/exponential-family/"}
+{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/exponential-family/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 ### History/Application
 - Notion développée dans les années ==**1935/36**== independently by Pitman (Tasmania), Koopman (New York) & Darmois (Paris)
