@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"Lagrange multipliers","permalink":"/Lagrange multipliers/"}
+{"dg-publish":true,"dg-permalink":"Lagrange multipliers","permalink":"/Lagrange multipliers/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 <!--
 Vu sur le MOOC [[Coursera]](?) de l'Imperial College of London avec : [[PCA]] ...etc
