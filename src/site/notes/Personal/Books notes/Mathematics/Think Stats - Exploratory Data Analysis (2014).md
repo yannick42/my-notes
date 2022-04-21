@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"think-stats-2","permalink":"/think-stats-2/"}
+{"dg-publish":true,"dg-permalink":"think-stats-2","permalink":"/think-stats-2/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 - by Allen B. Downey (Oct ==2014==, [[___INBOX___/__à trier/O'Reilly books|O'Reilly Media]], **242 pages**)
 - **==Online free PDF==** : [https://greenteapress.com/thinkstats2/thinkstats2.pdf](https://greenteapress.com/thinkstats2/thinkstats2.pdf) -> [Table of content](https://greenteapress.com/thinkstats2/html/index.html)
@@ -14,7 +15,7 @@
 
 
 - It takes a "computational" approach over a mathematical one (Python code rather than math. notations)
-- use [[Topics/Machine Learning/Tools, Software/Pandas|Pandas]], [[SciPy]] & StatsModels
+- use [[Topics/Machine Learning/Tools, Software/Pandas|Pandas]], [[SciPy|SciPy]] & StatsModels
 
 ### Topics
 - ...
