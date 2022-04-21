@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"determinant","permalink":"/determinant/"}
+{"dg-publish":true,"dg-permalink":"determinant","permalink":"/determinant/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 - if the determinant is 0 => the matrix is not invertible
 - Sarrus' rule : mnemotechnic for 3 by 3 matrices
@@ -21,5 +22,5 @@
 ### See also
 - [[___INBOX___/__à trier/Matrices|Matrix]]
 - [[___INBOX___/__à trier/Trace (matrix)|Trace (matrix)]]
-- [[Characteristic polynomial (matrix)]]
+- [[Characteristic polynomial (matrix)|Characteristic polynomial (matrix)]]
 - [[___INBOX___/__à trier/Eigenvalues|Eigenvalues]]
