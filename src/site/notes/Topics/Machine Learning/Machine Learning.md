@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/machine-learning/machine-learning/"}
+{"dg-publish":true,"permalink":"/topics/machine-learning/machine-learning/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 ### News/websites
 - https://lastweekin.ai/
