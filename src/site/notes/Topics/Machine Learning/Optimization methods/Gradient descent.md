@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/topics/machine-learning/optimization-methods/gradient-descent/"}
+{"dg-publish":true,"permalink":"/topics/machine-learning/optimization-methods/gradient-descent/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 - aka. *steepest descent*
 - First discovered/suggested by [[___INBOX___/__à trier/Augustin Louis Cauchy|Augustin Louis Cauchy]] in **1847**[^1] ?
 	- independently by Hadamard in **1907**
-	- also studied by [[Haskell Curry]] in **1944**
+	- also studied by [[Haskell Curry|Haskell Curry]] in **1944**
 - first-order iterative [[Topics/Mathematics/Optimization|optimization]] algorithm for finding local minimum
 - Evolutions :
 	- [[Topics/Machine Learning/Optimization methods/Extensions of SGD/Momentum method (1964)|Momentum method (1964)]]
