@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"mml/chap3","permalink":"/mml/chap3/"}
+{"dg-publish":true,"dg-permalink":"mml/chap3","permalink":"/mml/chap3/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 ↑ [[Topics/Published notes/MML (home)|Mathematics for Machine Learning (home)]]
 <-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Linear Algebra|Chapter 2 - Linear Algebra]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Chapter 4 - Matrix Decompositions]] -->
