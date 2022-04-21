@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/inbox/a-trier/gmm/"}
+{"dg-publish":true,"permalink":"/inbox/a-trier/gmm/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 - A set of models
 	- can be : diagonal, spherical, tied and full covariance matrices
