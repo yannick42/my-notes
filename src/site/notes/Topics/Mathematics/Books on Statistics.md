@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"books-on-statistics","permalink":"/books-on-statistics/"}
+{"dg-publish":true,"dg-permalink":"books-on-statistics","permalink":"/books-on-statistics/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 > List of **books** that covers an [[___INBOX___/__à trier/Undergraduate level|undergraduate level]] curriculum (and beyond !) about ==statistics==
 
@@ -19,7 +20,7 @@
 	- <mark style="background: #CACFD9A6;">more math. proofs/foundations ?</mark>
 	- **Topics**
 		- **Probability** : Random variables, expectations, inequalities, convergence ([[Topics/Mathematics/Statistics and probabilities/Laws of Large Numbers|laws of large numbers]], CLT)
-		- **Statistical inference** : bootstrap, [[Topics/Mathematics/Statistics and probabilities/Maximum likelihood estimation|Maximum likelihood estimation]], <mark style="background: #FFB86CA6;">hypothesis testing</mark> (<mark style="background: #FFF3A3A6;">Wald test</mark>, p-value, Pearson's $\chi^2$ test, goodness-of-fit tests, multiple testing, Neyman-Pearson lemma, t-test...), [[Bayesian inference]], <mark style="background: #FF5582A6;">Statistical Decision Theory</mark> (Maximum likelihood, ...)
+		- **Statistical inference** : bootstrap, [[Topics/Mathematics/Statistics and probabilities/Maximum likelihood estimation|Maximum likelihood estimation]], <mark style="background: #FFB86CA6;">hypothesis testing</mark> (<mark style="background: #FFF3A3A6;">Wald test</mark>, p-value, Pearson's $\chi^2$ test, goodness-of-fit tests, multiple testing, Neyman-Pearson lemma, t-test...), [[Bayesian inference|Bayesian inference]], <mark style="background: #FF5582A6;">Statistical Decision Theory</mark> (Maximum likelihood, ...)
 		- **Models & Methods** : <mark style="background: #FFB86CA6;">Linear & Logistic regression</mark>, Multivariate models (random vectors, Multinomial, ...), Directed Graphs & conditional independence (DAG, Undirected graphs), Log-linear models, Non-parametric curve estimation (Histograms, Kernel density estimation, non-parametric regression), Orthogonal functions ($L_2$ spaces, wavelets, ...), Classification (LDA, Trees, SVM, ...), [[___INBOX___/__à trier/Markov chains|Markov chains]], Poisson process, Simulation methods ([[Topics/Mathematics/Monte Carlo (methods)|Monte Carlo]], MCMC, Metropolis-Hasting algorithm, ...)
 
 ### See also
