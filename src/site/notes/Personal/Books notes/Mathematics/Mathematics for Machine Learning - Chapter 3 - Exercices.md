@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"mml/chap3/ex","permalink":"/mml/chap3/ex/"}
+{"dg-publish":true,"dg-permalink":"mml/chap3/ex","permalink":"/mml/chap3/ex/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 ↑ [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Analytic geometry|Chapter 3 - Analytic geometry]]
 <-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Exercices|Chapter 2 - Exercices]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Exercices|Chapter 4 - Exercices]] -->
@@ -28,7 +29,7 @@ We see that the matrix is **==not symmetric==** (...positive definite), and if w
 ---
 #### Exercice 3.3
 > Compute the distance between
-> $x=\begin{bmatrix}1\\2\\3\end{bmatrix}$, $y=\begin{bmatrix}-1 \newline -1 \newline 0\end{bmatrix}$
+> $x=\begin{bmatrix}1 \newline 2 \newline 3\end{bmatrix}$, $y=\begin{bmatrix}-1 \newline -1 \newline 0\end{bmatrix}$
 > using
 > **a)** $\langle x,y \rangle :=x^\intercal y$
 > **b)** $\langle x,y \rangle :=x^\intercal A y$, $A:=\begin{bmatrix}2&1&0 \newline 1&3&-1 \newline 0&-1&2\end{bmatrix}$
@@ -55,7 +56,6 @@ $\langle x,y \rangle=-11$
 $\langle x,x \rangle=18$
 $\langle y,y \rangle=7$
 => $\cos\omega=-\frac{11}{\sqrt{18\times 7}}\rightarrow \omega\approx \colorbox{orange}{168.5°}$
-
 
 ---
 #### Exercice 3.5
