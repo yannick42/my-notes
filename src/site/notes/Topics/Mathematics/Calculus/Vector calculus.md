@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/calculus/vector-calculus/"}
+{"dg-publish":true,"permalink":"/topics/mathematics/calculus/vector-calculus/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 <!--
 9 septembre 2012 : 18h30 -> 19h30
@@ -8,7 +9,7 @@
 -->
 
 - aka. Vector Analysis
-- extensively used in [[Topics/Sciences/Physics/_Physics|physics]] & [[engineering]]
+- extensively used in [[Topics/Sciences/Physics/_Physics|physics]] & [[engineering|engineering]]
 	- descriptions of electromagnetic fields, gravitational fields, and fluid flow
 	- Maxwell's equations, Kinematics, Field theory, Center of mass
 
@@ -21,7 +22,7 @@
 
 ---
 ### Topics
-- [[Jacobian]] : partial derivatives at a particular point of a vector function
+- [[Jacobian|Jacobian]] : partial derivatives at a particular point of a vector function
 - [[___INBOX___/__à trier/Hessian|Hessian]] : square matrix with the second-order partial derivatives
 - Differential operators (order 1)
 	- gradient : $grad(f)=\nabla f$
