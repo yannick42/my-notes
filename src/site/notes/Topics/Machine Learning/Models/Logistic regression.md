@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/machine-learning/models/logistic-regression/"}
+{"dg-publish":true,"permalink":"/topics/machine-learning/models/logistic-regression/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 **Logistic regression**
 
@@ -74,7 +75,7 @@ Which shape has the decision boundary ?::straight lines, plan, hyperplane <!--SR
 - https://towardsdatascience.com/logistic-regression-and-decision-boundary-eab6e00c1e8
 - **Interpretable ML** - https://christophm.github.io/interpretable-ml-book/logistic.html
 - sklearn's **C parameter** : https://stackoverflow.com/questions/22851316/what-is-the-inverse-of-regularization-strength-in-logistic-regression-how-shoul
-- **[[MNIST]]** -> https://dmkothari.github.io/Machine-Learning-Projects/Logistic_Regression_with_MNIST.html
+- **[[MNIST|MNIST]]** -> https://dmkothari.github.io/Machine-Learning-Projects/Logistic_Regression_with_MNIST.html
 
 https://www.sciencedirect.com/topics/computer-science/logistic-regression
 
