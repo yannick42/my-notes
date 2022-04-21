@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"QR","permalink":"/QR/"}
+{"dg-publish":true,"dg-permalink":"QR","permalink":"/QR/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 $A=QR$
 **Q** is a orthogonal matrix -> $Q^\intercal Q=I$
