@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/linear-programming/"}
+{"dg-publish":true,"permalink":"/topics/mathematics/linear-programming/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 - a Framework in constrained optimization
 - **Goal** : to achieve the best outcome (maximum profit / lowest cost) with a problem of linear relationships
@@ -18,7 +19,7 @@
 
 ---
 ### Methods
-- [[Simplex methods]] (**1947**, George Dantzig)
+- [[Simplex methods|Simplex methods]] (**1947**, George Dantzig)
 	- exponential complexity ? (slow if too much constraints)
 - *Interior point method*
 	- **Ellipsoid algorithm** (**1979**, Leonid Khachiyan)
