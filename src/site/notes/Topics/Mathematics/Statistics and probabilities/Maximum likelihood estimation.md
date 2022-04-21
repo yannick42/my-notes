@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/maximum-likelihood-estimation/"}
+{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/maximum-likelihood-estimation/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 > shortened to **MLE**
 
