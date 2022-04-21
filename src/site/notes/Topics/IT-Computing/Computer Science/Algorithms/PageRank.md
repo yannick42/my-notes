@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/it-computing/computer-science/algorithms/page-rank/"}
+{"dg-publish":true,"permalink":"/topics/it-computing/computer-science/algorithms/page-rank/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 - First algorithm used by [[Topics/Machine Learning/Companies/Google|Google]], it was developed by [[Topics/IT-Computing/People/Larry Page|Larry Page]] & [[Topics/IT-Computing/People/Sergey Brin|Sergey Brin]] in **1996** at [[Topics/Machine Learning/Academia, universities/Stanford University|Stanford University]]
 - later, a paper was published in **1998**, with Rajeev Motwani & [[Topics/Machine Learning/People/Terry Winograd|Terry Winograd]]
