@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/cholesky-decomposition-1902/"}
+{"dg-publish":true,"permalink":"/topics/mathematics/cholesky-decomposition-1902/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 > **Cholesky decomposition**, aka. "**factorisation** de Cholesky"
 
