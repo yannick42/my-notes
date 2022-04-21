@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/personal/books-notes/mathematics/convex-optimization-book-2004/"}
+{"dg-publish":true,"permalink":"/personal/books-notes/mathematics/convex-optimization-book-2004/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 -> pdf : [[Convex Optimization - 2004 - Boyd.pdf]]
 - an **introduction** to the subject
