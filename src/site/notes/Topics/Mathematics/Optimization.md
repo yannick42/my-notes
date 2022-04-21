@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/optimization/"}
+{"dg-publish":true,"permalink":"/topics/mathematics/optimization/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 - [[___INBOX___/__à trier/Evolutionary algorithms|Evolutionary algorithms]]
 	- [[___INBOX___/__à trier/Particle Swarm Optimization (1995)|Particle Swarm Optimization (1995)]]
