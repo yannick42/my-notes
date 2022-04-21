@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"SVD","permalink":"/SVD/"}
+{"dg-publish":true,"dg-permalink":"SVD","permalink":"/SVD/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 <!--
 Note créée le 15 novembre 2013, vide ...
