@@ -47,6 +47,7 @@ $$r_s=1-\frac{6\sum d^2}{n^3-n}$$ where $d=R(X_i)-R(Y_i)$
 - `scipy.stats.spearmanr(x, y)`
 - in [[Topics/Machine Learning/Tools, Software/Pandas|Pandas]] : `df.corr(method='spearman')`
 
+---
 ### TODO
 - [ ] Find a practical application in a real dataset
 - [ ] Complete this note with charts and more example of usage
