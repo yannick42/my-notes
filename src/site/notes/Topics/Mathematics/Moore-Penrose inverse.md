@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/moore-penrose-inverse/"}
+{"dg-publish":true,"permalink":"/topics/mathematics/moore-penrose-inverse/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 - most widely known generalization of the inverse matrix
 - aka. pseudoinverse (only...)
@@ -13,7 +14,7 @@
 - exists and is unique for every matrices ?
 - provided in
 	- [[___INBOX___/__à trier/Numpy|Numpy]] : `np.linalg.pinv` (SVD-based algorithm)
-	- [[SciPy]] : `scipy.linalg.pinv` (least-squares solver)
+	- [[SciPy|SciPy]] : `scipy.linalg.pinv` (least-squares solver)
 
 ---
 https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse
