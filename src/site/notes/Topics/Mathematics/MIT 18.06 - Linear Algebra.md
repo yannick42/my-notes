@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/mit-18-06-linear-algebra/"}
+{"dg-publish":true,"permalink":"/topics/mathematics/mit-18-06-linear-algebra/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 Taught at [[Topics/Machine Learning/Academia, universities/MIT|MIT]]
 
