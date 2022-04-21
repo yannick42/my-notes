@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/machine-learning/concepts/performance-metrics/"}
+{"dg-publish":true,"permalink":"/topics/machine-learning/concepts/performance-metrics/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 #### Performance Metrics in Classification
 - **accuracy** : ratio (%) of $\frac{TP+TN}{TP+FP+TN+FN}$ (generally not the preferred performance measure)
