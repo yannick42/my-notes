@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"LU","permalink":"/LU/"}
+{"dg-publish":true,"dg-permalink":"LU","permalink":"/LU/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 $A=LU$
 L : lower triangular matrix
