@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/machine-learning/models/random-forest-1995/"}
+{"dg-publish":true,"permalink":"/topics/machine-learning/models/random-forest-1995/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 - by **Tin Kam Ho** (IBM) in **1995**
 - little necessary configuration ?
