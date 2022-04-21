@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-permalink":"spearman-rho","permalink":"/spearman-rho/"}
+{"dg-publish":true,"dg-permalink":"spearman-rho","permalink":"/spearman-rho/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
-**Spearman's rank correlation**
 
+**Spearman's rank correlation**
 - **aka.** : Spearman's $\rho$ (rho), Spearman's rank(-order) correlation coefficient (fr: corrélation de Spearman)
 	- or also noted $r_s$
 - developed by [[Topics/Psycho/People/Charles Spearman|Charles Spearman]] (1863-1945), in **1904**
@@ -40,12 +40,12 @@ $$r_s=1-\frac{6\sum d^2}{n^3-n}$$ where $d=R(X_i)-R(Y_i)$
 - [[Topics/Mathematics/Statistics and probabilities/Pearson correlation coefficient|Pearson correlation coefficient]] (parametric / based on covariance)
 
 ### Ranks
-- in [[SciPy]] : `scipy.stats.rankdata(a)`
+- in [[SciPy|SciPy]] : `scipy.stats.rankdata(a)`
 - in [[___INBOX___/__à trier/Excel|Excel]] : Rank.EQ or Rank.AVG
 
 ### Python
 - `scipy.stats.spearmanr(x, y)`
-- `pandas.DataFrame.corr(..., method='spearman')`
+- in [[Topics/Machine Learning/Tools, Software/Pandas|Pandas]] : `df.corr(method='spearman')`
 
 ### TODO
 - [ ] Find a practical application in a real dataset
@@ -64,11 +64,11 @@ $$r_s=1-\frac{6\sum d^2}{n^3-n}$$ where $d=R(X_i)-R(Y_i)$
 
 ### See also
 - [[Topics/Mathematics/Statistics and probabilities/Pearson correlation coefficient|Pearson correlation coefficient]]
-- [[p-value]] & [[Topics/Mathematics/Statistics and probabilities/Confidence interval|Confidence interval]]
+- [[p-value|p-value]] & [[Topics/Mathematics/Statistics and probabilities/Confidence interval|Confidence interval]]
 - Other tests based on ==rank correlation==
 	- **Kendall's tau** : $\tau$ (non parametric, too)
 		- as with the $\rho$ : it is also a special case of a more general correlation coefficient => ??
-		- $\tau$ is recommended first (it has more desirable statistic properties ?), then use $\rho$
+		- ==$\tau$ is recommended first== (it has more desirable statistic properties ?), then use $\rho$
 	- Friedman test
 	- Kruskal-Wallis test
 	- ...
