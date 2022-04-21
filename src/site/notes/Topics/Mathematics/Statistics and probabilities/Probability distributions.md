@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/probability-distributions/"}
+{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/probability-distributions/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 ==**WIP**==
 
