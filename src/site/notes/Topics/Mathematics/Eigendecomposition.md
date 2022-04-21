@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/eigendecomposition/"}
+{"dg-publish":true,"permalink":"/topics/mathematics/eigendecomposition/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 - fr : factorisation en une forme canonique
 - aka. spectral decomposition ?
