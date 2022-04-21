@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"homl2","permalink":"/homl2/"}
+{"dg-publish":true,"dg-permalink":"homl2","permalink":"/homl2/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 Overview notes -> [[Topics/Machine Learning/Books/Hands-on ML with scikit-learn, Keras, and Tensorflow 2 (2017, 2019)|Hands-on ML with scikit-learn, Keras, and Tensorflow 2 (2017, 2019)]]
 
