@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"mml/chap5/ex","permalink":"/mml/chap5/ex/"}
+{"dg-publish":true,"dg-permalink":"mml/chap5/ex","permalink":"/mml/chap5/ex/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 ↑ [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 5 - Vector Calculus|Chapter 5 - Vector Calculus]]
 <-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Exercices|Chapter 4 - Exercices]] - **TODO** -->
