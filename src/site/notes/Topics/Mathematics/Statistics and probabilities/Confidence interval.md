@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/confidence-interval/"}
+{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/confidence-interval/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 **Confidence interval (CI)** - a statistical estimate
 - Introduced in [[Topics/Mathematics/Statistics and probabilities/Statistics/Statistics|Statistics]] in a **1937** paper by **Jerzy Neyman**, and slowly adopted...
