@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"mml/chap2/ex","permalink":"/mml/chap2/ex/"}
+{"dg-publish":true,"dg-permalink":"mml/chap2/ex","permalink":"/mml/chap2/ex/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 ↑ [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 2 - Linear Algebra|Chapter 2 - Linear Algebra]]
 <-- **NONE** - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Exercices|Chapter 3 - Exercices]] -->
