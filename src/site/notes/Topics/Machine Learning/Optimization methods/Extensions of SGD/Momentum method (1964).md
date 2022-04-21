@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/machine-learning/optimization-methods/extensions-of-sgd/momentum-method-1964/"}
+{"dg-publish":true,"permalink":"/topics/machine-learning/optimization-methods/extensions-of-sgd/momentum-method-1964/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 Momentum method (==Boris Polyak==, **1964**) : *can accelerate gradient descent by taking accounts of previous gradients in the update rule at each iteration*
 
