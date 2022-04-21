@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/machine-learning/concepts/loss-functions/"}
+{"dg-publish":true,"permalink":"/topics/machine-learning/concepts/loss-functions/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 - Used in mathematical [[Topics/Mathematics/Optimization|Optimization]] and decision theory
 - aka. ==Cost function ?==
