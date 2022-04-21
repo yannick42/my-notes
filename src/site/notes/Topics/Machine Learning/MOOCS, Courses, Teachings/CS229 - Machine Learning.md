@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/machine-learning/moocs-courses-teachings/cs-229-machine-learning/"}
+{"dg-publish":true,"permalink":"/topics/machine-learning/moocs-courses-teachings/cs-229-machine-learning/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 - **broad introduction** to [[Topics/Machine Learning/Machine Learning|Machine Learning]] and statistical pattern recognition.
 
@@ -49,10 +50,10 @@
 	- [[Topics/Machine Learning/Models/Decision Trees|Decision Trees]]
 	- [[Topics/Machine Learning/Boosting|Boosting]]
 - **Lecture 12**
-	- [[K-Means]]
+	- [[K-Means|K-Means]]
 	- GMM (non EM)
 	- [[___INBOX___/__à trier/Expectation-maximization algorithm|EM algorithm]]
-	- [[Factor Analysis]]
+	- [[Factor Analysis|Factor Analysis]]
 		- https://en.wikipedia.org/wiki/Factor_analysis
 - **Lecture 13**
 	- [[___INBOX___/__à trier/Expectation-maximization algorithm|EM algorithm]]
