@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"mml/chap4/ex","permalink":"/mml/chap4/ex/"}
+{"dg-publish":true,"dg-permalink":"mml/chap4/ex","permalink":"/mml/chap4/ex/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 ↑ [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 4 - Matrix Decompositions|Chapter 4 - Matrix Decompositions]]
 <-- [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 3 - Exercices|Chapter 3 - Exercices]] - [[Personal/Books notes/Mathematics/Mathematics for Machine Learning - Chapter 5 - Exercices|Chapter 5 - Exercices]] -->
