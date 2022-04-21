@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/convex-optimization/"}
+{"dg-publish":true,"permalink":"/topics/mathematics/convex-optimization/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 <!--
 J'avais un début de note de 2 juillet 2016
