@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/linear-algebra/"}
+{"dg-publish":true,"permalink":"/topics/mathematics/linear-algebra/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 > 
 > `TIDY this note !`
 > 
@@ -22,7 +23,7 @@
 	- ==can be represented as matrices==
 
 ---
-#### [[Matrix decompositions]]
+#### [[Matrix decompositions|Matrix decompositions]]
 - [[Topics/Mathematics/LU decomposition (1938)|LU decomposition (1938)]], [[Topics/Mathematics/QR decomposition|QR decomposition]], [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]], [[Topics/Mathematics/Singular Value Decomposition|Singular Value Decomposition]]
 
 #### Column / Row space
