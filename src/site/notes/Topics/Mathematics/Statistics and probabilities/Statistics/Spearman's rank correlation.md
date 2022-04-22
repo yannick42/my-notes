@@ -31,7 +31,10 @@
 **Formulas :**
 $$r_s=\frac{cov(R(X), R(Y))}{\sigma_{R(X)} \sigma_{R(Y)}}$$
 If ranks are distinct integer (=no tied rank), the "full version" can be simplified to this popular formula :
-$$r_s=1-\frac{6\sum d^2}{n^3-n}$$ where $d=R(X_i)-R(Y_i)$
+
+$$r_s=1-\frac{6\sum d^2}{n^3-n}$$
+
+where $d=R(X_i)-R(Y_i)$
 
 > ⚠️ **Correlation** doesn't necessarily means that one thing affects the other
 
