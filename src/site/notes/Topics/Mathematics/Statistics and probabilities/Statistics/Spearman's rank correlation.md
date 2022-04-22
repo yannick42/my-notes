@@ -8,7 +8,7 @@
 	- or also noted $r_s$
 - developed by [[Topics/Psycho/People/Charles Spearman|Charles Spearman]] (1863-1945), in **1904**
 - the $\rho$ value is between **-1** and **+1**
-- it's based on ranks of the values => it is **rank correlation statistic**, and it's non-parametric
+- it's based on ranks of the values => it is **rank correlation statistic**, and it's non-parametric (no assumption)
 - it summarizes the strength and direction of a relationship (statistical dependence) between (only) 2 variables (<mark style="background: #ABF7F7A6;">sets of data which can be continuous or ordinal</mark>) when we have not necessarily an "affine/linear" relation, but a **monotonous function**
 	- **Continuous** can be : age, weight, height, test scores, survey scores, yearly salary, etc
 	- **Monotonicity** -> monotonically increasing or decreasing...
@@ -29,11 +29,8 @@
 
 ---
 **Formulas :**
-
 $$r_s=\frac{cov(R(X), R(Y))}{\sigma_{R(X)} \sigma_{R(Y)}}$$
-
 If ranks are distinct integer (=no tied rank), the "full version" can be simplified to this popular formula :
-
 $$r_s=1-\frac{6\sum d^2}{n^3-n}$$ where $d=R(X_i)-R(Y_i)$
 
 > ⚠️ **Correlation** doesn't necessarily means that one thing affects the other
