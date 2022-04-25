@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/confidence-interval/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"confidence-interval","permalink":"/confidence-interval/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
 
