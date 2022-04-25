@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/statistics/z-test/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"z-test","permalink":"/z-test/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
 
@@ -7,7 +7,7 @@
 - used in [[Topics/Mathematics/Statistics and probabilities/Statistics/statistical tests|statistical tests]] for [[Topics/Mathematics/Statistics and probabilities/Statistics/Hypothesis testing|hypothesis testing]]
 - it dates from the 19th century ?
 - when distribution of the data is **normal** and independent (with a mean & a variance/standard deviation)
-- used when the sample is at minimum **more than 30**, or else use Student's [[___INBOX___/__à trier/t-test|t-test]]
+- used when the sample is at minimum **more than 30**, or else use Student's [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]]
 - used in **z tests** (a general class of tests statistic which use the normal distribution)
 - ==the z-test is **rarely used in practice**==, as the population deviation $\sigma$ is difficult to determine => is it mandatory ?
 - one tailed / two tailed "versions" :
