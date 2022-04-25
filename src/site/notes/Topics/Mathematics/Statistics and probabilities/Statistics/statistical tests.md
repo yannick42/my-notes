@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/statistics/statistical-tests/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"statistical-tests","permalink":"/statistical-tests/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
 
@@ -7,7 +7,7 @@
 - **[[Topics/Mathematics/Statistics and probabilities/Statistics/z-test|z-test]]**
 	- uses the **Z-score**
 - Pearson's [[Topics/Mathematics/Statistics and probabilities/Statistics/Chi-squared test of independence|Chi-squared test of independence]] (==1900==)
-- Student's [[___INBOX___/__à trier/t-test|t-test]] (==1908==)
+- Student's [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]] (==1908==)
 	- to compare means
 - [[Topics/Mathematics/Statistics and probabilities/Statistics/Fisher's exact test|Fisher's exact test]] (==1934==)
 - **Barnard's exact test** (==1945==)
@@ -20,7 +20,7 @@
 		- with one margin fixed(?) => ?
 	- nuisance parameter $\pi$
 - [[___INBOX___/__à trier/F-test|F-test]]
-- **Welch t-test** (==1947==): parametric test, adaptation of Student's [[___INBOX___/__à trier/t-test|t-test]]
+- **Welch t-test** (==1947==): parametric test, adaptation of Student's [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]]
 	- mostly used to compare means of 2 samples with **unequal variance** (?)
 	- https://lemakistatheux.wordpress.com/2013/05/14/le-test-de-welch/
 	- Solution approchée du problème de Behrens–Fisher
