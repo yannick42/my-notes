@@ -58,7 +58,7 @@ where $d=R(X_i)-R(Y_i)$
 	- only if up to 30 samples ?
 	- https://www.real-statistics.com/statistics-tables/spearmans-rho-table/
 	- https://www.real-statistics.com/correlation/spearmans-rank-correlation/spearmans-rank-correlation-detailed/
-- [ ] What is the link with [[___INBOX___/__à trier/t-test|t-test]] ?
+- [ ] What is the link with [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]] ?
 	- when $n \geq 10$ ?
 
 ### Sources
