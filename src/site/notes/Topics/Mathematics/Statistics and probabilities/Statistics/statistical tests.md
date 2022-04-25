@@ -1,0 +1,57 @@
+---
+{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/statistics/statistical-tests/","dgHomeLink":true,"dgPassFrontmatter":false}
+---
+
+
+**Statistical tests**
+- **[[Topics/Mathematics/Statistics and probabilities/Statistics/z-test|z-test]]**
+	- uses the **Z-score**
+- Pearson's [[Topics/Mathematics/Statistics and probabilities/Statistics/Chi-squared test of independence|Chi-squared test of independence]] (==1900==)
+- Student's [[___INBOX___/__à trier/t-test|t-test]] (==1908==)
+	- to compare means
+- [[Topics/Mathematics/Statistics and probabilities/Statistics/Fisher's exact test|Fisher's exact test]] (==1934==)
+- **Barnard's exact test** (==1945==)
+	- non-parametric
+	- for small sample data ($N<1000$ ?)
+	- less conservative than Fisher's test ($p$ is less high, so more significant results)
+	- computationally expensive ?
+	- more powerful than Fisher's exact test under certain conditions
+		- only for 2x2
+		- with one margin fixed(?) => ?
+	- nuisance parameter $\pi$
+- [[___INBOX___/__à trier/F-test|F-test]]
+- **Welch t-test** (==1947==): parametric test, adaptation of Student's [[___INBOX___/__à trier/t-test|t-test]]
+	- mostly used to compare means of 2 samples with **unequal variance** (?)
+	- https://lemakistatheux.wordpress.com/2013/05/14/le-test-de-welch/
+	- Solution approchée du problème de Behrens–Fisher
+ - **G-test** of independence
+	 - aka. likelihood-ratio or maximum likelihood
+	 - an alternative to the Pearson's chi-squared statistic
+		 - more and more used/recommended (since 1981?)
+	 - recommended if sample size is **greater than 1000**
+	 - http://www.biostathandbook.com/gtestind.html
+	 - https://en.wikipedia.org/wiki/G-test
+- [[___INBOX___/__à trier/Wald tests|Wald tests]] (==1943==)
+	- parametric
+	- for independence ?
+- **Wilcoxon rank sum test**
+	- popularized in 1956, in a book by Sidney Siegel (on non-parametric tests)
+	- if two sample non independent (fr: appariés)
+	- non-parametric (no need to estimate mean and variance)
+- **Kruskal-Wallis' test** (==1952==)
+	- `scipy.stats.kruskal`
+	- non-parametric
+	- median of 2 groups
+- **Friedman's test**
+	- median
+- **Tukey's HSD test**
+	- Honest Significant Difference
+	- Done after an ANOVA test ?
+	- https://en.wikipedia.org/wiki/Tukey%27s_range_test
+
+---
+- --> [[Topics/Mathematics/ANOVA (1921)|ANOVA (1921)]]
+	- significant result indicates that at least one group differs from the other groups
+- **one-way ANONA test** (univariée)
+- **two-way ANOVA test** (à 2 facteurs)
+	- two steps
