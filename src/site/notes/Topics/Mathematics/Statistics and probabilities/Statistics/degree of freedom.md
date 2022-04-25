@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/statistics/degree-of-freedom/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"dof","permalink":"/dof/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
 
