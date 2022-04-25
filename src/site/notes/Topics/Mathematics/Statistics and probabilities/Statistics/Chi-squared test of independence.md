@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/statistics/chi-squared-test-of-independence/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"chi-squared-test","permalink":"/chi-squared-test/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
 
