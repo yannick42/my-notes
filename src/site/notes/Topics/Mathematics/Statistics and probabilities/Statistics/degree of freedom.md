@@ -6,7 +6,7 @@
 **Degree of freedom** (d.f.)
 - property calculated from sample data
 - It is an input in many [[Topics/Mathematics/Statistics and probabilities/Statistics/statistical tests|statistical tests]]
-	- **commonly used in** $\chi^2$-test, [[___INBOX___/__à trier/t-test|t-test]] (t-distribution), [[___INBOX___/__à trier/F-test|F-test]] (F-distribution), ...
+	- **commonly used in** $\chi^2$-test, [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]] (t-distribution), [[___INBOX___/__à trier/F-test|F-test]] (F-distribution), ...
 - a more general property than the number of categories (?)
 - It represents the maximum number of logically **independent values** that are free to vary/move without violating constraints :
 	- eg. if you know the mean for a sample of 10 values there are 9 degree of freedom => once you know 9 values, ==the 10th can be calculated, and is not free to vary==
