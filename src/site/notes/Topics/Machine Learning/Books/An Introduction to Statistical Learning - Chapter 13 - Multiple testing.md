@@ -17,12 +17,12 @@ Book's main note : [[Topics/Machine Learning/Books/An Introduction to Statistica
 #### 13.1 - A quick review of Hypothesis testing
 <mark style="background: #CACFD9A6;">a rigorous statistical framework for answering simple “yes-or-no” questions</mark> 
 ##### 13.1.1 Testing a hypothesis
-**4 steps :**
-- we ==divide the world== into 2 possibilities : **null hypothesis** ($H_0$, *default state of belief of the world*) & **alternative hypothesis** ($H_1$ or $H_a$ ...)
+**4 steps to test an hypothesis :**
+- we ==divide the world== into 2 possibilities : the **null hypothesis** ($H_0$ = *default state of belief of the world*) & the **alternative hypothesis** (written $H_1$ or $H_a$)
 	- we focus on using data to reject $H_0$ (hopefully)
-	- if we fail : maybe $H_0$ really holds or we may need a higher-quality dataset or something...
+	- if we fail : maybe $H_0$ really holds or we may need a higher-quality dataset, or something...
 - we ==construct/compute== a test statistic T
-	- eg. : a two-sample **t-statistic** (for treatment/control groups of mice **mean** blood pressure)
+	- eg. : a two-sample **t-statistic** (eg. for treatment/control groups of mice **mean** blood pressure)
 - ==Compute the p-value==
 	- **p-value** = the probability of observing a test statistic equal or bigger than the one observed (in previous step) under the assumption that $H_0$ is in fact true
 	- ==> **Therefore, a small p-value provides evidence against the null hypothesis**
