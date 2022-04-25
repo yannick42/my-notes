@@ -22,10 +22,13 @@
 
 ---
 ### Various notes WIP/To do someday
-- [[___INBOX___/__à trier/Greedy algorithms|Greedy algorithms]]
-- [[___INBOX___/__à trier/Beam search|Beam search]]
+- Algorithms/Data structures
+	- [[___INBOX___/__à trier/Greedy algorithms|Greedy algorithms]]
+	- [[___INBOX___/__à trier/Beam search|Beam search]]
 - Optimization
 	- [[Topics/IT-Computing/Computer Science/Algorithms/Simulated annealing|Simulated annealing]]
-- [[Topics/Machine Learning/Concepts/Reinforcement Learning|Reinforcement Learning]]
-- [[Topics/Machine Learning/Concepts/Performance Metrics|Performance Metrics]]
-- [[Topics/Mathematics/Statistics and probabilities/Statistics/Spearman's rank correlation|Spearman's rank correlation]]
+- Machine Learning
+	- [[Topics/Machine Learning/Concepts/Reinforcement Learning|Reinforcement Learning]]
+	- [[Topics/Machine Learning/Concepts/Performance Metrics|Performance Metrics]]
+- [[Topics/Mathematics/Statistics and probabilities/Statistics/Topics in Statistics|Topics in Statistics]]
+	- [[Topics/Mathematics/Statistics and probabilities/Statistics/Spearman's rank correlation|Spearman's rank correlation]]
