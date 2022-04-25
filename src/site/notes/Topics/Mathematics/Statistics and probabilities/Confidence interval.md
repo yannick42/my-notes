@@ -18,7 +18,7 @@
 		- $\alpha$ level = 1 - confidence level (0.95) ?
 			- divided by 2 if two-sided test ?
 	- **t-score** (if small sample size & *unknown* population variance)
-		- [[___INBOX___/__à trier/t-test|t-test]] is more widely known (when population mean is unknown)
+		- [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]] is more widely known (when population mean is unknown)
 	- the **z statistic**
 		- => use a *Z-score table* to find the resulting **interval**
 
