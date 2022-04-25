@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/statistics/fisher-s-exact-test/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"fisher-exact-test","permalink":"/fisher-exact-test/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
 
