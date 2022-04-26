@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"notes-in-statistics","permalink":"/notes-in-statistics/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"statistics-notes","permalink":"/statistics-notes/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
 
@@ -10,3 +10,7 @@
 	- [[Topics/Mathematics/Statistics and probabilities/Statistics/Fisher's exact test|Fisher's exact test]]
 - [[Topics/Mathematics/Statistics and probabilities/Confidence interval|Confidence interval]]
 - [[Topics/Mathematics/Statistics and probabilities/Statistics/degree of freedom|degree of freedom]]
+- Correlations
+	- [[Topics/Mathematics/Statistics and probabilities/Pearson correlation coefficient|Pearson correlation coefficient]]
+	- Kendall's $\tau$
+	- [[Topics/Mathematics/Statistics and probabilities/Statistics/Spearman's rank correlation|Spearman's rank correlation]]
