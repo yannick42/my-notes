@@ -3,6 +3,11 @@
 ---
 
 
+```ad-warning
+title:
+Most notes are still **in progress**, and should be enhanced soon ;)
+```
+
 **Notes on Statistics**
 - [[Topics/Mathematics/Statistics and probabilities/Statistics/Exploratory Data Analysis|EDA]]
 - [[Topics/Mathematics/Statistics and probabilities/Statistics/Hypothesis testing|Hypothesis testing]]
