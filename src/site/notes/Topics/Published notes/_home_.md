@@ -31,4 +31,3 @@
 	- [[Topics/Machine Learning/Concepts/Reinforcement Learning|Reinforcement Learning]]
 	- [[Topics/Machine Learning/Concepts/Performance Metrics|Performance Metrics]]
 - [[Topics/Mathematics/Statistics and probabilities/Statistics/Topics in Statistics|Topics in Statistics]]
-	- [[Topics/Mathematics/Statistics and probabilities/Statistics/Spearman's rank correlation|Spearman's rank correlation]]
