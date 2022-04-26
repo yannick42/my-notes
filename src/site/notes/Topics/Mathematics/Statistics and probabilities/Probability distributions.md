@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/topics/mathematics/statistics-and-probabilities/probability-distributions/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"probability-distributions","permalink":"/probability-distributions/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
 
@@ -13,15 +13,15 @@
 - **Beta** : $Beta(\alpha, \beta)$ with $\alpha > 0$ & $\beta > 0$ 
 	- uses the gamma function $\Gamma (t)=\int_0^\infty x^{t-1}exp(-x)dx, t>0$
 - **Poisson** : (**==1838==**)
-	- https://fr.wikipedia.org/wiki/Loi_de_Poisson
+	- [Loi de Poisson (wikipedia)](https://fr.wikipedia.org/wiki/Loi_de_Poisson)
 - **t-distribution** :
 	- used in
 		- [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]]
-		- construction of [[Topics/Mathematics/Statistics and probabilities/Confidence interval|confidence interval]]
+		- when constructing a [[Topics/Mathematics/Statistics and probabilities/Confidence interval|confidence interval]]
 		- Bayesian inference
-	- => https://fr.wikipedia.org/wiki/Loi_de_Student
+	- => [Loi de Student](https://fr.wikipedia.org/wiki/Loi_de_Student)
 - **Chi-square** : mainly used in [[Topics/Mathematics/Statistics and probabilities/Statistics/Chi-squared test of independence|Chi-squared test of independence]]
-	- https://fr.wikipedia.org/wiki/Loi_du_%CF%87%C2%B2
+	- [Loi du chi^2 (wikipedia)](https://fr.wikipedia.org/wiki/Loi_du_%CF%87%C2%B2)
 - **Hypergeometric**
 	- used in [[Topics/Mathematics/Statistics and probabilities/Statistics/Fisher's exact test|Fisher's exact test]]
 - **Exponential distribution** :
