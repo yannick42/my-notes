@@ -21,7 +21,7 @@
 
 ---
 ### See also
-- [Welch-Satterhwaite equation (wikipedia)](https://en.wikipedia.org/wiki/Welch%E2%80%93Satterthwaite_equation) - an equation to calculate the **effective degree of freedom**
+- [Welch-Satterhwaite equation (wikipedia)](https://en.wikipedia.org/wiki/Welch%E2%80%93Satterthwaite_equation) - an equation to calculate an approximation of the **effective degree of freedom**
 	- see [Calculating effective degree of freedom](https://www.isobudgets.com/calculating-effective-degrees-of-freedom/)
 
 ---
