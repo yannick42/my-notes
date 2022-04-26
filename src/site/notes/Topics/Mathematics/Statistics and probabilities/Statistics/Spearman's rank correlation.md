@@ -68,7 +68,7 @@ where $d=R(X_i)-R(Y_i)$
 
 ### See also
 - [[Topics/Mathematics/Statistics and probabilities/Pearson correlation coefficient|Pearson correlation coefficient]]
-- [[___INBOX___/__à trier/p-value|p-value]] & [[Topics/Mathematics/Statistics and probabilities/Confidence interval|Confidence interval]]
+- [[Topics/Mathematics/Statistics and probabilities/Statistics/p-value|p-value]] & [[Topics/Mathematics/Statistics and probabilities/Confidence interval|Confidence interval]]
 - Other tests based on ==rank correlation==
 	- **Kendall's tau** : $\tau$ (non parametric, too)
 		- as with the $\rho$ : it is also a special case of a more general correlation coefficient => ??
