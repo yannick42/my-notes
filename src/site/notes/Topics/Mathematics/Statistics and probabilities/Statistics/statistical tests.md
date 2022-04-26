@@ -5,13 +5,13 @@
 
 **Statistical tests**
 - **[[Topics/Mathematics/Statistics and probabilities/Statistics/z-test|z-test]]**
-	- uses the **Z-score**
+	- it uses the **Z-score**
 - Pearson's [[Topics/Mathematics/Statistics and probabilities/Statistics/Chi-squared test of independence|Chi-squared test of independence]] (==1900==)
 - Student's [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]] (==1908==)
-	- to compare means
+	- to compare means, ...
 - [[Topics/Mathematics/Statistics and probabilities/Statistics/Fisher's exact test|Fisher's exact test]] (==1934==)
 - **Barnard's exact test** (==1945==)
-	- non-parametric
+	- non-parametric for examining the associations in 2x2 [[Topics/Mathematics/Statistics and probabilities/Statistics/Contingency table|contingency table]]
 	- for small sample data ($N<1000$ ?)
 	- less conservative than Fisher's test ($p$ is less high, so more significant results)
 	- computationally expensive ?
@@ -19,13 +19,16 @@
 		- only for 2x2
 		- with one margin fixed(?) => ?
 	- nuisance parameter $\pi$
-- [[___INBOX___/__à trier/F-test|F-test]]
+- [[___INBOX___/__à trier/F-test|F-test]] (group of tests which use the F-distribution, fr: Loi de Fisher)
+	- initially developped in the ==1920s==
+	- eg. in **ANOVA**
+	- -> [F-test (wikipedia)](https://en.wikipedia.org/wiki/F-test)
 - **Welch t-test** (==1947==): parametric test, adaptation of Student's [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]]
 	- mostly used to compare means of 2 samples with **unequal variance** (?)
 	- https://lemakistatheux.wordpress.com/2013/05/14/le-test-de-welch/
-	- Solution approchée du problème de Behrens–Fisher
+	- Solution approchée du <mark style="background: #FF5582A6;">problème de Behrens–Fisher</mark>
  - **G-test** of independence
-	 - aka. likelihood-ratio or maximum likelihood
+	 - aka. **<mark style="background: #ABF7F7A6;">likelihood-ratio</mark> or maximum likelihood
 	 - an alternative to the Pearson's chi-squared statistic
 		 - more and more used/recommended (since 1981?)
 	 - recommended if sample size is **greater than 1000**
@@ -33,7 +36,10 @@
 	 - https://en.wikipedia.org/wiki/G-test
 - [[___INBOX___/__à trier/Wald tests|Wald tests]] (==1943==)
 	- parametric
-	- for independence ?
+	- for independence ??
+	- *alternatives*
+		- Lagrange multiplier test
+		- <mark style="background: #ABF7F7A6;">likelihood-ratio</mark> test
 - **Wilcoxon rank sum test**
 	- popularized in 1956, in a book by Sidney Siegel (on non-parametric tests)
 	- if two sample non independent (fr: appariés)
@@ -43,15 +49,13 @@
 	- non-parametric
 	- median of 2 groups
 - **Friedman's test**
-	- median
+	- on median ?
 - **Tukey's HSD test**
-	- Honest Significant Difference
-	- Done after an ANOVA test ?
+	- HSD = Honest Significant Difference
+	- done after an ANOVA test ?
 	- https://en.wikipedia.org/wiki/Tukey%27s_range_test
-
----
-- --> [[Topics/Mathematics/ANOVA (1921)|ANOVA (1921)]]
+- [[Topics/Mathematics/ANOVA (1921)|ANOVA (1921)]]
 	- significant result indicates that at least one group differs from the other groups
-- **one-way ANONA test** (univariée)
-- **two-way ANOVA test** (à 2 facteurs)
-	- two steps
+	- **one-way ANONA test** (univariée)
+	- **two-way ANOVA test** (à 2 facteurs)
+		- two steps
