@@ -10,9 +10,9 @@
 	- **examples** :
 		- **efficacy** (cured/not cured) of **drugs** (treatment/control group)
 		- Is the propensity to **buy a particular item** is independent of **gender** ?
-- used in the analysis of ($2\times 2$ ?) [[___INBOX___/__à trier/Contingency table|contingency tables]] of frequency counts
+- used in the analysis of ($2\times 2$ ?) [[Topics/Mathematics/Statistics and probabilities/Statistics/Contingency table|contingency tables]] of frequency counts
 - it's an **exact test**, contrary to other tests (eg. $\chi^2$-test) => it is ==preferable when small sample size== (**say, N<1000**)
-	- ==> the probabilities (the [[___INBOX___/__à trier/p-value|p-value]]) can be computed "exactly"
+	- ==> the probabilities (the [[Topics/Mathematics/Statistics and probabilities/Statistics/p-value|p-value]]) can be computed "exactly"
 	- it uses a **hypergeometric distribution** -> eg. $p=\frac{(a+b)!(c+d)!(a+c)!(b+d)!}{N!a!b!c!d}$, $N=a+b+c+d$
 - We generally use one-tailed(/sided) tests, but can be a two-tailed test -> ???
 - Definitions
@@ -27,7 +27,7 @@
 
 ---
 ### Example
-With this [[___INBOX___/__à trier/Contingency table|contingency table]], we look for a "discovery" of dependence between gender & smoking behavior :
+With this [[Topics/Mathematics/Statistics and probabilities/Statistics/Contingency table|Contingency table]], we look for a "discovery" of dependence between gender & smoking behavior :
 $$\begin{array}{|c|c|c|} \hline  & \text{Male} & \text{Female} & \text{total} \newline \hline \text{Smoker} & 15 & 9 & 24 \newline \hline \text{Non-smoker} & 30 & 45 & 75 \newline \hline \text{total} & 45 & 54 & N \newline \hline \end{array}$$
 - $OR=2.5$ -> odds of 1st cell (of being a male smoker) is around x2.5 -> it seems to be not entirely gender-independent
 - The *two-sided* $p=0.063091$, and if we use ***one-sided*** $p=0.04544$ (when we have prior assumptions ?) -> which is below the "classical" choice of $p=0.05$, so ==we do **reject the null hypothesis==** and we conclude that gender is **dependent** with the fact of smoking. As it's statistically significant (chance might not have produce this).
@@ -46,7 +46,7 @@ StackExchange
 
 ---
 ### See also
-- [[___INBOX___/__à trier/Contingency table|Contingency table]]
+- [[Topics/Mathematics/Statistics and probabilities/Statistics/Contingency table|Contingency table]]
 - **Hypergeometric distribution** -> (see note on [[Topics/Mathematics/Statistics and probabilities/Probability distributions|Probability distributions]])
 	- a discrete distribution
 	- "sampling without replacement" -> ?
