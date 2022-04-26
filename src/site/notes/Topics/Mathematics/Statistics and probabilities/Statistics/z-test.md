@@ -34,7 +34,7 @@
 
 ### Reminder
 - **p-value** : smallest significance level
-	- [[___INBOX___/__à trier/p-value|p-value]]
+	- [[Topics/Mathematics/Statistics and probabilities/Statistics/p-value|p-value]]
 
 ### Example
 - 
