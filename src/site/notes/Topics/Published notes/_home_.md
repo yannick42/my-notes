@@ -10,6 +10,8 @@
 > Most pages are still 🚧 **==UNDER CONSTRUCTION==** 🚧 and some links still missing...
 > Last published in **April 2022**
 
+You can also access my Jupyter notebooks, [here](https://notebooks.yannick42.dev). It contains various [[Topics/Mathematics/Statistics and probabilities/Statistics/Exploratory Data Analysis|EDA]] on datasets and ML tests.
+
 ### <mark style="background: #BBFABBA6;">Currently reading</mark> 
 - [[Topics/Published notes/MML (home)|Mathematics for Machine Learning (2020)]] : book notes & exercices (**progress:** <mark style="background: #FFB86CA6;">36 %</mark>)
 - [[Topics/Machine Learning/Books/An Introduction to Statistical Learning (2013, 2021)|An Introduction to Statistical Learning (2013, 2021)]] : book notes (**progress:** <mark style="background: #FF5582A6;">01 %</mark>)
