@@ -16,7 +16,7 @@ $\chi^2$ test
 
 ---
 ### See also
-- $r\times c$ [[___INBOX___/__à trier/Contingency table|contingency table]] -> pour tester si deux choses sont dépendantes ?
+- $r\times c$ [[Topics/Mathematics/Statistics and probabilities/Statistics/Contingency table|Contingency table]] -> pour tester si deux choses sont dépendantes ?
 	- as in [[Topics/Mathematics/Statistics and probabilities/Statistics/Fisher's exact test|Fisher's exact test]]
 - Test de contingence -> calcul d'un indicateur (de $\chi^2$)
 - [[Topics/Mathematics/Statistics and probabilities/Statistics/degree of freedom|degree of freedom]] = $(r-1)(c-1)$
