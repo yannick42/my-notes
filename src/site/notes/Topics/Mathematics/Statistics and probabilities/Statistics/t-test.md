@@ -2,13 +2,14 @@
 {"dg-publish":true,"dg-permalink":"t-test","permalink":"/t-test/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
+
 **t-test**
 - aka. Student's t-test
 - published with the t-distribution, in **1908** by [[Topics/Mathematics/People/William Gosset|William Gosset]] (at Guinness' brewery)
-	- [[___INBOX___/__à trier/Student's t-distribution|Student's t-distribution]]
+	- => [[Topics/Mathematics/Statistics and probabilities/Student's t-distribution|Student's t-distribution]]
 - In most case, the ==mean & variance of the population is not known== (eg. to calculate the [[Topics/Mathematics/Statistics and probabilities/Confidence interval|confidence interval]] for the mean)
 - $t=\frac{\overline{x}-\mu}{s/\sqrt{n}}$
-- it needs a "t-table" and the [[Topics/Mathematics/Statistics and probabilities/Statistics/degree of freedom|degree of freedom]] ($df=n-1$)
+- it needs a "t-table" and the [[Topics/Mathematics/Statistics and probabilities/Statistics/degree of freedom|degree of freedom]] ($d.f.=n-1$)
 - $\alpha$ level : cut-off level (= 1 - confidence level)
 - in two-tailed test : $\alpha$ is divided by 2
 - one sample : ?
