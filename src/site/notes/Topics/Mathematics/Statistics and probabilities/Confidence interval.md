@@ -23,7 +23,7 @@
 		- => use a *Z-score table* to find the resulting **interval**
 
 ### Reminders
---> see [[___INBOX___/__à trier/p-value|p-value]]
+--> see [[Topics/Mathematics/Statistics and probabilities/Statistics/p-value|p-value]]
 --> see [[Topics/Mathematics/Statistics and probabilities/Statistics/z-test#Z-score|z-test#Z-score]]
 
 ### Applications
