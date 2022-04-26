@@ -14,6 +14,12 @@
 	- uses the gamma function $\Gamma (t)=\int_0^\infty x^{t-1}exp(-x)dx, t>0$
 - **Poisson** : (**==1838==**)
 	- https://fr.wikipedia.org/wiki/Loi_de_Poisson
+- **t-distribution** :
+	- used in
+		- [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]]
+		- construction of [[Topics/Mathematics/Statistics and probabilities/Confidence interval|confidence interval]]
+		- Bayesian inference
+	- => https://fr.wikipedia.org/wiki/Loi_de_Student
 - **Chi-square** : mainly used in [[Topics/Mathematics/Statistics and probabilities/Statistics/Chi-squared test of independence|Chi-squared test of independence]]
 	- https://fr.wikipedia.org/wiki/Loi_du_%CF%87%C2%B2
 - **Hypergeometric**
