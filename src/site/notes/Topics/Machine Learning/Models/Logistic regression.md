@@ -1,20 +1,19 @@
 ---
-{"dg-publish":true,"permalink":"/topics/machine-learning/models/logistic-regression/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"logreg","permalink":"/logreg/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
 
 **Logistic regression**
-
 - aka. logistic model, **logit** model
-- is a [[Topics/Machine Learning/Concepts/Supervised learning|Supervised learning]] algorithm for [[Topics/Machine Learning/Concepts/Classification|Classification]] (==despite its name==)
+- It's a [[Topics/Machine Learning/Concepts/Supervised learning|Supervised learning]] algorithm for [[Topics/Machine Learning/Concepts/Classification|Classification]] (==despite its name==)
 - **Pros**
-	- simple but powerful technique => ?
+	- simple but powerful technique
 	- very good performance with linearly separable classes
-	- easily interpretable outcome (not a black-box process) => almost "white-box" ?
+	- easily interpretable outcome (not a black-box process) => almost "white-box" (?)
 - **Cons**
 	- Other models can have better predicting performance : (eg.?)
 	- The interpretation of the weights **(?)** is not that easy...
-- It's not only the final classification result => it also gives probabilities
+- It's **not only** the final classification result => it also gives probabilities
 	- "*Knowing that an instance has a 99% probability for a class compared to 51% makes a big difference.*"
 - **Binomial** regression = binary outcomes => *pass/fail, win/lose, alive/dead, healthy/sick, ...*
 	- binomial = when dependent variable is dichotomous (binary)
@@ -28,7 +27,8 @@
 - ==Used for== : *medicine, social sciences, insurance, banking, econometry, ...*
 - We can use [[Topics/Mathematics/Statistics and probabilities/Maximum likelihood estimation|Maximum likelihood estimation]] to find parameters W & b
 - Decision boundary is a straight line[^1]
-- Logistic loss is the **log-loss** (no closed-form solution, but convex => a local minimum is the global minimum)
+- Logistic loss is the **log-loss**
+	- There is no closed-form solution, but convex so a local minimum is the global minimum, can be found with an optimization method
 $$L(\theta)=\sum_{(x,y)\in D}-ylog(y')-(1-y)log(1-y')$$
 
 - **Regularization** is **important**
@@ -41,6 +41,7 @@ $$L(\theta)=\sum_{(x,y)\in D}-ylog(y')-(1-y)log(1-y')$$
 - Evolved gradually, but logistic regression was developed (or refined) by statistician ==David Cox== in **1958**
 - "Multinomial" introduced independently in **1966** by *Cox* and in **1969** by *Thiel*
 
+---
 ### Applications
 - Credit scoring
 - Disease prediction
