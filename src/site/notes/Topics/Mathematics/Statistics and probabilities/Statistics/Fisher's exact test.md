@@ -34,7 +34,7 @@ $$\begin{array}{|c|c|c|} \hline  & \text{Male} & \text{Female} & \text{total} \n
 
 ---
 ### Python
-- in [[SciPy|SciPy]] : `scipy.stats.fisher_exact(crosstab, alternative='two-sided(Default)|less|greater')`
+- in [[___INBOX___/__à trier/SciPy|SciPy]] : `scipy.stats.fisher_exact(crosstab, alternative='two-sided(Default)|less|greater')`
 	- Documentation : https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html
 
 ---
