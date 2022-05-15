@@ -8,7 +8,7 @@
 *Entries are not timestamped as in a blog, but are more like "personal" technical notes that should evolve through time. I update them as I learn more about each topics. I hope you find it useful for your own learning.*
 
 > Most pages are still 🚧 **==UNDER CONSTRUCTION==** 🚧 and some links still missing...
-> Last published in **April 2022**
+> Last published in **May 2022**
 
 You can also access my Jupyter notebooks, [here](https://notebooks.yannick42.dev). It contains various [[Topics/Mathematics/Statistics and probabilities/Statistics/Exploratory Data Analysis|EDA]] on datasets and ML tests.
 
@@ -22,6 +22,7 @@ You can also access my Jupyter notebooks, [here](https://notebooks.yannick42.dev
 - [[Topics/Published notes/HoML2 (home)|Hands-on Machine Learning with Sklearn & Tensorflow (2020)]] book notes (& exercices) (**progress:** <mark style="background: #FFB86CA6;">40 %</mark>)
 - [[Deep Reinforcement Learning Hands-On|Deep Reinforcement Learning Hands-On]] book notes (still empty) (**progress:** <mark style="background: #FF5582A6;">15 %</mark>)
 
+---
 ### Paper reading
 - [[Topics/Machine Learning/Research Papers/AlphaCode (2022)|AlphaCode (2022)]]
 
