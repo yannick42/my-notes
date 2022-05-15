@@ -10,6 +10,7 @@ Most notes are still **in progress**, and should be enhanced soon ;)
 
 **Notes on Statistics**
 - [[Topics/Mathematics/Statistics and probabilities/Statistics/Exploratory Data Analysis|EDA]]
+	- [[___INBOX___/__à trier/Plot, graphs|Plot, graphs]]
 - [[Topics/Mathematics/Statistics and probabilities/Statistics/Hypothesis testing|Hypothesis testing]]
 - [[Topics/Mathematics/Statistics and probabilities/Statistics/p-value|p-value]] <mark style="background: #FF5582A6;">TODO</mark>
 - [[Topics/Mathematics/Statistics and probabilities/Statistics/statistical tests|statistical tests]] (overview of different tests) <mark style="background: #CACFD9A6;">DRAFT</mark>)
