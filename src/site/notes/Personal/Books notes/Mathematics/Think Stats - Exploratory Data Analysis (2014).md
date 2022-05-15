@@ -15,7 +15,7 @@
 
 
 - It takes a "computational" approach over a mathematical one (Python code rather than math. notations)
-- use [[Topics/Machine Learning/Tools, Software/Pandas|Pandas]], [[SciPy|SciPy]] & StatsModels
+- use [[Topics/Machine Learning/Tools, Software/Pandas|Pandas]], [[___INBOX___/__à trier/SciPy|SciPy]] & StatsModels
 
 ### Topics
 - ...
