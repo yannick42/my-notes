@@ -17,6 +17,7 @@
 #### 3.1 **Norms**
 - it's a function $\lVert...\rVert : V\rightarrow R$, with the following "properties"
 	- *absolutely homogeneous* (function?) : $\lVert \lambda x \rVert= |\lambda| \lVert x \rVert$
+		- -> https://en.wikipedia.org/wiki/Homogeneous_function
 	- *triangle inequality*
 	- *positive definite* -> ?
 - Euclidean norm = $l_2$ norm
