@@ -3,10 +3,12 @@
 ---
 
 
-- **broad introduction** to [[Topics/Machine Learning/Machine Learning|Machine Learning]] and statistical pattern recognition.
+**CS229 - Machine Learning**
+- a **broad introduction** to [[Topics/Machine Learning/Machine Learning|Machine Learning]] and statistical pattern recognition.
 
 > http://cs229.stanford.edu/syllabus.html
 > https://see.stanford.edu/Course/CS229
+--> [Youtube Playlist (20 videos)](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
 
 ### Prerequisites
 - **==basic probability theory==** : **Stat 116** (sufficient but not necessary)
@@ -16,8 +18,7 @@
 	- Math 103
 	- Math 113 or CS 205 (would be much more than necessary)
 
---> [Youtube Playlist (20 videos)](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
-
+---
 ### Content/Lectures
 > 2 or 3 lectures per week => `September 21th to December 3nd` (2 months & 10 days)
 - **Lecture 2**
@@ -62,7 +63,7 @@
 	- [[Topics/Mathematics/Statistics and probabilities/PCA (1901)|PCA (1901)]]
 	- Types of learning
 - **Lecture 15**
-	- ML Advices
+	- ML advices
 - **Lecture 16**
 	- [[Topics/Machine Learning/Concepts/Unsupervised learning|Unsupervised learning]] & [[Topics/Machine Learning/Concepts/Reinforcement Learning|Reinforcement Learning]]
 - **Lecture 17**
@@ -77,3 +78,24 @@
 ---
 - Une version [[Topics/Machine Learning/MOOCS, Courses, Teachings/Coursera|Coursera]] existe : https://www.coursera.org/learn/machine-learning#syllabus
 	- 4.9 stars / 4.6M students
+
+---
+#### Lecture 15 (Autumn 2018) - EM algorithm & Factor Analysis
+> https://www.youtube.com/watch?v=tw6cmL5STuY (**1h20**)
+- ==Outline==
+	- how to monitor if [[___INBOX___/__à trier/Expectation-maximization algorithm|Expectation-maximization algorithm]] is converging
+	- EM on [[___INBOX___/__à trier/GMM|Gaussian Mixture Model]]
+	- [[Factor Analysis|Factor Analysis]] model
+		- high dimensional (even if small number of training example)
+- **Recap** on EM on a multinomial with $j$ Gaussians (GMM)
+	- already seen last lecture …
+	- E-step
+	- M-step : maximize by taken the derivative wrt. $\mu$ then set to 0 …
+		- to get $\mu_j$
+		- idem for $\Sigma$
+		- permit to update …
+- **Coordinate ascent** algorithm (maximize wrt. to $Q$ in E-step then $\theta$ in M-step)
+- GMM used if $m>>n$ or else "Factor analysis" (?)
+- **Factor Analysis**
+	- $x=\Lambda z + \mu + \epsilon$
+	- $z = N(0, I)$
