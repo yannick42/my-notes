@@ -1,11 +1,18 @@
 ---
-{"dg-publish":true,"dg-permalink":"Ridge","permalink":"/Ridge/"}
+{"dg-publish":true,"dg-permalink":"ridge","permalink":"/ridge/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 Theory was first introduced in **1970**
 
 
-<div class="transclusion internal-embed is-loaded">
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+
+<div class="markdown-embed-title">
+
+
+
+</div>
 
 <--- [[___INBOX___/__à trier/Hands-on ML 2 - Chapter 3 - Classification|Hands-on ML 2 - Chapter 3 - Classification]]
 [[___INBOX___/__à trier/Hands-on ML 2 - Chapter 5 - Support Vector Machines|Hands-on ML 2 - Chapter 5 - Support Vector Machines]] --->
@@ -28,37 +35,37 @@ Theory was first introduced in **1970**
 - softmax regression (aka. Multinomial Logistic regression)
 - **cross-entropy** cost function ([[Topics/Mathematics/Statistics and probabilities/Kullback-Leibler (KL) divergence|Kullback-Leibler (KL) divergence]])
 
+---
 #### Notes
-
 MSE cost function => ==The Normal equation==
-- Not always defined (if not invertible = singular), sklearn can use pseudo-inverse (which is always defined)
+- Not always defined (if not invertible = singular), [[Topics/Machine Learning/Tools, Software/sklearn|sklearn]] can use pseudo-inverse (which is always defined)
 - Computational complexity : if we double the size of the input => x 5.3 to 8 in CPU... (sklearn is O(n²)) => but ==both Normal equation and SVD get very slow if N >= 100 000==
 
 ==**in GD**, all features should have similar scale==
 **Batch GD** : uses the full training set X at each steps
 - scales well with the number of feature (contrary to Linear Regression, SVD)
 - **very slow when training set is large**
-- eta : learning rate
+- $\eta$ : learning rate
 **SGD** :
 - only one instance of the training set => faster..... but less good optimal value as it can never settle at the minimum ... (when the cost function is irregular, it helps to jump out of a local minima) => better chance to find the global minima
 	- The solution is to decrease the learning rate (learning schedule)
 **Mini-batch GD**
 - can have a performance boost with hardware optim. for matrix multiplications (especially on GPUs)
 
-Polynomial regression
-- use preprocessing (PolynomialFeatures then LinearRegression)
+**Polynomial regression**
+- use pre-processing (PolynomialFeatures then LinearRegression)
 
-Learning curves
+**Learning curves**
 - if underfit => add more features, or more complex model
 - if overfit => add more training data
 
-Bias-variance Trade-off
+**Bias-variance Trade-off**
 
 ##### Regularization / Regularized Linear Models
 - ==Goal== : to constrain the model (=> less overfitting on the training data)
 
 ###### [[Topics/Machine Learning/Techniques/Ridge regression|Ridge regression]] (aka. Tikhonov regularization)
-- adds **a regularization term** $\alpha\frac{1}{2}\sum_{i=1}^{n}\theta_{i}^{²}$ to the cost function
+- adds **a regularization term** $\alpha\frac{1}{2}\sum_{i=1}^{n}\theta_{i}^{²}$ to the ==cost function==
 	- > **only during training !!...** as it's often the case, eg. in classification, *log loss* during training (optimization-friendly derivatives), but *precision/recall* when evaluating
 - $\alpha$ term : if ==0 = Linear Regression==
 	- if big => less variance but more bias
@@ -70,7 +77,7 @@ Bias-variance Trade-off
 	- `from sklearn.linear_model import Ridge`
 		- solver="**cholesky**" => matrix factorization technique -> [[Topics/Mathematics/Cholesky decomposition (1902)|Cholesky decomposition (1902)]]
 	- **SGDRegressor** with penalty = $l2$
-- ==> See also : [[Topics/Machine Learning/Books/The Elements of Statistical Learning (2009, 2016)|The Elements of Statistical Learning (2009, 2016)#3 4 1 Ridge Regression]]
+- ==> See also : [[Topics/Machine Learning/Books/The Elements of Statistical Learning (2009, 2016)#3 4 1 Ridge Regression|The Elements of Statistical Learning (2009, 2016)#3 4 1 Ridge Regression]]
 
 ###### LASSO regression
 - Least Absolute Shrinkage and Selection Operator Regression
@@ -105,8 +112,8 @@ Bias-variance Trade-off
 	- (**bad news..**) **no known closed-form** to calculate the value of $\theta$ that minimize this cost function
 	- but (**good news**) ==it's a convex function== => GD is guaranteed to reach a global minimum
 - **Softmax regression** (aka. **Multinomial** Logistic Regression)
-	- generalize Logistic regression to ==support multiple classes==, without the need to train multiple binary classificator (-> as explained in Chap. 3 : OvO/OvR ?)
-	- softmax function = normalized exponential
+	- generalize Logistic regression to ==support multiple classes==, without the need to train multiple binary classifier (-> as explained in Chap. 3 : OvO/OvR ?)
+	- Softmax function = normalized exponential
 - minimize multiclass [[Topics/Mathematics/Statistics and probabilities/Information Theory/Cross entropy|Cross entropy]] (log loss = [[Topics/Machine Learning/Loss functions/Negative log-likelihood|Negative log-likelihood]])
 - regularization parameter = ==C== (inverse of $\alpha$), bigger = less regularized
 
@@ -114,6 +121,7 @@ Bias-variance Trade-off
 #### Questions
 - 
 
+---
 #### TODO/Code
 - [ ] meshgrid pour afficher les zones de couleurs (Softmax regression) comme sur le livre
 - [ ] Afficher les autres indicateurs : precision-recall, AUC/ROC, error rate...
@@ -204,13 +212,22 @@ lr = 0.05 ?
 What is Elastic Net ?::A regularization method that **combines LASSO and Ridge regression**, created in **2005** by Hui Zou and [[Topics/Mathematics/People/Trevor Hastie|Trevor Hastie]] <!--SR:2021-08-31,25,230-->
 Is there a closed-form solution to the Log-Loss cost function?::No <!--SR:2021-09-02,27,250-->
 
+
+</div></div>
+
+
+
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+
+<div class="markdown-embed-title">
+
+
+
 </div>
 
 
 
-<div class="transclusion internal-embed is-loaded">
-
-**The Elements of Statistical Learning : Data Mining, Inference and Prediction** (2009) - 2nd edition ([[Topics/Mathematics/People/Trevor Hastie|Trevor Hastie]], [[___INBOX___/__à trier/Robert Tibshirani|Robert Tibshirani]], ...) ==[Niveau Master!]== [[AMAZON](https://www.amazon.fr/Elements-Statistical-Learning-Inference-Prediction/dp/0387848576/ref=sr_1_1?ie=UTF8&qid=1491464263&sr=8-1&keywords=Elements%2Bof%2Bstatistical%2Blearning)] **745 pages**
+**The Elements of Statistical Learning : Data Mining, Inference and Prediction** (2009) - 2nd edition ([[Topics/Mathematics/People/Trevor Hastie|Trevor Hastie]], [[Topics/Mathematics/People/Robert Tibshirani|Robert Tibshirani]], ...) ==[Niveau Master!]== [[AMAZON](https://www.amazon.fr/Elements-Statistical-Learning-Inference-Prediction/dp/0387848576/ref=sr_1_1?ie=UTF8&qid=1491464263&sr=8-1&keywords=Elements%2Bof%2Bstatistical%2Blearning)] **745 pages**
 
 - **Bible du domaine** du [[Topics/Machine Learning/Machine Learning|Machine Learning]]
 - Nouvelle édition en **2016**
@@ -221,7 +238,7 @@ Is there a closed-form solution to the Log-Loss cost function?::No <!--SR:2021-0
 
 ### Keywords
 - Méthodes linéaires pour la régression : ==*[Très développé avant l'arrivé des ordinateurs, XVIIIe au début du XXe]*==
-	- Méthode des moindres carrés (Least Squares) ==*[1795 ? Carl Friedrich Gauss]*==
+	- Méthode des moindres carrés ([[___INBOX___/__à trier/Least-squares method|Least-squares]]) ==*[1795 ? Carl Friedrich Gauss]*==
 		- MSE : Mean squared error
 	- Régressions multiples
 		- Gauss-Markov Theorem ==*[un des résultat les plus connus en statistiques]*==
@@ -238,7 +255,7 @@ Is there a closed-form solution to the Log-Loss cost function?::No <!--SR:2021-0
 		- Principal Components Regression
 		- [[Topics/Mathematics/Statistics and probabilities/Partial Least Squares|Partial Least Squares]] [for regression; ]
 - Méthodes linéaires pour la classification :  [EOSL - Chapitre 4](https://www.evernote.com/shard/s84/nl/9759747/e492a8e3-bc77-4ea3-a3d4-7bcbe8ef213d)
-	- Linear Discriminant Analysis ([[Topics/Mathematics/LDA|LDA]])
+	- Linear Discriminant Analysis ([[Topics/Mathematics/Linear discriminant analysis|Linear discriminant analysis]])
 	- [[Topics/Machine Learning/Models/Logistic regression|Logistic Regression]]
 		- Régularisation L1
 - Basis expansions and Regularizations
@@ -246,7 +263,7 @@ Is there a closed-form solution to the Log-Loss cost function?::No <!--SR:2021-0
 - Kernel Smoothing Methods
 	- Radial Basis Functions et Kernels
 - Sélection et évaluation de modèles : ==*[méthodes pour tester la qualité d'un modèle de prédiction, ...etc]*==
-	- [[___INBOX___/__à trier/Bias-Variance tradeoff|Bias-Variance tradeoff]]
+	- [[___INBOX___/__à trier/Bias-Variance trade-off|Bias-Variance trade-off]]
 	- BIC (Bayesian information criterion) : ==*[un critère de selection d'un modèle]*==
 	- Vapnik-Chervonenkis (VC) Dimension
 	- Cross-validation
@@ -271,16 +288,16 @@ Is there a closed-form solution to the Log-Loss cost function?::No <!--SR:2021-0
 	- Hierarchical mixture of experts
 - [[Topics/Machine Learning/Boosting|Boosting]] et Additive Trees
 	- Boosting methods
-	- AdaBoost [Les 2 chercheurs ont reçu le [[Topics/IT-Computing/Awards/Prix Gödel|Prix Gödel]] en **2003**]
+	- [[Topics/Machine Learning/Models/AdaBoost (1997)|AdaBoost (1997)]] [==Les 2 chercheurs ont reçu le [[Topics/IT-Computing/Awards/Prix Gödel|Prix Gödel]] en **2003**==]
 	- Boosting Trees
 	- Interprétations, illustrations : **page 371**
-- Réseaux de neurones : **28 pages !**
+- Réseaux de neurones : **28 pages !** -> [[Topics/Machine Learning/Models/Neural Networks|Neural Networks]]
 - [[Topics/Machine Learning/Models/Support Vector Machine (1992)|SVM]] (Support vector machines)
 	- SVM et Kernels
 	- Generalizing LDA
 	- ...etc
 - Nearest-Neighbors (NN)
-	- K-means
+	- [[K-means|K-means]]
 	- [[___INBOX___/__à trier/Vector quantization (VQ)|Vector quantization (VQ)]]
 	- kNN classifier
 	- Adaptative Nearest-Neighbor
@@ -300,7 +317,7 @@ Is there a closed-form solution to the Log-Loss cost function?::No <!--SR:2021-0
 	- ICA (Independent Component Analysis) [1994; mais 1984 au début développé essentiellement en France et en Finlande]
 		- Variables latentes, Factor Analysis
 	- ...
-	- L'algorithme [[___INBOX___/__à trier/PageRank|PageRank]] de Google [pour le classement des pages web]
+	- L'algorithme [[Topics/IT-Computing/Computer Science/Algorithms/PageRank|PageRank]] de Google [pour le classement des pages web]
 - Random Forests : **18 pages**
 	- ==*[pour avoir moins d'overfitting qu'avec un arbre décisionnel seul]*==
 - Ensemble learning :
@@ -314,18 +331,19 @@ Is there a closed-form solution to the Log-Loss cost function?::No <!--SR:2021-0
 	- Diagonal LDA
 	- ... ...
 
----
 
+
+---
 ### 3.4. Shrinkage methods
-- See also [[___INBOX___/__à trier/Hands-on ML 2 - Chapter 4 - Training models|Hands-on ML 2 - Chapter 4 - Training models#Regularization Regularized Linear Models]]
+- See also [[___INBOX___/__à trier/Hands-on ML 2 - Chapter 4 - Training models#Regularization Regularized Linear Models|Hands-on ML 2 - Chapter 4 - Training models#Regularization Regularized Linear Models]]
 - retaining a subset of the "predictors" and discarding the rest is a discrete process => shrinkage methods are "continuous" (and suffers less from high-variability ?!)
 
 #### 3.4.1. [[Topics/Machine Learning/Techniques/Ridge regression|Ridge regression]]
-- Introduced in statistics by Hoerl and Kennard in **1970**
-- impose a penalty on the size of the regression coefficients (the $\theta$s)
+- Introduced in statistics by *Hoerl* and *Kennard* in **1970**
+- it imposes a penalty on the size of the regression coefficients (the $\theta$s)
 - $\lambda\geq0$ controls the amount of shrinkage
-- can also be used in **[[Topics/Machine Learning/Models/Neural Networks|Neural Networks]]** => weigh decay (*Chapter 11*)
-- [[Topics/Mathematics/Singular Value Decomposition|SVD]] => useful method to get insight on the nature of ridge regression and many other statistical methods
+- it can also be used in **[[Topics/Machine Learning/Models/Neural Networks|Neural Networks]]** => weigh decay (*ESL - Chapter 11*)
+- [[Topics/Mathematics/Singular Value Decomposition|SVD]] => useful method to get insight on the nature of ridge regression and many other statistical methods => ?
 - "*ridge regression reduces the test error of the full least squares estimates by a small amount.*"
 
 #### 3.4.2. The Lasso
@@ -335,7 +353,9 @@ Is there a closed-form solution to the Log-Loss cost function?::No <!--SR:2021-0
 
 #### 3.4.3. Discussion: Subset selection, Ridge Regression and the Lasso
 #### 3.4.4. Least Angle Regression (LARS)
-- by Bradley Efron, [[Topics/Mathematics/People/Trevor Hastie|Trevor Hastie]], Iain Johnstone & [[___INBOX___/__à trier/Robert Tibshirani|Robert Tibshirani]] (**2004**)
+- by Bradley Efron, [[Topics/Mathematics/People/Trevor Hastie|Trevor Hastie]], Iain Johnstone & [[Topics/Mathematics/People/Robert Tibshirani|Robert Tibshirani]] (**2004**)
 - https://en.wikipedia.org/wiki/Least-angle_regression
 
-</div>
+
+</div></div>
+
