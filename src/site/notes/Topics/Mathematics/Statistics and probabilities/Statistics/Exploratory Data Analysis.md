@@ -38,7 +38,7 @@
 
 ### Graphical techniques
 - [[___INBOX___/__à trier/Boxplot|Boxplot]]
-- [[Histogram|Histogram]]
+- [[___INBOX___/__à trier/histogram|Histogram]]
 
 ### Python tools
 - [[Topics/Machine Learning/Tools, Software/Pandas|Pandas]]
