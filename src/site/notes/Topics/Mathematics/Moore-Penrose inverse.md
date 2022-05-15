@@ -14,7 +14,7 @@
 - exists and is unique for every matrices ?
 - provided in
 	- [[___INBOX___/__à trier/Numpy|Numpy]] : `np.linalg.pinv` (SVD-based algorithm)
-	- [[SciPy|SciPy]] : `scipy.linalg.pinv` (least-squares solver)
+	- [[___INBOX___/__à trier/SciPy|SciPy]] : `scipy.linalg.pinv` (least-squares solver)
 
 ---
 https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse
