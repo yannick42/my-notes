@@ -17,7 +17,7 @@
 	- **t-score** (if small sample size & *unknown* population variance)
 		- The [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]] is more widely known (when population mean is unknown)
 - Calculations
-	- $\text{Best estimate} \pm \text{Margin of error (MOE)}$ 
+	- $\text{Best estimate} \pm \text{Margin of error (MOE)}$
 	- $\text{margin of error}=z\times \text{estimated standard error (SE)}$
 	- $SE=\sqrt{\frac{p_1(1-p_1)}{n}}$
 
