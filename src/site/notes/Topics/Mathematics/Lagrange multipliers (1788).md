@@ -4,7 +4,7 @@
 
 
 <!--
-Vu sur le MOOC [[Coursera]](?) de l'Imperial College of London avec : [[PCA]] ...etc
+Vu sur le MOOC [[Topics/Machine Learning/MOOCS, Courses, Teachings/Coursera|Coursera]](?) de l'Imperial College of London avec : [[PCA|PCA]] ...etc
 -->
 
 - a basic (and powerful) mathematical tool for non-linear [[Topics/Mathematics/Optimization|optimization]] problems that can be equality or inequality constrained
