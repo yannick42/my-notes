@@ -6,20 +6,25 @@
 > shortened to **MLE**
 
 - Developed by [[Topics/Mathematics/People/Ronald Fisher|Ronald Fisher]] in **1922** (he worked on it since 1912?)
+- fr: Maximum de vraisemblance
 - ==a probabilistic framework== & the **dominant method** in Statistical inference for parameter estimation
 	- Intuitive and flexible => ?
 	- Unified approach to estimation
 	- based on an assumption (bet?) on the distribution of y
-- Properties => ?
+- **Statistical properties** => ?
+	- https://fr.wikipedia.org/wiki/Maximum_de_vraisemblance#Propri%C3%A9t%C3%A9s
+	- convergent
+	- ...
 - Used in
 	- Linear Regression model
-	- Logit/Probit models
-	- ...
+	- **GLM**
+		- Logit / Probit models (Chester Bliss, **1934**)
+		- [[Topics/Machine Learning/Models/Logistic regression|Logistic regression]]
 - a method to find/estimate the parameters of a probability distribution (ex: $\mu$, $\sigma^2$) by maximizing a **likelihood function** $L(\theta)$
 $$\theta_{ML}=\operatorname*{arg\,max}_\theta p(y|x,\theta)$$
 - the **likelihood** = $p(y|x,\theta)$, is not a probability distribution in $\theta$
 	- it doesn't integrate to 1 = *is unnormalized*, and may not even be integrable wrt. $\theta$)
-	- = probability of getting the data we observed
+	- => it's the probability of getting the data we observed
 - The point in "parameter space" that maximize this function is called the ==maximum likelihood estimate==
 	- **estimate** (realization) = the value of $\theta$ at which we have the maximum likelihood
 - **estimator** (random variable) = 
@@ -37,12 +42,12 @@ $$\theta_{ML}=\operatorname*{arg\,max}_\theta p(y|x,\theta)$$
 - $\hat{N} = \frac{k+1}{k} m – 1 = m + \frac{m}{k} – 1$
 	- m = highest serial number encountered
 	- k = number of tank captured
-=> MLE would have use the max seen value... ?
+=> MLE would have use the max seen value...
 
 ---
 - in [[Topics/Mathematics/Statistics and probabilities/Bayesian inference, analysis ...|Bayesian inference, analysis ...]], **MLE** is a special case a **MAP** (Maximum a posteriori estimation)
 
-### TODO
+### TODO/Prerequisites
 - joint probability + likelihood of the sample
 - invariance principle = ?
 - Conditional log-likelihood
@@ -53,6 +58,7 @@ $$\theta_{ML}=\operatorname*{arg\,max}_\theta p(y|x,\theta)$$
 - [[___INBOX___/__à trier/Random process|Random process]]
 - Marginal distribution => ?
 - Joint probability
+- [[Topics/Machine Learning/Books/An Introduction to Statistical Learning (2013, 2021)#4 3 2 - Estimating the regression coefficients|An Introduction to Statistical Learning (2013, 2021)#4 3 2 - Estimating the regression coefficients]] (MLE, Likelihood function, ...)
 
 ### Resources
 - https://en.wikipedia.org/wiki/Maximum_likelihood_estimation
@@ -67,3 +73,10 @@ https://en.wikipedia.org/wiki/German_tank_problem
 - https://www.probabilitycourse.com/chapter8/8_2_3_max_likelihood_estimation.php
 - https://online.stat.psu.edu/stat415/lesson/1/1.2 - PennState - **STAT 415**
 - https://www.univ-orleans.fr/deg/masters/ESA/CH/Chapter2_MLE.pdf - Advanced Econometrics - HEC Lausanne (PDF slides)
+
+### See also
+- [[___INBOX___/__à trier/Least-squares method|Least-squares method]]
+- Méthode des moments => ?
+
+---
+https://fr.wikipedia.org/wiki/Maximum_de_vraisemblance
