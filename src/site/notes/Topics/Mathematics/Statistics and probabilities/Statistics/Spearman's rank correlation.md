@@ -16,6 +16,7 @@
 - Application/Examples
 	- to find a correlation in the ==price of a bottle of water== vs. the ==distance== from a key ==area of gentrification==
 	- ==TODO==
+		- <mark style="background: #FF5582A6;">Correlation of the distance of subway with the apartments' prices</mark>
 - **Guideline**
 	- .00-.19 “very weak”
 	- .20-.39 “weak”
@@ -28,7 +29,7 @@
 	- if 0 => no correlation between ranks and no monotonic behavior (but doesn't mean no correlation as it can be a quadratic relation, ...etc)
 
 ---
-**Formulas :**
+### Formulas
 $$r_s=\frac{cov(R(X), R(Y))}{\sigma_{R(X)} \sigma_{R(Y)}}$$
 If ranks are distinct integer (=no tied rank), the "full version" can be simplified to this popular formula :
 
@@ -43,7 +44,7 @@ where $d=R(X_i)-R(Y_i)$
 - [[Topics/Mathematics/Statistics and probabilities/Pearson correlation coefficient|Pearson correlation coefficient]] (parametric / based on covariance)
 
 ### Ranks
-- in [[SciPy|SciPy]] : `scipy.stats.rankdata(a)`
+- in [[___INBOX___/__à trier/SciPy|SciPy]] : `scipy.stats.rankdata(a)`
 - in [[___INBOX___/__à trier/Excel|Excel]] : Rank.EQ or Rank.AVG
 
 ### Python
