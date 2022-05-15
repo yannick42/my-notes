@@ -16,7 +16,7 @@ $T(x)=\frac{\Gamma\bigl(\frac{\nu+1}{2}\bigr)}{\sqrt{\nu\pi}\,\Gamma\bigl(\frac{
 - C'est une loi de [[Topics/Mathematics/Statistics and probabilities/Probability distributions|probabilité]], décrite en **1908** par [[Topics/Mathematics/People/William Gosset|William Gosset]], employé à la brasserie Guinness à [[Dublin|Dublin]]
 	- Rendu célèbre par [[Topics/Mathematics/People/Ronald Fisher|Ronald Fisher]] en **1922**, qui lui a donné son nom (test t, Loi de Student)
 - Utilisé
-	- pour le [[test de Student|test de Student]]
+	- pour le [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]]
 	- la construction d'[[Topics/Mathematics/Statistics and probabilities/Confidence interval|interval de confiance]]
 	- [[Bayesian inference|Bayesian inference]]
 
