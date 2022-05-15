@@ -22,6 +22,9 @@ You can also access my Jupyter notebooks, [here](https://notebooks.yannick42.dev
 - [[Topics/Published notes/HoML2 (home)|Hands-on Machine Learning with Sklearn & Tensorflow (2020)]] book notes (& exercices) (**progress:** <mark style="background: #FFB86CA6;">40 %</mark>)
 - [[Deep Reinforcement Learning Hands-On|Deep Reinforcement Learning Hands-On]] book notes (still empty) (**progress:** <mark style="background: #FF5582A6;">15 %</mark>)
 
+### Paper reading
+- [[Topics/Machine Learning/Research Papers/AlphaCode (2022)|AlphaCode (2022)]]
+
 ---
 ### Various notes WIP/To do someday
 - Algorithms/Data structures
