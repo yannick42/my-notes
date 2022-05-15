@@ -52,8 +52,34 @@
 
 ---
 ### Chapter 4 - Classification
---> [[Topics/Machine Learning/Models/Logistic regression|Logistic regression]], [[Topics/Mathematics/Linear discriminant analysis|Linear discriminant analysis]]
+- [[Topics/Machine Learning/Concepts/Classification|Classification]]
+	- existing "classifiers" : [[Topics/Machine Learning/Models/Logistic regression|Logistic regression]], [[Topics/Mathematics/Linear discriminant analysis|Linear discriminant analysis]], Quadratic discriminant analysic, [[___INBOX___/__à trier/Naive Bayes|Naive Bayes]] & [[Topics/Machine Learning/Models/K-Nearest Neighbors|K-Nearest Neighbors]]
+	[[___INBOX___/__à trier/Generalized linear models|Generalized linear models]] (Poisson regression)
 
+---
+#### 4.3 - The Logistic Model
+- [[Topics/Mathematics/Statistics and probabilities/Logistic function|Logistic function]]
+- **odds** = $\frac{p(X)}{1-p(X)}=e^{\beta_0 + \beta_1 X}$ (from 0 to $\infty$)
+	- used in horse-racing... more natural in finding a betting strategy
+- **log-odds** (or logit), in the logistic regression model, it is linear in $X$
+
+##### 4.3.2 - Estimating the regression coefficients
+- General method : maximum likelihood (-> [[Topics/Mathematics/Statistics and probabilities/Maximum likelihood estimation|Maximum likelihood estimation]])
+
+
+##### 4.3.3 - Making predictions
+- once the coefficients $\beta_0, \beta_1, ...$ have been estimated
+- We can use qualitative predictors by using "dummy variables" (eg. "isStudent" : 0/1) inside the formula
+
+
+##### 4.3.4 - Multiple Logistic Regression
+- When multiple predictors (always one binary response)
+- 
+
+##### 4.3.5 - Multinomial Logistic Regression
+- When more than 2 classes
+
+---
 #### 4.4 - Generative Models for classification
 ##### 4.4.1 - Linear Discriminant Analysis for p = 1
 - -> only one predictor ()
