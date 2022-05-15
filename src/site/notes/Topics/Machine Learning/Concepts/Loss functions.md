@@ -32,7 +32,7 @@ https://ml-cheatsheet.readthedocs.io/en/latest/linear_regression.html#id3
 </div>
 
 ### 
-- Originated in [[Information Theory]]
+- Originated in [[Topics/Mathematics/Statistics and probabilities/Information Theory/Information Theory|Information Theory]]
 - between 2 probability distributions
 - $H(p,q)=-\sum_{x}p(x)log(q(x))$
 
@@ -56,11 +56,11 @@ https://en.wikipedia.org/wiki/Cross_entropy ==#DIIGO==
 
 
 ### General
-- **NLL** is a type of [[Loss functions]]
+- **NLL** is a type of [[Topics/Machine Learning/Concepts/Loss functions|Loss functions]]
 - $-log(Likelihood)$
-- used with [[Softmax function]]
+- used with [[Topics/Mathematics/Statistics and probabilities/Softmax function|Softmax function]]
 - lower = better predictions
-- ==Quelle différence avec [[Cross entropy]] ?==
+- ==Quelle différence avec [[Topics/Mathematics/Statistics and probabilities/Information Theory/Cross entropy|Cross entropy]] ?==
 	- http://www.awebb.info/probability/2017/05/18/cross-entropy-and-log-likelihood.html #DIIGO 
 
 ### Links
