@@ -3,17 +3,51 @@
 ---
 
 
+### Definitions
+- the **support** of a distribution (or more generally, function) : all the $x$ where $f(x)\neq 0$ (?? more complicated)
+	- https://math.stackexchange.com/a/1587813
+
+---
 ### Distributions
-- **Bernoulli** : binary random variable X
-	- eg. : probability of "heads" when flipping a coin
-- **Binomial** : generalization of Bernoulli distribution
-	- eg. : multiple outcomes ?
+
+#### Poisson distribution
+- <u>History</u>
+	- function developed in **==1838==** by [[Siméon-Denis Poisson|Siméon-Denis Poisson]] for gambler
+	- Bortkiewicz (statistician/economist, **1898**) : number of Prussian soldiers killed by horse-kick
+	- R.D. Clarke (statisticien, **1946**) : London (V1/V2) bombings during WWII
+- Discrete distribution, typically used to model "counts" (and [[Topics/Mathematics/Statistics and probabilities/Statistics/Contingency table|Contingency table]])
+	- useful when very low probability of occurrence => ?
+- [Loi de Poisson (wikipedia)](https://fr.wikipedia.org/wiki/Loi_de_Poisson)
+- **Mass function** : $Pr(Y=k)=e^{-\lambda}\frac{\lambda^k}{k!}$, $\lambda \in \mathbb{R} >0$ is the expected value of $Y$, i.e. $E(Y)$
+- $\lambda$ is also the [[Topics/Mathematics/Statistics and probabilities/Variance|variance]], it's the only parameter
+- **link function** (in [[Topics/Mathematics/Statistics and probabilities/Generalized linear models|GLM]]) : $\log()$
+
+---
+#### Bernoulli
+- binary random variable X
+- eg. : probability of "heads" when flipping a coin
+
+---
+#### Binomial : generalization of Bernoulli distribution
+- eg. : multiple outcomes ?
+
+---
+#### Negative Binomial
+> $NB(r,p)$
+- 2 fixed parameters
+- eg. to model : length of stay are hospital
+- https://en.wikipedia.org/wiki/Negative_binomial_distribution
+
+---
+#### Gaussian/Normal
+- univariate Gaussian, eg. $\mathcal{N}(0, 1)$
+
+---
+### TODO…
 - **Gamma** distribution : 
 	- to model waiting times
 - **Beta** : $Beta(\alpha, \beta)$ with $\alpha > 0$ & $\beta > 0$ 
 	- uses the gamma function $\Gamma (t)=\int_0^\infty x^{t-1}exp(-x)dx, t>0$
-- **Poisson** : (**==1838==**)
-	- [Loi de Poisson (wikipedia)](https://fr.wikipedia.org/wiki/Loi_de_Poisson)
 - **t-distribution** :
 	- used in
 		- [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]]
@@ -36,14 +70,15 @@
 	- https://en.wikipedia.org/wiki/Inverse-Wishart_distribution
 	- used as conjugate prior
 - **Weibull** (**==1951==**) :
-	- continue
+	- distribution continue
 	- utilisé en analyse de durée de vie / défaillances (car flexible)
 - **log-normal** : ?
 - **log-logistic** : ?
+- **Loi de Gompertz**
+	- économie, biologie, …
+	- https://fr.wikipedia.org/wiki/Loi_de_Gompertz
 
-#### Gaussian/Normal
-- univariate Gaussian, eg. $\mathcal{N}(0, 1)$
-
+---
 ### Definition
 - power-law probability distribution
 	- Pareto (Type I) distribution
