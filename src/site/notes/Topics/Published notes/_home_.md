@@ -3,7 +3,7 @@
 ---
 
 
-***Welcome** toattachements__/files/favicon.svg the published part of my note-taking system, based on [Obsidian](https://obsidian.md/), and published with the [Digital Garden](https://github.com/oleeskild/Obsidian-Digital-Garden) community plugin. I will try to update this site regularly on themes like **software development**, **mathematics** (at an undergraduate level), **computer science** in general, **data science** and **machine learning**, mostly.*
+***Welcome** to the published part of my note-taking system, based on [Obsidian](https://obsidian.md/), and published with the [Digital Garden](https://github.com/oleeskild/Obsidian-Digital-Garden) community plugin. I will try to update this site regularly on themes like **software development**, **mathematics** (at an undergraduate level), **computer science** in general, **data science** and **machine learning**, mostly.*
 
 *Entries are not timestamped as in a blog, but are more like "personal" technical notes that should evolve through time. I update them as I learn more about each topics. I hope you find it useful for your own learning.*
 
