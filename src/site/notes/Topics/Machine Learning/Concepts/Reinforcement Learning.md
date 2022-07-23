@@ -51,7 +51,7 @@ title:
 	- [[Topics/Machine Learning/Models/RL & DRL/PPG (2020)|PPG (2020)]]
 	- **SAC** : soft actor-critic
 
-### Tabular methods [^1]
+### Tabular methods
 - Dynamic Programming :
 - Monte Carlo updates ?
 - [[Topics/Machine Learning/_à trier/Temporal Difference learning|Temporal difference]] (model-free, can learn online : no need to wait the end of the "episode")
@@ -59,6 +59,7 @@ title:
 	- **SARSA** : 
 	- Q-Learning ?
 	- Double Q-Learning ?
+- https://towardsdatascience.com/summary-of-tabular-methods-in-reinforcement-learning-39d653e904af
 
 ---
 ### Books
@@ -86,6 +87,3 @@ title:
 - https://karpathy.github.io/2016/05/31/rl/ by [[Topics/Machine Learning/People/Andrej Karpathy|Andrej Karpathy]]
 - http://www.wildml.com/2016/10/learning-reinforcement-learning/ (resources)
 - https://en.wikipedia.org/wiki/Reinforcement_learning
-
-
-[^1]: https://towardsdatascience.com/summary-of-tabular-methods-in-reinforcement-learning-39d653e904af
