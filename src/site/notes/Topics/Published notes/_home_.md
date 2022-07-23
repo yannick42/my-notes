@@ -3,7 +3,7 @@
 ---
 
 
-***Welcome** on the published part of my note-taking system, based on [Obsidian](https://obsidian.md/), and published with the [Digital Garden](https://github.com/oleeskild/Obsidian-Digital-Garden) community plugin. I will try to update this site regularly on themes like **software development**, **mathematics** (at an undergraduate level), **computer science** in general, **data science** and **machine learning**, mostly.*
+***Welcome** toattachements__/files/favicon.svg the published part of my note-taking system, based on [Obsidian](https://obsidian.md/), and published with the [Digital Garden](https://github.com/oleeskild/Obsidian-Digital-Garden) community plugin. I will try to update this site regularly on themes like **software development**, **mathematics** (at an undergraduate level), **computer science** in general, **data science** and **machine learning**, mostly.*
 
 *Entries are not timestamped as in a blog, but are more like "personal" technical notes that should evolve through time. I update them as I learn more about each topics. I hope you find it useful for your own learning.*
 
@@ -31,7 +31,7 @@ You can also access my Jupyter notebooks, [here](https://notebooks.yannick42.dev
 ---
 ### Various notes : WIP / To-do someday
 - Algorithms/Data structures
-	- [[___INBOX___/__à trier/Greedy algorithms|Greedy algorithms]]
+	- [[Topics/IT-Computing/Computer Science/Algorithms/Greedy algorithms|Greedy algorithms]]
 	- [[___INBOX___/__à trier/Beam search (1976)|Beam search (1976)]]
 - Optimization
 	- [[Topics/IT-Computing/Computer Science/Algorithms/Simulated annealing|Simulated annealing]]
