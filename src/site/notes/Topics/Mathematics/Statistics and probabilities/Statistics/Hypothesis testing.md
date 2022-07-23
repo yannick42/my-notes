@@ -4,12 +4,12 @@
 
 
 **Hypothesis testing**
-- popularized in ==early 20th century== ([[Topics/Mathematics/People/Karl Pearson|Karl Pearson]], Gosset, [[Topics/Mathematics/People/Ronald Fisher|Fisher]], Neyman, ...)
+- popularized in ==early 20th century== ([[Topics/Mathematics/People/Karl Pearson|Karl Pearson]], Gosset, [[Topics/Mathematics/People/Ronald A. Fisher|Fisher]], Neyman, ...)
 - An essential method in [[Topics/Mathematics/Statistics and probabilities/Statistics/Statistics|statistics]] : it is a statistical inference method, done to confirm (or not) our observation & hypothesis about a population using only sample ("experimental") data
 	- within a desired error level : to trust or not your model (=> Is it "statistically significant" of being more extrem than what chance might produce ?)
 - $H_0$ : initial claim (prevailing belief / "premise") about the population that we want to test.
 	- Mutually exclusive with the alternative hypothesis
-- [[Topics/Mathematics/People/Ronald Fisher|Ronald Fisher]] introduced : p-value, hypothesis testing, null hypothesis, ...
+- [[Topics/Mathematics/People/Ronald A. Fisher|Ronald A. Fisher]] introduced : p-value, hypothesis testing, null hypothesis, ...
 
 ### Applications / Goals
 - in [[Topics/Machine Learning/Machine Learning|Machine Learning]]
