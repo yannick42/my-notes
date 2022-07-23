@@ -18,7 +18,7 @@ $T(x)=\frac{\Gamma\bigl(\frac{\nu+1}{2}\bigr)}{\sqrt{\nu\pi}\,\Gamma\bigl(\frac{
 - Utilisé
 	- pour le [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]]
 	- la construction d'[[Topics/Mathematics/Statistics and probabilities/Confidence interval|interval de confiance]]
-	- [[Bayesian inference|Bayesian inference]]
+	- [[___INBOX___/__à trier/Bayesian inference|Bayesian inference]]
 
 ### Prerequisite
 - [[Fonction Gamma d'Euler|Fonction Gamma d'Euler]]
