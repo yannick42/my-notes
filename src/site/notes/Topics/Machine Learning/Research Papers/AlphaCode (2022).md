@@ -3,22 +3,23 @@
 ---
 
 
-**AlphaCode**
+**AlphaCode** (2022)
 > [[Topics/Machine Learning/Companies/AI Companies/DeepMind|DeepMind]]'s blog post → [Competitive programming with AlphaCode](https://www.deepmind.com/blog/competitive-programming-with-alphacode) (**Feb 2022**)
 > Paper on [ArXiv (2203.07814)](https://arxiv.org/abs/2203.07814) (==74 pages==)
 > Example : [AlphaCode Attention Visualization](https://alphacode.deepmind.com)
+> by Yujia Li, …, [[___INBOX___/__à trier/Julian Schrittwieser|Julian Schrittwieser]], …, [[Topics/Machine Learning/People/Oriol Vinyals|Oriol Vinyals]] (26 participants)
 
-- System **pretrained** on **GitHub** (+715GB of source code)
+- The system is **pretrained** on **GitHub** (+715GB of source code)
 - **fine-tuned** on CodeContests dataset
 - <u>Model sizes</u> : 300M, 1B, 3B, 9B, 41B
 - it generates thousands even millions of solutions for [[competitive programming|competitive programming]] (Codeforces' platform)
-	- with a "large scale sampling" easily parrallelizable
+	- with a "large scale sampling" easily parallelizable
 	- then those "solutions" are filtered and clustered (some of them don't compile or have syntax errors)
 	- only 10 "*promising solutions*" could be given to the grading system (?)
 - => "***estimated rank within the top 54% of participants** in programming competitions by solving new problems that require a combination of **critical thinking**, **logic**, algorithms, coding, and **natural language understanding**.*"
 	- => **problem solving** and **code generation**
-- It can be a concurrent of [[___INBOX___/__à trier/Github Copilot|Github Copilot]] ? (which generate code snippets from comments)
-- See my paper's highlights and annotations in [[___INBOX___/__à trier/Alphacode (annotations)|Alphacode (annotations)]]
+- It can be a concurrent of [[___INBOX___/__à trier/Github Copilot|Github Copilot]] ? (which generate code snippets/functions from comments)
+- => See my highlights of the paper / annotations in [[___INBOX___/__à trier/Alphacode (annotations)|Alphacode (annotations)]]
 - <u>uses</u>
 	- **transformer-based** language models (→ see [[Topics/Machine Learning/Models/Transformer (paper, 2017)|Transformer (paper, 2017)]] & [[Topics/Machine Learning/Models/Attention models|Attention models]])
 		- **Multi-query attention** (from *Shazeer, 2019*)
@@ -38,4 +39,4 @@
 
 ---
 ### Videos
-- youtube.com/watch?v=s9UAOmyah1A - paper review by [[Topics/Machine Learning/People/Yannic Kilcher|Yannic Kilcher]]
+- [Competition-Level Code Generation with AlphaCode - Paper Review (Youtube)](youtube.com/watch?v=s9UAOmyah1A) (45 minutes) - paper review by [[Topics/Machine Learning/People/Yannic Kilcher|Yannic Kilcher]]
