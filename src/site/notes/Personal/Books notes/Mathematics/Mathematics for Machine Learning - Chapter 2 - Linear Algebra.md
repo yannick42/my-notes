@@ -126,8 +126,7 @@ https://adamdhalla.medium.com/linear-algebra-4-reduced-row-echelon-form-for-solv
 		- by **Krylov subspace** methods -> search for an approximate solution from a Krylov subspace
 			- https://fr.wikipedia.org/wiki/Sous-espace_de_Krylov
 			- conjugate gradients, biconjugate gradients
-			- Generalized minimal residual method (GMRES, **1986**)
-				- https://fr.wikipedia.org/wiki/GMRES
+			- Generalized minimal residual method ([[___INBOX___/__à trier/GMRES (1986)|GMRES (1986)]])
 
 => https://en.wikipedia.org/wiki/Iterative_method#Linear_systems
 
