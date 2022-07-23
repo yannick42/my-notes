@@ -3,16 +3,17 @@
 ---
 
 
-**CS229 - Machine Learning**
+**CS229 - Machine Learning** at [[Topics/Machine Learning/Academia, universities/Stanford University|Stanford University]]
 - a **broad introduction** to [[Topics/Machine Learning/Machine Learning|Machine Learning]] and statistical pattern recognition.
 
-> http://cs229.stanford.edu/syllabus.html
+> https://cs229.stanford.edu/
+> **Syllabus** : http://cs229.stanford.edu/syllabus.html
 > https://see.stanford.edu/Course/CS229
 --> [Youtube Playlist (20 videos)](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
 
 ### Prerequisites
 - **==basic probability theory==** : **Stat 116** (sufficient but not necessary)
-	- **Probability spaces** as models for phenomena with statistical regularity. **Discrete spaces** (binomial, hypergeometric, Poisson). **Continuous spaces** (normal, exponential) and densities. [[___INBOX___/__à trier/Random variables|Random variables]], expectation, independence, [[___INBOX___/__à trier/Probabilité conditionnelle|conditional probability]]. Introduction to **the laws of large numbers** and **[[___INBOX___/__à trier/Central limit theorem|central limit theorem]]**
+	- **Probability spaces** as models for phenomena with statistical regularity. **Discrete spaces** (binomial, hypergeometric, Poisson). **Continuous spaces** (normal, exponential) and densities. [[___INBOX___/__à trier/Random variables|Random variables]], expectation, independence, [[___INBOX___/__à trier/Conditional probability|conditional probability]]. Introduction to **the laws of large numbers** and **[[___INBOX___/__à trier/Central limit theorem|central limit theorem]]**
 - **basic linear algebra** :
 	- Math 51
 	- Math 103
@@ -29,9 +30,10 @@
 	- [[Topics/Mathematics/Calculus/Newton’s method|Newton’s method]]
 - **Lecture 4**
 	- Dataset split
-	- [[Topics/Mathematics/Statistics and probabilities/Exponential family|Exponential family]]
+	- [[Topics/Mathematics/Statistics and probabilities/Exponential family|Exponential family]] at **==14:28==**
 		- exponential tilting => ?
-	- **GLM** (generalized linear models)
+		- example with Bernoulli & univariate Gaussian (fixed variance)
+	- **GLM** (generalized linear models) at **==36:22==**
 - **Lecture 5**
 	- Gaussian discriminant analysis - **GDA**
 	- [[___INBOX___/__à trier/Naive Bayes|Naive Bayes]]
