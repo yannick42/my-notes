@@ -9,6 +9,9 @@
 - **recall** = sensitivity = TPR (true positive rate) = $\frac{TP}{TP+FN}$
 - The **F1 score** is the harmonic mean of precision and recall. It's a single metric that combine precision and recall. -> $2\frac{precision\times recall}{precision+recall}$
 	- this score must be favored over accuracy when imbalanced class situation
+	- **$F_\beta$-score** : with $\beta=1$ we get the **F1-score**
+		- if impact of $FP$ is higher => decrease $\beta$
+		- if impact of $FN$ is higher => increase $\beta$
 - "***Unfortunately, you can’t have it both ways: increasing precision reduces recall, and vice versa. This is called the precision/recall trade-off.***"
 - **TIP** : =="If someone says, “Let’s reach 99% precision,” you should ask, “At what recall?”"==
 - The ROC Curve
