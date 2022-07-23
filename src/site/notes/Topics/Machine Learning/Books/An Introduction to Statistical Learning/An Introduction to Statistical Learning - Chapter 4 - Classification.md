@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"isl","permalink":"/isl/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"isl/chap4","permalink":"/isl/chap4/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
 
