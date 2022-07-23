@@ -68,7 +68,8 @@ $$p_\theta(x)=e^{\frac{1}{a(\Phi)}(x\theta-b(\theta))+C(x,\Phi)}$$
 - It belongs to the **exponential family** as we can put this distribution into the following (more special…) "==exponential (dispersion) family==" form (used in **GLM**) :
 $$f(x|\theta,\Phi)=e^{\frac{1}{a(\Phi)}(x\theta-b(\theta))+c(x,\Phi)}$$
 - We have,
-$$f(x|\mu,\sigma) = \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} = e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2 + \frac{1}{\sqrt{2\pi}\sigma}} = e^{\frac{x{\color{green}\mu}}{{\color{red}\sigma^2}}-\frac{{\color{blue}\mu^2}}{{\color{blue}2}{\color{red}\sigma^2}}{\color{orange}-\frac{x^2}{2\sigma^2}+\frac{1}{\sqrt{2\pi}\sigma}}}$$
+$$f(x|\mu,\sigma) = \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} = e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2 + \frac{1}{\sqrt{2\pi}\sigma}}$$
+$$= e^{\frac{x{\color{green}\mu}}{{\color{red}\sigma^2}}-\frac{{\color{blue}\mu^2}}{{\color{blue}2}{\color{red}\sigma^2}}{\color{orange}-\frac{x^2}{2\sigma^2}+\frac{1}{\sqrt{2\pi}\sigma}}}$$
 - We recognize,
 ${\color{green}\theta}=\mu$
 ${\color{red}a(\Phi)}=\Phi=\sigma^2$, which is fixed/constant for this distribution to be an exponential family… (generally set to $1$ ?)
