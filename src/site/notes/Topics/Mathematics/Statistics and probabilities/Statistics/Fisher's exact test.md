@@ -4,7 +4,7 @@
 
 
 **Fisher's exact test**
-- proposed in **1934** by [[Topics/Mathematics/People/Ronald Fisher|Ronald Fisher]], in [[Topics/Mathematics/Statistics and probabilities/Statistics/Statistics|statistics]] for [[Topics/Mathematics/Statistics and probabilities/Statistics/Hypothesis testing|hypothesis testing]]
+- proposed in **1934** by [[Topics/Mathematics/People/Ronald A. Fisher|Ronald A. Fisher]], in [[Topics/Mathematics/Statistics and probabilities/Statistics/Statistics|statistics]] for [[Topics/Mathematics/Statistics and probabilities/Statistics/Hypothesis testing|hypothesis testing]]
 - it's a <mark style="background: #BBFABBA6;">test of independence</mark>, which is **non-parametric** (do not require assumptions/distribution-free)
 - it allows to ==reject or accept== the **independence** ($H_0$) of (two?) categorical (aka. qualitative) variables
 	- **examples** :
