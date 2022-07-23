@@ -14,7 +14,7 @@ You can also access my Jupyter notebooks, [here](https://notebooks.yannick42.dev
 
 ### <mark style="background: #BBFABBA6;">Currently reading</mark> 
 - [[Topics/Published notes/MML (home)|Mathematics for Machine Learning (2020)]] : book notes & exercices (**progress:** <mark style="background: #FFB86CA6;">36 %</mark>)
-- [[Topics/Machine Learning/Books/An Introduction to Statistical Learning (2013, 2021)|An Introduction to Statistical Learning (2013, 2021)]] : book notes (**progress:** <mark style="background: #FF5582A6;">01 %</mark>)
+- [[Topics/Machine Learning/Books/An Introduction to Statistical Learning/An Introduction to Statistical Learning (2013, 2021)|An Introduction to Statistical Learning (2013, 2021)]] : book notes (**progress:** <mark style="background: #FF5582A6;">01 %</mark>)
 - Various [[Topics/Mathematics/Books on Statistics|books on Statistics]] with topics to learn
 	- [[Personal/Books notes/Mathematics/Think Stats - Exploratory Data Analysis (2014)|Think Stats - Exploratory Data Analysis (2014)]] book notes (**progress:** <mark style="background: #FF5582A6;">01 %</mark>)
 
@@ -24,13 +24,13 @@ You can also access my Jupyter notebooks, [here](https://notebooks.yannick42.dev
 
 ---
 ### Paper reading
-- [[Topics/Machine Learning/Research Papers/AlphaCode (2022)|AlphaCode (2022)]]
+- [[ML Papers|ML Papers]] - various recent (most [[Topics/Machine Learning/Research Papers/arXiv|arXiv]]) scientific paper on Machine Learning
 
 ---
 ### Various notes WIP/To do someday
 - Algorithms/Data structures
 	- [[___INBOX___/__à trier/Greedy algorithms|Greedy algorithms]]
-	- [[___INBOX___/__à trier/Beam search|Beam search]]
+	- [[___INBOX___/__à trier/Beam search (1976)|Beam search (1976)]]
 - Optimization
 	- [[Topics/IT-Computing/Computer Science/Algorithms/Simulated annealing|Simulated annealing]]
 - Machine Learning
