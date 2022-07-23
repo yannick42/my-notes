@@ -9,7 +9,7 @@
 - a higher **confidence level** (chosen by the investigator) tend to lead to a wider/less precise **confidence interval**
 - Most commonly, a **95% confidence level** is used
 - There are *==several ways to calculate the **CI**==*
-	- **(normalized) z-score** (in [[Topics/Mathematics/Statistics and probabilities/Statistics/z-test|z-test]]?) (if sample size is large & you know the population standard deviation), $z=\frac{x-\mu}{\sigma}$ (standard score) -> [[Topics/Mathematics/Statistics and probabilities/Statistics/z-test#Z-score|z-test#Z-score]]
+	- **(normalized) z-score** (in [[Topics/Mathematics/Statistics and probabilities/Statistics/z-test|z-test]]?) (if sample size is large & you know the population standard deviation…), $z=\frac{x-\mu}{\sigma}$ (standard score) -> [[Topics/Mathematics/Statistics and probabilities/Statistics/z-test#Z-score|z-test#Z-score]]
 		- *"==estimate of the number of standard deviations== that an observation lies from the mean"*
 		- $\alpha$ level = 1 - **confidence level** (0.95) = 0.05
 			- divided by 2 if two-sided test ?
