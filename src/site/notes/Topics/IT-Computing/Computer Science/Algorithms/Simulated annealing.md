@@ -21,3 +21,4 @@
 ---
 https://fr.wikipedia.org/wiki/Recuit_simul%C3%A9
 https://en.wikipedia.org/wiki/Simulated_annealing
+https://www.r-bloggers.com/2014/09/the-traveling-salesman-with-simulated-annealing-r-and-shiny/ (gif source)
