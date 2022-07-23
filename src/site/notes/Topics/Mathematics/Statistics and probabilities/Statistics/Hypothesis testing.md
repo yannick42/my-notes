@@ -37,7 +37,7 @@
 
 ---
 ### Books
-- See [[Topics/Machine Learning/Books/An Introduction to Statistical Learning - Chapter 13 - Multiple testing|An Introduction to Statistical Learning - Chapter 13 - Multiple testing]]
+- See [[Topics/Machine Learning/Books/An Introduction to Statistical Learning/An Introduction to Statistical Learning - Chapter 13 - Multiple testing|An Introduction to Statistical Learning - Chapter 13 - Multiple testing]]
 
 ---
 https://medium.com/dataseries/hypothesis-testing-in-machine-learning-what-for-and-why-ad6ddf3d7af2 #DIIGO (**oct. 2019**) #not_found
