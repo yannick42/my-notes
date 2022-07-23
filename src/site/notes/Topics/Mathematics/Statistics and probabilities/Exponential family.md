@@ -70,6 +70,37 @@ $$f(x|\theta,\Phi)=e^{\frac{1}{a(\Phi)}(x\theta-b(\theta))+c(x,\Phi)}$$
 - We have,
 $$f(x|\mu,\sigma) = \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} = e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2 + \frac{1}{\sqrt{2\pi}\sigma}}$$
 
+$$=e^{
+    \frac{
+        x{
+            \color{green}
+            \mu
+        }
+    }{
+        {
+            \color{red}
+            \sigma^2
+        }
+    } - \frac{
+        {
+            \color{blue}
+            \mu^2
+        }
+    }{
+        {
+            \color{blue}
+            2
+        }{
+            \color{red}
+            \sigma^2
+        }
+    }
+    {
+        \color{orange}
+        -\frac{x^2}{2\sigma^2}
+        +\frac{1}{\sqrt{2\pi}\sigma}
+    }
+}$$
 
 - We recognize,
 ${\color{green}\theta}=\mu$
