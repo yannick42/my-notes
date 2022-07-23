@@ -23,7 +23,7 @@
 - correlation
 - covariance
 - <mark style="background: #FFB86CA6;">hypothesis testing</mark> (p-values, chi-squared tests, power, [[Topics/Mathematics/Statistics and probabilities/Statistics/t-test|t-test]], ...), Linear least squares (residuals, goodness of fit, ...)
-- [[Topics/Machine Learning/Concepts/Regression|Regression]]
+- [[Topics/Machine Learning/Concepts/Regression models|Regression models]]
 - [[___INBOX___/__à trier/Time series|Time series]] analysis
 - [[___INBOX___/__à trier/Survival analysis|Survival analysis]]
 - Analytic methods ([[___INBOX___/__à trier/Central limit theorem|Central limit theorem]] (CLT), ...)
