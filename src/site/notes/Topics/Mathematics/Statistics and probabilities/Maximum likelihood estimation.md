@@ -5,7 +5,7 @@
 
 **Maximum likelihood estimation**
 > shortened to **MLE**
-- Developed by [[Topics/Mathematics/People/Ronald Fisher|Ronald Fisher]] in **1922** (he worked on it since 1912?)
+- Developed by [[Topics/Mathematics/People/Ronald A. Fisher|Ronald A. Fisher]] in **1922** (he worked on it since 1912?)
 - fr: Maximum de vraisemblance
 - ==a probabilistic framework== & the **dominant method** in [[Statistical inference|Statistical inference]] for parameter estimation
 	- intuitive and flexible => ?
