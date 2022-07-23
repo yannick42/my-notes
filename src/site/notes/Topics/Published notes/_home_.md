@@ -32,7 +32,7 @@ You can also access my Jupyter notebooks, [here](https://notebooks.yannick42.dev
 ### Various notes : WIP / To-do someday
 - Algorithms/Data structuresintroduced
 	- [[Topics/IT-Computing/Computer Science/Algorithms/Greedy algorithms|Greedy algorithms]]
-	- [[___INBOX___/__à trier/Beam search (1976)|Beam search (1976)]]
+	- [[Topics/IT-Computing/Computer Science/Algorithms/Beam search (1976)|Beam search (1976)]]
 - Optimization
 	- [[Topics/IT-Computing/Computer Science/Algorithms/Simulated annealing|Simulated annealing]]
 - Machine Learning
