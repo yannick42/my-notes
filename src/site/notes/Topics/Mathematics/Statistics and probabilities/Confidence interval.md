@@ -35,7 +35,7 @@
 
 ---
 ### See also
-- [[Topics/Mathematics/People/Ronald Fisher|Ronald Fisher]] created : p-value, hypothesis testing, null hypothesis
+- [[Topics/Mathematics/People/Ronald A. Fisher|Ronald A. Fisher]] created : p-value, hypothesis testing, null hypothesis
 - **Error bar** : incertitude pour indiquer l'erreur
 	- https://en.wikipedia.org/wiki/Error_bar
 - **68–95–99.7** rule (aka. the **empirical rule**, the **three-sigma** rule of thumb)
