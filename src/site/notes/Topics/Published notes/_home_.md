@@ -30,7 +30,7 @@ You can also access my Jupyter notebooks, [here](https://notebooks.yannick42.dev
 
 ---
 ### Various notes : WIP / To-do someday
-- Algorithms/Data structures
+- Algorithms/Data structuresintroduced
 	- [[Topics/IT-Computing/Computer Science/Algorithms/Greedy algorithms|Greedy algorithms]]
 	- [[___INBOX___/__à trier/Beam search (1976)|Beam search (1976)]]
 - Optimization
