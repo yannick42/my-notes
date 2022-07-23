@@ -8,7 +8,6 @@
 
 ---
 ### Losses types
-
 #### Mean Squared Error (MSE)
 - in regression
 - $l_2$
@@ -21,6 +20,7 @@ https://ml-cheatsheet.readthedocs.io/en/latest/linear_regression.html#id3
 
 #### MBE ? : mean bias error ?
 
+---
 #### Cross-Entropy Loss
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
@@ -31,11 +31,16 @@ https://ml-cheatsheet.readthedocs.io/en/latest/linear_regression.html#id3
 
 </div>
 
-### 
+**Cross Entropy**
 - Originated in [[Topics/Mathematics/Statistics and probabilities/Information Theory/Information Theory|Information Theory]]
 - between 2 probability distributions
 - $H(p,q)=-\sum_{x}p(x)log(q(x))$
 
+### Resources
+- https://deepnotes.io/softmax-crossentropy
+
+### See also
+- [[Topics/Mathematics/Statistics and probabilities/Softmax function|Softmax function]]
 
 ---
 https://en.wikipedia.org/wiki/Cross_entropy ==#DIIGO==
@@ -43,6 +48,7 @@ https://en.wikipedia.org/wiki/Cross_entropy ==#DIIGO==
 </div></div>
 
 
+---
 #### Negative log likelihood
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
@@ -87,7 +93,7 @@ https://www.kaggle.com/dansbecker/what-is-log-loss
 - created in **1964**
 - a combination of **MSE** and **MAE**
 - for "robust regression" (less sensitive to outlier, than squared error loss ((M?)SE))
+	- in [[Robust statistics|Robust statistics]]
 - can be modified for classification
 - defined piecewise
-- links :
-	- https://en.wikipedia.org/wiki/Huber_loss
+- => https://en.wikipedia.org/wiki/Huber_loss
